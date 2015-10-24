@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin width="800" height="480" xmlns:e="http://ns.egret-labs.org/egret" xmlns:w="http://ns.egret-labs.org/wing">
+	<w:HostComponent name="egret.gui.SkinnableComponent"/>
+	<w:Declarations/>
+	<e:states>
+		<e:State name="normal"/>
+		<e:State name="disabled"/>
+	</e:states>
+	<e:UIAsset source="floor_jpg" x="0" y="0" visible="false"/>
+	<e:UIAsset source="background_png" x="20" y="10" visible="false"/>
+	<e:UIAsset id="btn_new" source="new_jpg" x="570" y="40"/>
+	<e:UIAsset id="btn_diffcult" source="difficulty_jpg" x="570" y="280"/>
+	<e:UIAsset id="btn_pause" source="pause_jpg" x="570" y="220"/>
+	<e:UIAsset id="btn_back" source="regret_jpg" x="570" y="160"/>
+	<e:UIAsset id="btn_start" source="start_jpg" x="570" y="100"/>
+	<e:UIAsset id="btn_open_voice" source="closeVolice_png" x="603" y="362" visible="false"/>
+	<e:UIAsset id="btn_close_voice" source="openVolice_png" x="603" y="362"/>
+	<e:UIAsset id="win_img" source="yingjiemian_png" x="264" y="100" visible="false"/>
+</e:Skin>

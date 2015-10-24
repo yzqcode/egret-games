@@ -1,0 +1,9 @@
+[
+	"Main.ts",
+	"skins/UIMainViewSkin.exml",
+	"Logic.ts",
+	"UIMainView.ts",
+	"AssetAdapter.ts",
+	"GameLayer.ts",
+	"LoadingUI.ts"
+]
