@@ -1,0 +1,6 @@
+H:\project\egretproject\Astar\Astar\bin\Astar.dll.config
+H:\project\egretproject\Astar\Astar\bin\Astar.dll
+H:\project\egretproject\Astar\Astar\bin\Astar.pdb
+H:\project\egretproject\Astar\Astar\obj\Debug\Astar.csprojResolveAssemblyReference.cache
+H:\project\egretproject\Astar\Astar\obj\Debug\Astar.dll
+H:\project\egretproject\Astar\Astar\obj\Debug\Astar.pdb

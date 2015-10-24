@@ -1,0 +1,201 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.Default.props" Condition="Exists('$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.Default.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <ProjectGuid>{7CC482E1-32C1-4F7D-BAD2-5B2A041E74BE}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <OutputPath>bin</OutputPath>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <DebugType>full</DebugType>
+    <DebugSymbols>true</DebugSymbols>
+    <TypeScriptToolsVersion>1.0</TypeScriptToolsVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <StartWithIE>true</StartWithIE>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="bin-debug\lib\egret_file_list.js" />
+    <Content Include="bin-debug\src\game_file_list.js" />
+    <Content Include="bin-debug\src\Main.js" />
+    <Content Include="launcher\egret_loader.js" />
+    <Content Include="launcher\egret_require.js" />
+    <Content Include="launcher\index.html" />
+    <Content Include="launcher\native_loader.js" />
+    <Content Include="launcher\native_require.js" />
+    <Content Include="launcher\release.html" />
+    <Content Include="launcher\runtime_loader.js" />
+    <Content Include="libs\core\egret\context\Browser.js" />
+    <Content Include="libs\core\egret\context\devices\DeviceContext.js" />
+    <Content Include="libs\core\egret\context\devices\HTML5DeviceContext.js" />
+    <Content Include="libs\core\egret\context\display\HTML5StageText.js" />
+    <Content Include="libs\core\egret\context\display\StageText.js" />
+    <Content Include="libs\core\egret\context\external\ExternalInterface.js" />
+    <Content Include="libs\core\egret\context\interactive\HTML5TouchContext.js" />
+    <Content Include="libs\core\egret\context\interactive\InteractionMode.js" />
+    <Content Include="libs\core\egret\context\interactive\TouchContext.js" />
+    <Content Include="libs\core\egret\context\localStorage\localStorage.js" />
+    <Content Include="libs\core\egret\context\MainContext.js" />
+    <Content Include="libs\core\egret\context\net\HTML5NetContext.js" />
+    <Content Include="libs\core\egret\context\net\NetContext.js" />
+    <Content Include="libs\core\egret\context\renderer\dom\DOMTrans.js" />
+    <Content Include="libs\core\egret\context\renderer\HTML5CanvasRenderer.js" />
+    <Content Include="libs\core\egret\context\renderer\RendererContext.js" />
+    <Content Include="libs\core\egret\context\renderer\RenderFilter.js" />
+    <Content Include="libs\core\egret\context\renderer\WebGLRenderer.js" />
+    <Content Include="libs\core\egret\context\renderer\webgl\WebGLShaderManager.js" />
+    <Content Include="libs\core\egret\context\renderer\webgl\WebGLUtils.js" />
+    <Content Include="libs\core\egret\context\StageDelegate.js" />
+    <Content Include="libs\core\egret\context\Ticker.js" />
+    <Content Include="libs\core\egret\display\Bitmap.js" />
+    <Content Include="libs\core\egret\display\BitmapFillMode.js" />
+    <Content Include="libs\core\egret\display\BlendMode.js" />
+    <Content Include="libs\core\egret\display\DisplayObject.js" />
+    <Content Include="libs\core\egret\display\DisplayObjectContainer.js" />
+    <Content Include="libs\core\egret\display\Graphics.js" />
+    <Content Include="libs\core\egret\display\MovieClip.js" />
+    <Content Include="libs\core\egret\display\RenderTexture.js" />
+    <Content Include="libs\core\egret\display\Scroller.js" />
+    <Content Include="libs\core\egret\display\ScrollView.js" />
+    <Content Include="libs\core\egret\display\Shape.js" />
+    <Content Include="libs\core\egret\display\Sprite.js" />
+    <Content Include="libs\core\egret\display\SpriteSheet.js" />
+    <Content Include="libs\core\egret\display\Stage.js" />
+    <Content Include="libs\core\egret\display\StageScaleMode.js" />
+    <Content Include="libs\core\egret\display\Texture.js" />
+    <Content Include="libs\core\egret\events\Event.js" />
+    <Content Include="libs\core\egret\events\EventDispatcher.js" />
+    <Content Include="libs\core\egret\events\EventPhase.js" />
+    <Content Include="libs\core\egret\events\HTTPStatusEvent.js" />
+    <Content Include="libs\core\egret\events\IEventDispatcher.js" />
+    <Content Include="libs\core\egret\events\IOErrorEvent.js" />
+    <Content Include="libs\core\egret\events\ProgressEvent.js" />
+    <Content Include="libs\core\egret\events\TimerEvent.js" />
+    <Content Include="libs\core\egret\events\TouchEvent.js" />
+    <Content Include="libs\core\egret\geom\Matrix.js" />
+    <Content Include="libs\core\egret\geom\Point.js" />
+    <Content Include="libs\core\egret\geom\Rectangle.js" />
+    <Content Include="libs\core\egret\layout\HorizontalAlign.js" />
+    <Content Include="libs\core\egret\layout\VerticalAlign.js" />
+    <Content Include="libs\core\egret\media\Sound.js" />
+    <Content Include="libs\core\egret\net\URLLoader.js" />
+    <Content Include="libs\core\egret\net\URLLoaderDataFormat.js" />
+    <Content Include="libs\core\egret\net\URLRequest.js" />
+    <Content Include="libs\core\egret\net\URLRequestMethod.js" />
+    <Content Include="libs\core\egret\net\URLVariables.js" />
+    <Content Include="libs\core\egret\text\BitmapText.js" />
+    <Content Include="libs\core\egret\text\BitmapTextSpriteSheet.js" />
+    <Content Include="libs\core\egret\text\HtmlTextParser.js" />
+    <Content Include="libs\core\egret\text\InputController.js" />
+    <Content Include="libs\core\egret\text\TextField.js" />
+    <Content Include="libs\core\egret\text\TextFieldType.js" />
+    <Content Include="libs\core\egret\text\TextInput.js" />
+    <Content Include="libs\core\egret\tween\Ease.js" />
+    <Content Include="libs\core\egret\tween\Tween.js" />
+    <Content Include="libs\core\egret\utils\ByteArray.js" />
+    <Content Include="libs\core\egret\utils\callLater.js" />
+    <Content Include="libs\core\egret\utils\getDefinitionByName.js" />
+    <Content Include="libs\core\egret\utils\getQualifiedClassName.js" />
+    <Content Include="libs\core\egret\utils\getTimer.js" />
+    <Content Include="libs\core\egret\utils\hasDefinition.js" />
+    <Content Include="libs\core\egret\utils\HashObject.js" />
+    <Content Include="libs\core\egret\utils\IHashObject.js" />
+    <Content Include="libs\core\egret\utils\Injector.js" />
+    <Content Include="libs\core\egret\utils\Logger.js" />
+    <Content Include="libs\core\egret\utils\Profiler.js" />
+    <Content Include="libs\core\egret\utils\Recycler.js" />
+    <Content Include="libs\core\egret\utils\SAXParser.js" />
+    <Content Include="libs\core\egret\utils\setTimeout.js" />
+    <Content Include="libs\core\egret\utils\Timer.js" />
+    <Content Include="libs\core\egret\utils\toColorString.js" />
+    <Content Include="libs\core\egret\utils\XML.js" />
+    <Content Include="libs\core\extension\resource\analyzer\AnalyzerBase.js" />
+    <Content Include="libs\core\extension\resource\analyzer\BinAnalyzer.js" />
+    <Content Include="libs\core\extension\resource\analyzer\FontAnalyzer.js" />
+    <Content Include="libs\core\extension\resource\analyzer\ImageAnalyzer.js" />
+    <Content Include="libs\core\extension\resource\analyzer\JsonAnalyzer.js" />
+    <Content Include="libs\core\extension\resource\analyzer\SheetAnalyzer.js" />
+    <Content Include="libs\core\extension\resource\analyzer\SoundAnalyzer.js" />
+    <Content Include="libs\core\extension\resource\analyzer\TextAnalyzer.js" />
+    <Content Include="libs\core\extension\resource\analyzer\XMLAnalyzer.js" />
+    <Content Include="libs\core\extension\resource\core\ResourceConfig.js" />
+    <Content Include="libs\core\extension\resource\core\ResourceItem.js" />
+    <Content Include="libs\core\extension\resource\core\ResourceLoader.js" />
+    <Content Include="libs\core\extension\resource\events\ResourceEvent.js" />
+    <Content Include="libs\core\extension\resource\Resource.js" />
+    <Content Include="libs\core\jslib\NumberUtils.js" />
+    <Content Include="web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="build.bat" />
+    <Content Include="build_engine.bat" />
+    <Content Include="egretProperties.json" />
+    <Content Include="libs\module_reference.json" />
+    <Content Include="run.bat" />
+    <None Include="web.Debug.config">
+      <DependentUpon>web.config</DependentUpon>
+    </None>
+    <None Include="web.Release.config">
+      <DependentUpon>web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <TypeScriptCompile Include="libs\core\core.d.ts" />
+    <TypeScriptCompile Include="libs\core\egret\context\html5.d.ts" />
+    <TypeScriptCompile Include="libs\_references.ts" />
+    <TypeScriptCompile Include="src\Astar\Maze.ts" />
+    <TypeScriptCompile Include="src\Astar\MazeView.ts" />
+    <TypeScriptCompile Include="src\Astar\Node.ts" />
+    <TypeScriptCompile Include="src\element\Hero.ts" />
+    <TypeScriptCompile Include="src\event\GameEvent.ts" />
+    <TypeScriptCompile Include="src\Main.ts" />
+    <TypeScriptCompile Include="src\objpool\GameObject.ts" />
+    <TypeScriptCompile Include="src\objpool\ObjectPool.ts" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">12.0</VisualStudioVersion>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RootNamespace>Astar</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\WebApplications\Microsoft.WebApplication.targets" Condition="Exists('$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\WebApplications\Microsoft.WebApplication.targets')" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>53531</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:60975/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <PropertyGroup Condition="'$(Configuration)' == 'Debug'">
+    <TypeScriptRemoveComments>false</TypeScriptRemoveComments>
+    <TypeScriptSourceMap>true</TypeScriptSourceMap>
+    <TypeScriptOutDir>bin-debug\</TypeScriptOutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'Release'">
+    <TypeScriptRemoveComments>true</TypeScriptRemoveComments>
+    <TypeScriptSourceMap>false</TypeScriptSourceMap>
+  </PropertyGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.targets" Condition="Exists('$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.targets')" />
+  <PropertyGroup>
+    <PreBuildEvent>"$(ProjectDir)egret.cmd" build "$(ProjectDir)\" -sourcemap</PreBuildEvent>
+  </PropertyGroup>
+  <PropertyGroup>
+    <PostBuildEvent>if $(ConfigurationName) == Release "$(ProjectDir)egret.cmd" publish "$(ProjectDir)\"</PostBuildEvent>
+  </PropertyGroup>
+</Project>

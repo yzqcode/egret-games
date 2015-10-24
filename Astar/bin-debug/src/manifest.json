@@ -1,0 +1,10 @@
+[
+	"GameObject.ts",
+	"GameEvent.ts",
+	"Node.ts",
+	"ObjectPool.ts",
+	"Maze.ts",
+	"MazeView.ts",
+	"Hero.ts",
+	"Main.ts"
+]
