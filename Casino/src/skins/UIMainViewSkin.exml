@@ -1,0 +1,90 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin width="480" height="800" xmlns:e="http://ns.egret-labs.org/egret" xmlns:w="http://ns.egret-labs.org/wing">
+	<w:HostComponent name="egret.gui.SkinnableComponent"/>
+	<w:Declarations/>
+	<e:states>
+		<e:State name="normal"/>
+		<e:State name="disabled"/>
+	</e:states>
+	<e:UIAsset source="main_bg_jpg" x="0" y="0"/>
+	<e:UIAsset id="btn_1" source="btn_1_png" x="25" y="677"/>
+	<e:UIAsset id="btn_2" source="btn_2_png" x="75" y="677"/>
+	<e:UIAsset id="btn_3" source="btn_3_png" x="125" y="677"/>
+	<e:UIAsset id="btn_4" source="btn_4_png" x="175" y="677"/>
+	<e:UIAsset id="btn_5" source="btn_5_png" x="260" y="677"/>
+	<e:UIAsset id="btn_6" source="btn_6_png" x="310" y="677"/>
+	<e:UIAsset id="btn_7" source="btn_7_png" x="360" y="677"/>
+	<e:UIAsset id="btn_8" source="btn_8_png" x="410" y="677"/>
+	<e:UIAsset id="left_arrow_btn" source="left_png" x="12" y="578"/>
+	<e:UIAsset id="right_arrow_btn" source="right_png" x="123" y="579"/>
+	<e:UIAsset id="bet_small_btn" source="bet_btn_png" x="240" y="579"/>
+	<e:UIAsset id="bet_big_btn" source="bet_btn_png" x="307" y="579"/>
+	<e:UIAsset id="start_btn" source="start_btn_png" x="392" y="573"/>
+	<e:Label text="开始" x="398" width="56" height="53" size="25" textAlign="center" verticalAlign="middle" touchEnabled="false" textColor="0xE9E5E5" y="581" fontFamily="Arial"/>
+	<e:Label height="24" verticalAlign="middle" textAlign="center" width="46" touchEnabled="false" x="246" fontFamily="Arial" size="15" text="1-7" textColor="0xB31D1D" y="581"/>
+	<e:Label verticalAlign="middle" textColor="0xB31D1D" fontFamily="Arial" textAlign="center" width="49" touchEnabled="false" height="35" x="245" text="小" size="20" y="595"/>
+	<e:Label height="35" verticalAlign="middle" textColor="0xB31D1D" fontFamily="Arial" textAlign="center" size="20" width="49" touchEnabled="false" x="312" text="大" y="595"/>
+	<e:Label verticalAlign="middle" textColor="0xB31D1D" fontFamily="Arial" textAlign="center" size="15" width="46" touchEnabled="false" height="24" x="313" text="8-14" y="581"/>
+	<e:Label id="bet_coin_1" height="25" verticalAlign="middle" fontFamily="Arial" textAlign="center" size="15" width="33" touchEnabled="false" x="27" y="681" text="00"/>
+	<e:Label id="bet_coin_6" height="25" verticalAlign="middle" touchEnabled="false" fontFamily="Arial" textAlign="center" size="15" width="33" x="313" y="680" text="00"/>
+	<e:Label id="bet_coin_5" verticalAlign="middle" touchEnabled="false" fontFamily="Arial" textAlign="center" size="15" width="33" height="25" x="264" y="681" text="00"/>
+	<e:Label id="bet_coin_8" height="25" verticalAlign="middle" touchEnabled="false" fontFamily="Arial" textAlign="center" size="15" width="33" x="413" y="681" text="00"/>
+	<e:Label id="bet_coin_7" verticalAlign="middle" touchEnabled="false" fontFamily="Arial" textAlign="center" size="15" width="33" height="25" x="363" y="680" text="00"/>
+	<e:Label id="bet_coin_4" height="25" verticalAlign="middle" touchEnabled="false" fontFamily="Arial" textAlign="center" size="15" width="33" x="178" y="680" text="00"/>
+	<e:Label id="bet_coin_2" verticalAlign="middle" touchEnabled="false" fontFamily="Arial" textAlign="center" size="15" width="33" height="25" x="78" y="680" text="00"/>
+	<e:Label id="bet_coin_3" height="25" verticalAlign="middle" touchEnabled="false" fontFamily="Arial" textAlign="center" size="15" width="33" x="128" y="680" text="00"/>
+	<e:UIAsset x="30" y="85" source="7_b_png"/>
+	<e:UIAsset x="30" y="145" source="5_s_png"/>
+	<e:UIAsset x="30" y="205" source="8_b_png"/>
+	<e:UIAsset x="30" y="265" source="big_award_png"/>
+	<e:UIAsset x="30" y="325" source="3_b_png"/>
+	<e:UIAsset x="30" y="385" source="3_s_png"/>
+	<e:UIAsset y="145" x="390" source="4_b_png"/>
+	<e:UIAsset y="205" x="390" source="4_s_png"/>
+	<e:UIAsset y="265" x="390" source="small_award_png"/>
+	<e:UIAsset y="325" x="390" source="8_b_png"/>
+	<e:UIAsset y="385" x="390" source="7_s_png"/>
+	<e:UIAsset x="30" y="445" source="6_b_png"/>
+	<e:UIAsset x="90" y="85" source="5_b_png"/>
+	<e:UIAsset x="150" y="85" source="1_s_png"/>
+	<e:UIAsset x="270" y="85" source="8_b_png"/>
+	<e:UIAsset x="330" y="85" source="8_s_png"/>
+	<e:UIAsset x="390" y="85" source="6_b_png"/>
+	<e:UIAsset x="210" y="85" source="1_b_png"/>
+	<e:UIAsset x="90" y="445" source="6_s_png"/>
+	<e:UIAsset y="445" source="8_b_png" x="149"/>
+	<e:UIAsset x="270" y="445" source="2_s_png"/>
+	<e:UIAsset x="330" y="445" source="5_b_png"/>
+	<e:UIAsset x="390" source="7_b_png" y="444"/>
+	<e:UIAsset x="210" y="445" source="2_b_png"/>
+	<e:UIAsset source="number_bg_png" scale9Grid="15,13,19,21" x="185" width="109" height="103" y="245" alpha="0.7"/>
+	<e:UIAsset id="light_1" source="mask_png" x="25" y="80"/>
+	<e:UIAsset id="light_24" source="mask_png" x="25" y="140"/>
+	<e:UIAsset id="light_23" source="mask_png" x="25" y="200"/>
+	<e:UIAsset id="light_22" source="mask_png" x="25" y="260"/>
+	<e:UIAsset id="light_21" source="mask_png" x="25" y="320"/>
+	<e:UIAsset id="light_20" source="mask_png" x="25" y="380"/>
+	<e:UIAsset id="light_8" source="mask_png" x="385" y="140"/>
+	<e:UIAsset id="light_9" source="mask_png" x="385" y="200"/>
+	<e:UIAsset id="light_10" source="mask_png" x="385" y="260"/>
+	<e:UIAsset id="light_11" source="mask_png" x="385" y="320"/>
+	<e:UIAsset id="light_12" source="mask_png" x="385" y="380"/>
+	<e:UIAsset id="light_2" source="mask_png" x="85" y="80"/>
+	<e:UIAsset id="light_3" source="mask_png" x="145" y="80"/>
+	<e:UIAsset id="light_4" source="mask_png" x="205" y="80"/>
+	<e:UIAsset id="light_5" source="mask_png" x="265" y="80"/>
+	<e:UIAsset id="light_6" source="mask_png" x="325" y="80"/>
+	<e:UIAsset id="light_7" source="mask_png" x="385" y="80"/>
+	<e:UIAsset id="light_19" source="mask_png" x="25" y="440"/>
+	<e:UIAsset id="light_18" source="mask_png" x="85" y="440"/>
+	<e:UIAsset id="light_17" source="mask_png" x="145" y="440"/>
+	<e:UIAsset id="light_16" source="mask_png" x="205" y="440"/>
+	<e:UIAsset id="light_15" source="mask_png" x="265" y="440"/>
+	<e:UIAsset id="light_14" source="mask_png" x="325" y="440"/>
+	<e:UIAsset id="light_13" source="mask_png" x="385" y="440"/>
+	<e:Label id="label_bet_number" height="83" textAlign="center" touchEnabled="false" verticalAlign="middle" width="101" textColor="0xFF0000" fontFamily="Arial" x="190" y="255" text="00" size="50"/>
+	<e:UIAsset source="number_bg_png" scale9Grid="15,13,19,21" width="128" height="35" x="78" alpha="0.7" y="23"/>
+	<e:Label id="label_win_coin" height="31" verticalAlign="middle" textColor="0xFF0000" fontFamily="Arial" touchEnabled="false" textAlign="center" width="103" size="20" x="90" y="25" text="0"/>
+	<e:UIAsset source="number_bg_png" scale9Grid="15,13,19,21" width="128" height="35" y="23" alpha="0.7" x="281"/>
+	<e:Label id="label_current_coins" size="20" textColor="0xFF0000" fontFamily="Arial" touchEnabled="false" textAlign="center" verticalAlign="middle" width="103" height="31" x="295" y="26" text="0"/>
+</e:Skin>

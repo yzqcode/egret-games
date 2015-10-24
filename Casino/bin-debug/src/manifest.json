@@ -1,0 +1,7 @@
+[
+	"skins/UIMainViewSkin.exml",
+	"AssetAdapter.ts",
+	"LoadingUI.ts",
+	"UIMainView.ts",
+	"Main.ts"
+]

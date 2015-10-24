@@ -1,0 +1,12 @@
+{
+	"file_list": [
+		"devices/NativeDeviceContext.js",
+		"renderer/NativeRendererContext.js",
+		"interactive/NativeTouchContext.js",
+		"PromiseObject.js",
+		"net/NativeNetContext.js",
+		"display/NativeStageText.js",
+		"net/VersionController.js",
+		"net/NativeResourceLoader.js"
+	]
+}
