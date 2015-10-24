@@ -1,0 +1,9 @@
+{
+  "name": "jweixin-1.0.0",
+  "dependence": ["core"],
+  "source":"src/jweixin-1.0.0/",
+  "file_list": [
+    "jweixin-1.0.0.d.ts",
+    "jweixin-1.0.0-additional.js"
+  ]
+}

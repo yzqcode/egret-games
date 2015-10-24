@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='utf-8'?><e:Skin xmlns:e="http://ns.egret-labs.org/egret" xmlns:w="http://ns.egret-labs.org/wing" width="640" height="1136">	<w:HostComponent name="egret.gui.SkinnableComponent"/>	<w:Declarations/>	<e:states>		<e:State name="normal"/>		<e:State name="disabled"/>	</e:states>	<e:UIAsset source="black_square" left="0" bottom="0" top="0" right="0" scale9Grid="2,2,12,12" alpha="0.8" x="10" y="10"/>	<e:UIAsset scale9Grid="84,20,79,217" source="difficulties_bg_png" verticalCenter="0" height="666" left="11" width="619"/>	<e:UIAsset source="叉" id="close_area" height="44" right="42" top="266"/>
+	<e:UIAsset width="603" height="504" source="difficulties_light_png" horizontalCenter="0.5" bottom="241"/>
+	<e:UIAsset source="背弹框底" scale9Grid="15,14,18,20" alpha="0.5" height="425" width="241" horizontalCenter="-139.5" verticalCenter="0"/>
+	<e:UIAsset source="背弹框底" scale9Grid="15,14,18,20" alpha="0.5" height="425" width="241" horizontalCenter="140" verticalCenter="0"/>
+	<e:UIAsset source="挂机有礼_png" horizontalCenter="7.5" y="279"/>
+	<e:UIAsset source="元宝领取按钮" x="122" y="384"/>
+	<e:UIAsset source="元宝领取按钮" x="360" y="384"/>
+	<e:UIAsset source="元宝领取按钮" x="455" y="384"/>
+	<e:Label text="挂机奖励" x="117" y="520" fontFamily="黑体"/>
+	<e:Label id="label_multi" text="挂机双倍奖励" x="373" y="520" fontFamily="黑体" textColor="0xFFF100"/>
+	<e:UIAsset source="元宝中" x="92" y="586"/>
+	<e:UIAsset source="元宝" x="359" y="584"/>
+	<e:Label id="label_money" text="1233.45万" x="125" y="582" width="167" fontFamily="黑体"/>
+	<e:Label id="label_money_multi" width="161" text="1233.45万" x="409" y="582" fontFamily="黑体"/>
+	<e:UIAsset id="btn_receive" source="按钮黄" x="96" y="677"/>
+	<e:UIAsset id="btn_diamond_receive" source="按钮红" x="379" y="677"/>
+	<e:Label text="领取" x="149" y="713" fontFamily="黑体" touchEnabled="false"/>
+	<e:Label x="430" y="713" text="领取" fontFamily="黑体" touchEnabled="false"/>
+	<e:UIAsset source="钻石" y="676" x="417" touchEnabled="false"/>
+	<e:Label id="label_diamond" text="60" x="449" y="680" size="25" fontFamily="黑体" width="57" textAlign="center" touchEnabled="false"/></e:Skin>

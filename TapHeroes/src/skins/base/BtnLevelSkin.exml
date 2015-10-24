@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin xmlns:e="http://ns.egret-labs.org/egret" xmlns:w="http://ns.egret-labs.org/wing">
+	<w:HostComponent name="egret.gui.Button"/>
+	<w:Declarations/>
+	<e:states>
+		<e:State name="up"/>
+		<e:State name="down"/>
+		<e:State name="disabled"/>
+	</e:states>
+	<e:UIAsset source="按钮灰" includeIn="disabled" x="0" y="0"/>
+	<e:UIAsset id="pic" source="按钮红" x="0" y="0" includeIn="up,down"/>
+	<e:UIAsset source="元宝" scaleX="0.5" scaleY="0.5" width="48" height="36" x="24" y="9" touchEnabled="false"/>
+	<e:Label width="96" height="22" maxDisplayedLines="1" x="41" y="6" size="18" text="999.00YY" textAlign="center" touchEnabled="false" textColor="16777215"/>
+	<e:Label text="升级" y="31" size="18" horizontalCenter="0" bold="true" text.disabled="升级" touchEnabled="false" textColor="16777215"/>
+	<e:Label text="+67.55WY" y="51" left="-1" right="1" verticalAlign="middle" textAlign="center" size="18" bold="true" touchEnabled="false" textColor="16777215"/>
+</e:Skin>

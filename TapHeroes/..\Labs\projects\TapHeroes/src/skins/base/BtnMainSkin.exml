@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin xmlns:e="http://ns.egret-labs.org/egret" xmlns:w="http://ns.egret-labs.org/wing" height.down="79" height.upAndSelected="79" height.disabledAndSelected="79" height.downAndSelected="79">
+	<w:HostComponent name="egret.gui.ToggleButton"/>
+	<w:Declarations/>
+	<e:states>
+		<e:State name="up"/>
+		<e:State name="down"/>
+		<e:State name="disabled"/>
+		<e:State name="upAndSelected"/>
+		<e:State name="downAndSelected"/>
+		<e:State name="disabledAndSelected"/>
+	</e:states>
+	<e:UIAsset id="down_pic" source="菜单按钮1" x="0" y="16" includeIn="up,disabled"/>
+	<e:UIAsset id="up_pic" source="菜单按钮1点击" x="0" y="0" includeIn="down,upAndSelected,downAndSelected,disabledAndSelected" height.downAndSelected="63"/>
+</e:Skin>

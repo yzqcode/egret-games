@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin xmlns:e="http://ns.egret-labs.org/egret" xmlns:w="http://ns.egret-labs.org/wing">
+	<w:HostComponent name="egret.gui.SkinnableComponent"/>
+	<w:Declarations/>
+	<e:states>
+<e:State name="normal"/>
+<e:State name="disabled"/>
+</e:states>
+	<e:UIAsset source="拉栏框" x="0" y="0"/>
+	<e:UIAsset id="achieveitem_icon" source="天将4_技能3" height="79" width="79" left="20" top="18"/>
+	<e:Label id="achieveitem_title" text="杀掉10.00K妖怪" textColor="16777215" left="114" top="28" fontFamily="Arial" size="20"/>
+	<e:UIAsset id="achieveitem_star2" source="黑底" left="148" top="64"/>
+	<e:UIAsset id="achieveitem_star1" source="黑底" left="114" top="64"/>
+	<e:UIAsset id="achieveitem_star3" source="黑底" left="182" top="64"/>
+	<e:UIAsset id="achieveitem_star4" source="黑底" left="216" top="64"/>
+	<e:UIAsset id="achieveitem_star5" source="黑底" left="250" top="64"/>
+	<e:Label id="label_progress" width="150" textAlign="center" text="1/30k" size="20" textColor="16777215" left="296" top="70" fontFamily="Arial"/>
+	<e:Button id="btn_receive" label="按钮" skinName="skins.base.BtnAchieveSkin" right="23" top="17"/>
+</e:Skin>

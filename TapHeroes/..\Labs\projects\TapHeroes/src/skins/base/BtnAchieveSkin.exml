@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin xmlns:e="http://ns.egret-labs.org/egret" xmlns:w="http://ns.egret-labs.org/wing">
+	<w:HostComponent name="egret.gui.Button"/>
+	<w:Declarations/>
+	<e:states>
+		<e:State name="normal"/>
+		<e:State name="disabled"/>
+	</e:states>
+	<e:UIAsset source="按钮灰" y="0" visible.normal="false"/>
+	<e:UIAsset source="按钮黄" x="0" y="0" visible.disabled="false"/>
+	<e:UIAsset source="钻石" x="33" width="29" height="29" y="3"/>
+	<e:Label id="btnachieve_diamond" text="100" width="68" fontFamily="Arial" textColor="16777215" horizontalCenter="6" top="8" textAlign="center" verticalAlign="middle" size="20"/>
+	<e:Label id="btnachieve_label" text="领取奖励" width="102" size="20" textAlign="center" verticalAlign="middle" horizontalCenter="0" y="42"/>
+</e:Skin>

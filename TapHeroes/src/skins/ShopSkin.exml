@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin xmlns:e="http://ns.egret-labs.org/egret" xmlns:w="http://ns.egret-labs.org/wing" width="640" height="1136">
+	<w:HostComponent name="egret.gui.SkinnableComponent"/>
+	<w:Declarations/>
+	<e:states>
+		<e:State name="normal"/>
+		<e:State name="disabled"/>
+	</e:states>
+	<e:UIAsset source="black_square" scale9Grid="2,2,12,12" alpha="0.8" top="0" bottom="0" left="0" right="0"/>
+	<e:UIAsset source="背弹底" scale9Grid="84,20,79,217" top="217" bottom="262" left="0" right="0"/>
+	<e:Rect fillColor="0x000000" strokeWeight="0" id="scroller_back0" left="0" top="299" bottom="294" horizontalCenter="0" width="604"/>
+	<e:Scroller id="scroller_view" width="604" horizontalCenter="0" bottom="294" top="299">
+		<e:Group>
+			<e:layout>
+				<e:BasicLayout/>
+			</e:layout>
+			<e:Rect id="scroller_back" fillColor="0x000000" strokeWeight="0" right="0" height="543" y="0" left="0"/>
+		</e:Group>
+	</e:Scroller>
+	<e:UIAsset id="close_area" source="叉" x="573" y="236"/>
+	<e:UIAsset source="钻石" x="42" y="245"/>
+	<e:UIAsset source="元宝" x="334" y="245"/>
+	<e:Label id="label_diamond" text="1.03k" width="149" fontFamily="Arial" size="26" x="88" y="250"/>
+	<e:Label id="label_money" text="323.22aa" x="390" width="149" fontFamily="Arial" size="26" y="250"/>
+</e:Skin>

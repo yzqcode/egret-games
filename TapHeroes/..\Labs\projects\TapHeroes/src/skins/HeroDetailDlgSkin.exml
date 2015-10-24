@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin xmlns:e="http://ns.egret-labs.org/egret" xmlns:w="http://ns.egret-labs.org/wing" height="1136" width="640">
+	<w:HostComponent name="egret.gui.SkinnableComponent"/>
+	<w:Declarations/>
+	<e:states>
+		<e:State name="normal"/>
+		<e:State name="disabled"/>
+	</e:states>
+	<e:UIAsset scale9Grid="2,2,12,12" source="black_square" top="0" left="0" bottom="0" right="0" alpha="0.8"/>
+	<e:UIAsset left="5" right="5" top="80" bottom="100" source="背弹底" scale9Grid="84,30,77,186"/>
+	<e:UIAsset id="iconClose" width="44" height="44" source="叉" right="30" top="102"/>
+	<e:UIAsset height="115" source="背弹框底" scale9Grid="15,14,18,20" left="30" right="30" top="217"/>
+	<e:UIAsset source="背弹框底" scale9Grid="15,14,18,20" alpha="0.2" left="30" right="30" bottom="120" top="354"/>
+	<e:UIAsset id="iconHero" width="82" height="82" source="天将1" left="31" top="115"/>
+	<e:Label id="labelHeroName" width="418" height="38" textColor="16777215" size="28" verticalAlign="middle" top="110" left="126" text="??" fontFamily="Arial"/>
+	<e:Label textColor="0xFFFFFF" height="29" verticalAlign="middle" width="59" size="20" text="等级:" left="126" top="144" fontFamily="Arial"/>
+	<e:Label id="labelHeroDesc" textColor="0xFFFFFF" size="20" height="85" verticalAlign="middle" maxDisplayedLines="3" left="54" right="49" top="230" text="??" fontFamily="Arial"/>
+	<e:Label id="labelHeroLevel" size="20" verticalAlign="middle" width="169" height="29" text="????" textColor="5173231" top="144" left="191" fontFamily="Arial"/>
+	<e:Label textColor="0xFFFFFF" size="20" verticalAlign="middle" width="95" height="29" text="每秒伤害:" top="173" left="126" fontFamily="Arial"/>
+	<e:Label id="labelHeroDamage" height="29" size="20" verticalAlign="middle" width="272" text="????????" left="224" top="173" fontFamily="Arial" textColor="16746496"/>
+	<e:Scroller id="scrollSkillList" left="45" top="371" bottom="135" right="45">
+		<e:Group id="groupSkillList">
+			<e:layout>
+				<e:VerticalLayout/>
+			</e:layout>
+		</e:Group>
+	</e:Scroller>
+</e:Skin>

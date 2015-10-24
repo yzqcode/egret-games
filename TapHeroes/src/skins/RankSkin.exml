@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin xmlns:e="http://ns.egret-labs.org/egret" xmlns:w="http://ns.egret-labs.org/wing" width="640" height="1136">
+	<w:HostComponent name="egret.gui.SkinnableComponent"/>
+	<w:Declarations/>
+	<e:states>
+		<e:State name="normal"/>
+		<e:State name="disabled"/>
+	</e:states>
+	<e:UIAsset source="black_square" scale9Grid="2,2,12,12" alpha="0.8" x="10" y="10" left="0" right="0" top="-2" bottom="2"/>
+	<e:UIAsset source="背弹底" scale9Grid="84,20,79,217" width="597" height="827" y="150" x="22"/>
+	<e:UIAsset id="tab_bg_1" width="203" height="67" source="tab_bg_png" x="106" y="175"/>
+	<e:Label id="tab_title_1" textColor="0xFFC700" fontFamily="Arial" textAlign="center" verticalAlign="middle" height="48" text="除妖榜" size="35" touchEnabled="false" width="130" y="186" x="142"/>
+	<e:UIAsset id="tab_bg_2" source="tab_bg_png" height="67" width="203" alpha="0.3" x="338" y="185"/>
+	<e:Label id="tab_title_2" fontFamily="Arial" textAlign="center" verticalAlign="middle" width="130" height="48" textColor="10132122" size="30" text="渡难榜" touchEnabled="false" x="374" y="196"/>
+	<e:UIAsset width="540" source="背弹框底" x="50" height="701" y="242"/>
+	<e:Scroller id="scroller_view_1" width="510" height="670" y="252" x="65">
+		<e:Group>
+			<e:layout>
+				<e:BasicLayout/>
+			</e:layout>
+			<e:Rect id="scroller_back_1" fillColor="0x000000" left="0" bottom="0" right="0" strokeWeight="0" top="0" alpha="0"/>
+		</e:Group>
+	</e:Scroller>
+	<e:Scroller id="scroller_view_2" width="510" height="670" y="252" x="65" visible="false">
+		<e:Group>
+			<e:Rect id="scroller_back_2" left="0" bottom="0" right="0" fillColor="0x000000" strokeWeight="0" top="0" alpha="0"/>
+			<e:layout>
+				<e:BasicLayout/>
+			</e:layout>
+		</e:Group>
+	</e:Scroller>
+	<e:Label id="waiting_text" width="530" textColor="16777215" fontFamily="Arial" textAlign="center" text="努力加载中，请稍候." x="53" y="528"/>
+	<e:Rect width="540" height="121" fillColor="0x353535" x="50" y="752"/>
+	<e:UIAsset source="叉" id="close_area" height="44" x="556" y="171"/>
+	<e:UIAsset id="self_rank_bg" height="110" width="510" scale9Grid="84,20,79,217" source="self_rank_bg_png" x="65" y="760"/>
+	<e:UIAsset id="iconSelfHead" source="猴子" y="769" x="470"/>
+	<e:Label id="labelSelfName" maxDisplayedLines="1" textColor="0xFFFFFF" touchEnabled="true" fontFamily="Arial" height="30" size="27" width="269" text="美猴王" y="779" x="189"/>
+	<e:Label id="labelSelfRank" height="62" verticalAlign="middle" textColor="0xD0CF0A" touchEnabled="true" fontFamily="Arial" size="40" width="111" text="?" maxDisplayedLines="1" textAlign="center" y="780" x="78"/>
+	<e:UIAsset id="iconSelfKill" touchEnabled="false" source="妖怪图标" width="35" height="28" y="820" x="320" visible="false"/>
+	<e:Label id="labelSelfKillNum" maxDisplayedLines="1" textColor="0xFFFFFF" touchEnabled="true" fontFamily="Arial" size="20" width="68" height="26" y="822" x="364" text="x0" visible="false"/>
+	<e:Label id="labelSelfDifficultyNum" maxDisplayedLines="1" textColor="0xD0CF0A" touchEnabled="true" fontFamily="Arial" size="20" width="108" y="822" x="190" text="第一难" visible="false"/>
+	<e:Label id="labelSelfStep" maxDisplayedLines="1" textColor="0xD0CF0A" touchEnabled="true" fontFamily="Arial" size="20" width="267" x="189" y="822" text="击杀妖王数：0"/>
+</e:Skin>

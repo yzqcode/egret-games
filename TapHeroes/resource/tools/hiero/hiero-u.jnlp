@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='utf-8'?>
+<jnlp spec='1.0+' codebase='http://n4te.com/' href='hiero/hiero.jnlp'>
+<information>
+	<title>Hiero</title>
+	<vendor>Esoteric Software</vendor>
+	<homepage href='http://n4te.com/'/>
+	<description>Hiero</description>
+	<description kind='short'>Hiero</description>
+</information>
+<security>
+	<all-permissions/>
+</security>
+<resources>
+	<j2se href='http://java.sun.com/products/autodl/j2se' version='1.5+' max-heap-size='128m'/>
+	<jar href='hiero/hiero.jar'/>
+	<jar href='hiero/jflac-1.3.jar'/>
+	<jar href='hiero/jlayer-1.0.1.jar'/>
+	<jar href='hiero/jmacdecoder-1.74.jar'/>
+	<jar href='hiero/jorbis-0.0.17.jar'/>
+	<jar href='hiero/lucene-analyzers-2.4.0.jar'/>
+	<jar href='hiero/lucene-core-2.4.0.jar'/>
+	<jar href='hiero/lwjgl.jar'/>
+	<jar href='hiero/singsong-slick.jar'/>
+	<jar href='hiero/slick.jar'/>
+	<jar href='hiero/twl.jar'/>
+	<jar href='hiero/xpp3-1.1.3_8.jar'/>
+	<jar href='hiero/yamlbeans-0.9.3.jar'/>
+</resources>
+<resources os='Windows'>
+	<j2se href='http://java.sun.com/products/autodl/j2se' version='1.5+' max-heap-size='128m'/>
+	<nativelib href='hiero/natives-win.jar'/>
+</resources>
+<resources os='Mac'>
+	<j2se href='http://java.sun.com/products/autodl/j2se' version='1.5+' max-heap-size='128m'/>
+	<nativelib href='hiero/natives-mac.jar'/>
+</resources>
+<resources os='Linux'>
+	<j2se href='http://java.sun.com/products/autodl/j2se' version='1.5+' max-heap-size='128m'/>
+	<nativelib href='hiero/natives-linux.jar'/>
+</resources>
+<resources os='SunOS'>
+	<j2se href='http://java.sun.com/products/autodl/j2se' version='1.5+' max-heap-size='128m'/>
+	<nativelib href='hiero/natives-solaris.jar'/>
+</resources>
+<application-desc main-class='org.newdawn.slick.tools.hiero.Hiero'/>
+</jnlp>

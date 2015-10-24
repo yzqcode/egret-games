@@ -1,0 +1,2 @@
+hiero-d.jnlp：可视，但生成图片倒着
+hiero-u.jnlp：不可视，生成图片正常

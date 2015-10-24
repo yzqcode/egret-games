@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin xmlns:e="http://ns.egret-labs.org/egret" xmlns:w="http://ns.egret-labs.org/wing" width="640" height="1136">
+	<w:HostComponent name="egret.gui.SkinnableComponent"/>
+	<w:Declarations/>
+	<e:states>
+		<e:State name="normal"/>
+		<e:State name="disabled"/>
+	</e:states>
+	<e:Rect left="0" right="0" height="138" y="0" strokeColor="0x595959" fillColor="0x595959" touchEnabled="true"/>
+	<e:Rect height="22" y="138" left="0" right="0" strokeWeight="0" fillColor="0x222222" touchEnabled="true"/>
+	<e:UIAsset source="成就大" top="19" left="27"/>
+	<e:Label text="成就" size="38" textColor="0xffcf02" fontFamily="Arial" left="155" top="42"/>
+	<e:Label text="完成成就获得奖励" size="26" textColor="0xffcf02" fontFamily="Arial" left="155" top="89"/>
+	<e:UIAsset id="btn_close" source="叉" right="26" top="27"/>
+	<e:UIAsset source="钻石大" right="26" top="90"/>
+	<e:Label id="total_diamond" width="169" height="33" textAlign="right" size="26" text="26" focusEnabled="false" fontFamily="Arial" textColor="16777215" right="81" top="91"/>
+	<e:Rect strokeWeight="0" fillColor="0x909090" left="0" right="0" top="160" bottom="0"/>
+	<e:Scroller id="scroller" left="0" right="0" top="160" bottom="0">
+		<e:Group>
+			<e:layout>
+				<e:BasicLayout/>
+			</e:layout>
+			<e:Rect id="scroller_back" fillColor="0x909090" strokeWeight="0" width="640" x="0" height="976" y="0"/>
+		</e:Group>
+	</e:Scroller>
+	<e:Rect id="touch_close_area" fillAlpha="0" height="73" strokeWeight="0" width="84" x="548" y="8"/>
+</e:Skin>

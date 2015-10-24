@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin xmlns:e="http://ns.egret-labs.org/egret" xmlns:w="http://ns.egret-labs.org/wing">
+	<w:HostComponent name="egret.gui.SkinnableComponent"/>
+	<w:Declarations/>
+	<e:states>
+		<e:State name="normal"/>
+		<e:State name="disabled"/>
+	</e:states>
+	<e:UIAsset id="iconRankBg" touchEnabled="true" width="510" x="0" y="2" height="110" source="rank_bg_png" scale9Grid="90,20,120,65"/>
+	<e:Label id="labelName" maxDisplayedLines="1" textColor="0xFFFFFF" height="30" fontFamily="Arial" touchEnabled="true" width="269" size="27" text="美猴王" x="133" y="26"/>
+	<e:Label id="labelRank" textColor="0xD0CF0A" fontFamily="Arial" maxDisplayedLines="1" touchEnabled="true" width="111" verticalAlign="middle" height="62" size="40" text="?" x="22" textAlign="center" y="27"/>
+	<e:UIAsset id="iconHead" source="猴子" x="404" y="13"/>
+	<e:Label id="labelStep" maxDisplayedLines="1" fontFamily="Arial" touchEnabled="true" width="267" size="20" textColor="13684490" x="134" text="击杀妖王数：??" y="69"/>
+	<e:Label id="labelKillNum" maxDisplayedLines="1" textColor="0xFFFFFF" touchEnabled="true" fontFamily="Arial" height="26" width="68" y="69" x="308" size="20" text="x??" visible="false"/>
+	<e:UIAsset id="iconKill" touchEnabled="false" source="妖怪图标" right="209" width="35" top="67" height="28" visible="false"/>
+	<e:Label id="labelDifficultyNum" maxDisplayedLines="1" textColor="0xD0CF0A" touchEnabled="true" fontFamily="Arial" size="20" y="69" width="108" x="134" text="第八十一难" visible="false"/>
+</e:Skin>

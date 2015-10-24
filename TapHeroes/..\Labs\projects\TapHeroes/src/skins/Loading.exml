@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin xmlns:e="http://ns.egret-labs.org/egret" xmlns:w="http://ns.egret-labs.org/wing">
+	<w:HostComponent name="egret.gui.Panel"/>
+	<w:Declarations/>
+	<e:states>
+		<e:State name="normal"/>
+		<e:State name="disabled"/>
+	</e:states>
+	<e:UIAsset source="loading" verticalCenter="0" horizontalCenter="0"/>
+	<e:UIAsset source="loading1" bottom="1" x="0" touchEnabled="false"/>
+	<e:Label id="label_progress" text="读取中" width="353" height="47" textAlign="center" verticalAlign="middle" y="505" horizontalCenter="0"/>
+	<e:UIAsset id="dialog" source="duihuakuang" horizontalCenter="1.5" verticalCenter="29" visible="false"/>
+	<e:EditableText id="input" width="308" height="56" textColor="0x000000" size="30" textAlign="center" horizontalCenter="0" verticalCenter="63" visible="false"/>
+	<e:Button id="btn_login" label="按钮" skinName="skins.base.BtnLoginSkin" horizontalCenter="-10.5" verticalCenter="138" visible="false"/>
+</e:Skin>

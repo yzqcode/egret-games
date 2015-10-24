@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='utf-8'?><e:Skin xmlns:e="http://ns.egret-labs.org/egret" xmlns:w="http://ns.egret-labs.org/wing" width="640" height="1136">	<w:HostComponent name="egret.gui.SkinnableComponent"/>	<w:Declarations/>	<e:states>		<e:State name="normal"/>		<e:State name="disabled"/>	</e:states>	<e:UIAsset source="black_square" left="0" bottom="0" top="0" right="0" scale9Grid="2,2,12,12" alpha="0.8" x="10" y="10"/>	<e:UIAsset scale9Grid="84,20,79,217" source="difficulties_bg_png" verticalCenter="0" height="666" left="11" width="619"/>	<e:UIAsset source="叉" id="close_area" height="44" right="42" top="266"/>
+	<e:UIAsset width="603" height="504" source="difficulties_light_png" horizontalCenter="0.5" bottom="241"/>
+	<e:UIAsset source="背弹框底" scale9Grid="15,14,18,20" alpha="0.5" height="141" width="563" horizontalCenter="0" verticalCenter="122.5"/>
+	<e:UIAsset id="btn_confirm" source="按钮红" y="790" horizontalCenter="0"/>
+	<e:Label fontFamily="黑体" y="825" text="购买礼包" horizontalCenter="0" size="22" touchEnabled="false"/>
+	<e:UIAsset source="钻石" x="271" y="790" touchEnabled="false"/>
+	<e:Label id="label_diamond" text="60" fontFamily="黑体" width="57" textAlign="center" x="304" size="22" y="795" touchEnabled="false"/>
+	<e:UIAsset source="成长礼包_png" y="269" horizontalCenter="0"/>
+	<e:UIAsset source="攻击100_png" y="378" horizontalCenter="175.5"/>
+	<e:UIAsset source="额外9999_png" y="382" horizontalCenter="-175.5"/>
+	<e:UIAsset source="金币100_png" y="306" horizontalCenter="0"/>
+	<e:UIAsset source="24小时_png" y="483" horizontalCenter="0"/>
+	<e:UIAsset source="24小时_png" x="445" y="552"/>
+	<e:UIAsset source="9999_png" x="80" y="553"/>
+	<e:Label fontFamily="黑体" size="40" textColor="0xFFE200" x="68" y="647" text="立即获得："/>
+	<e:Label text="额外赠送：" fontFamily="黑体" size="40" x="68" y="701" textColor="0xFFE200"/>
+	<e:Label text="金币掉落加成" fontFamily="黑体" size="22" x="258" y="639"/>
+	<e:Label text="全体伤害加成" fontFamily="黑体" size="22" x="258" y="671"/>
+	<e:Label text="9999倍金币" fontFamily="黑体" x="257" y="715" size="22"/>
+	<e:Label id="label_total_money" text="1605.66兆" fontFamily="Arial" textColor="0xFFE200" x="417" y="712" size="25"/>
+	<e:Label text="+100%" fontFamily="Arial" textColor="0xFFE200" x="407" y="636" size="25"/>
+	<e:Label text="+100%" fontFamily="Arial" textColor="0xFFE200" x="407" y="667" size="25"/>
+	<e:UIAsset source="元宝中" x="383" y="714"/></e:Skin>

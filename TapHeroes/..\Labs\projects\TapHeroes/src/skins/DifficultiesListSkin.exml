@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='utf-8'?><e:Skin xmlns:e="http://ns.egret-labs.org/egret" xmlns:w="http://ns.egret-labs.org/wing" width="640" height="1136">	<w:HostComponent name="egret.gui.SkinnableComponent"/>	<w:Declarations/>	<e:states>		<e:State name="normal"/>		<e:State name="disabled"/>	</e:states>	<e:UIAsset source="black_square" left="0" bottom="0" top="0" right="0" scale9Grid="2,2,12,12" alpha="0.8" x="10" y="10"/>	<e:UIAsset scale9Grid="84,20,79,217" y="10" source="difficulties_bg_png" left="11" right="10" top="116" bottom="118"/>	<e:UIAsset width="603" height="504" source="difficulties_light_png" horizontalCenter="-0.5" bottom="497"/>
+	<e:UIAsset width="255" height="83" source="difficulties_title_png" horizontalCenter="0.5" top="142"/>	<e:UIAsset scale9Grid="15,14,18,20" source="背弹框底" left="30" right="30" top="228" bottom="156"/>
+	<e:UIAsset source="叉" id="close_area" height="44" right="38" top="142"/>
+	<e:Scroller id="scroller_view" y="10" width="554" x="10" horizontalCenter="0" top="245" bottom="174">
+		<e:Group>
+			<e:layout>
+				<e:BasicLayout/>
+			</e:layout>
+			<e:Rect fillColor="0x000000" id="scroller_back" strokeWeight="0" bottom="0" right="0" left="0" top="0" alpha="0"/>
+		</e:Group>
+	</e:Scroller></e:Skin>

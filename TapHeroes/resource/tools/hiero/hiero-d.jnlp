@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp
+  spec="1.0+"
+  codebase="http://slick.cokeandcode.com/demos"
+  href="hiero.jnlp">
+  <information>
+    <title>Slick2D Hiero Bitmap Font Generator</title>
+    <vendor>Slick 2D</vendor>
+    <homepage href="http://slick.cokeandcode.com"/>
+    <description>Slick2D Hiero Bitmap Font Generator</description>
+    <description kind="short">Slick2D Hiero Bitmap Font Generator</description>
+    <icon href="icon.gif"/>
+  </information> 
+  <security>
+	<all-permissions/>
+  </security>
+  <resources>
+    <j2se href="http://java.sun.com/products/autodl/j2se" version="1.4+" max-heap-size="512m"/>
+    <jar href="hiero.jar"/>   
+    <jar href="slick.jar"/>
+    <jar href="lwjgl.jar"/>
+  </resources>  
+  <resources os="Windows">
+    <j2se href="http://java.sun.com/products/autodl/j2se" version="1.4+" max-heap-size="128m"/> 
+    <nativelib href="natives-win32.jar"/>      
+  </resources>  
+  <resources os="Linux">
+    <j2se href="http://java.sun.com/products/autodl/j2se" version="1.4+" max-heap-size="128m"/> 
+    <nativelib href="natives-linux.jar"/>      
+  </resources>
+  <resources os="Mac">
+    <j2se href="http://java.sun.com/products/autodl/j2se" version="1.4+" max-heap-size="128m"/> 
+    <nativelib href="natives-mac.jar"/>  
+  </resources>  
+  <application-desc main-class="org.newdawn.slick.tools.hiero.Hiero"/>
+</jnlp>

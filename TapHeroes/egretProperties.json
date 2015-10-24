@@ -1,0 +1,22 @@
+{
+	"document_class": "Main",
+	"modules": [
+		{
+			"name": "core"
+		},
+		{
+			"name": "gui"
+		},
+		{
+			"name": "dragonbones"
+		},
+		{
+			"name": "jweixin-1.0.0",
+			"path": "."
+		}
+	],
+	"native": {
+		"path_ignore": []
+	},
+	"egret_version": "1.5.1"
+}

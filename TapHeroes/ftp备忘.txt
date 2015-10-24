@@ -1,0 +1,9 @@
+服务器：42.121.81.171
+端口：8021
+
+user：tapheroes
+pw:tapheroes!@#$
+
+
+ftp软件可上art上下载FileZilla_3.10.0.1_win32-setup.exe
+64位系统亦可用

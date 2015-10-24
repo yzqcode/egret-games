@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin xmlns:e="http://ns.egret-labs.org/egret" xmlns:w="http://ns.egret-labs.org/wing" width="560" height="90">
+	<w:HostComponent name="egret.gui.SkinnableComponent"/>
+	<w:Declarations/>
+	<e:states>
+		<e:State name="normal"/>
+		<e:State name="disabled"/>
+	</e:states>
+	<e:UIAsset id="iconSkillPic" width="87" height="87" verticalCenter="-0.5" source="天将1_技能1" left="10"/>
+	<e:Label id="labelSkillName" text="???" textColor="16777215" width="448" verticalAlign="middle" height="38" left="108" verticalCenter="-21" fontFamily="Arial"/>
+	<e:Label id="labelSkillDesc" text="???" width="440" height="34" verticalAlign="middle" size="20" left="108" verticalCenter="17" fontFamily="Arial" textColor="54527"/>
+	<e:UIAsset id="iconLockMask" width="88" height="87" source="black_square" alpha="0.7" left="9" verticalCenter="-0.5"/>
+	<e:Label id="labelLockTitle" textColor="16777215" size="24" left="10" verticalCenter="-19.5" verticalAlign="middle" textAlign="center" width="85" maxDisplayedLines="1" text="解锁" fontFamily="Arial"/>
+	<e:Label id="labelLockHeader" textColor="0xFFFFFF" text="等级" size="15" left="23" verticalCenter="12" fontFamily="Arial"/>
+	<e:Label id="labelLockLevel" size="20" text="??" textColor="54527" left="60" verticalCenter="11.5" fontFamily="Arial"/>
+</e:Skin>
