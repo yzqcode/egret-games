@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin width="780" height="599" xmlns:e="http://ns.egret-labs.org/egret" xmlns:w="http://ns.egret-labs.org/wing">
+	<w:HostComponent name="egret.gui.SkinnableComponent"/>
+	<w:Declarations/>
+	<e:states>
+		<e:State name="normal"/>
+		<e:State name="disabled"/>
+	</e:states>
+	<e:Label id="label_player_name_1" width="94" height="28" x="4" textColor="0x000000" size="20" text="???" textAlign="center" y="181"/>
+	<e:Label id="label_player_money_1" textColor="0x000000" text="???" textAlign="center" size="20" width="94" height="28" x="4" y="203"/>
+	<e:Label id="label_player_name_2" textColor="0x000000" text="???" textAlign="center" size="20" width="94" height="28" x="4" y="328"/>
+	<e:Label id="label_player_money_2" height="28" textColor="0x000000" text="???" textAlign="center" size="20" width="94" x="4" y="350"/>
+	<e:Label id="label_player_name_3" height="28" textColor="0x000000" text="???" textAlign="center" size="20" width="94" x="4" y="492"/>
+	<e:Label id="label_player_money_3" textColor="0x000000" text="???" textAlign="center" size="20" width="94" height="28" x="4" y="514"/>
+	<e:UIAsset id="last_card_1" source="card_back_1_png" scaleX="0.7" scaleY="0.7" y="11" x="266"/>
+	<e:UIAsset id="last_card_2" scaleY="0.7" scaleX="0.7" source="card_back_1_png" y="11" x="337"/>
+	<e:Button id="btn_call_one_0" label="按钮" x="206" y="105" skinName="skins.BtnCall1Skin"/>
+	<e:UIAsset id="last_card_3" scaleY="0.7" source="card_back_1_png" scaleX="0.7" y="11" x="407"/>
+	<e:Button id="btn_call_two_0" label="按钮" x="282" y="105" skinName="skins.BtnCall2Skin"/>
+	<e:Button id="btn_call_three_0" label="按钮" x="359" y="105" skinName="skins.BtnCall3Skin"/>
+	<e:Button id="btn_no_call_0" label="按钮" x="432" y="105" skinName="skins.BtnCall0Skin"/>
+	<e:Button id="btn_call_one_1" label="按钮" skinName="skins.BtnCall1Skin" x="206" y="257"/>
+	<e:Button id="btn_call_two_1" label="按钮" skinName="skins.BtnCall2Skin" x="282" y="257"/>
+	<e:Button id="btn_call_three_1" label="按钮" skinName="skins.BtnCall3Skin" x="359" y="257"/>
+	<e:Button id="btn_no_call_1" label="按钮" skinName="skins.BtnCall0Skin" x="432" y="257"/>
+	<e:Button label="按钮" id="btn_call_one_2" skinName="skins.BtnCall1Skin" x="206" y="425"/>
+	<e:Button label="按钮" id="btn_call_two_2" skinName="skins.BtnCall2Skin" x="282" y="425"/>
+	<e:Button label="按钮" id="btn_call_three_2" skinName="skins.BtnCall3Skin" x="359" y="425"/>
+	<e:Button label="按钮" id="btn_no_call_2" skinName="skins.BtnCall0Skin" x="432" y="425"/>
+	<e:UIAsset id="landlord_0" source="landlord_png" x="684" y="173"/>
+	<e:UIAsset id="landlord_1" source="landlord_png" x="684" y="329"/>
+	<e:UIAsset id="landlord_2" source="landlord_png" x="688" y="496"/>
+	<e:Button id="btn_pass_0" label="按钮" x="230" y="105" skinName="skins.BtnPassSkin"/>
+	<e:Button id="btn_help_0" label="按钮" x="315" y="105" skinName="skins.BtnHelpSkin"/>
+	<e:Button id="btn_play_0" label="按钮" x="400" y="105" skinName="skins.BtnPlyaySkin"/>
+	<e:Button skinName="skins.BtnPassSkin" id="btn_pass_1" label="按钮" x="231" y="256"/>
+	<e:Button skinName="skins.BtnHelpSkin" id="btn_help_1" label="按钮" x="316" y="256"/>
+	<e:Button skinName="skins.BtnPlyaySkin" id="btn_play_1" label="按钮" x="401" y="256"/>
+	<e:Button skinName="skins.BtnPassSkin" id="btn_pass_2" label="按钮" x="231" y="424"/>
+	<e:Button skinName="skins.BtnHelpSkin" id="btn_help_2" label="按钮" x="316" y="424"/>
+	<e:Button skinName="skins.BtnPlyaySkin" id="btn_play_2" label="按钮" x="401" y="424"/>
+	<e:Button id="btn_restart" label="按钮" skinName="skins.BtnHelpSkin" x="331" y="34"/>
+</e:Skin>

@@ -1,0 +1,16 @@
+[
+	"skins/BtnCall1Skin.exml",
+	"skins/BtnCall2Skin.exml",
+	"Main.ts",
+	"skins/UIMainViewSkin.exml",
+	"Logic.ts",
+	"UIMainView.ts",
+	"AssetAdapter.ts",
+	"GameLayer.ts",
+	"LoadingUI.ts",
+	"skins/BtnCall0Skin.exml",
+	"skins/BtnCall3Skin.exml",
+	"skins/BtnHelpSkin.exml",
+	"skins/BtnPassSkin.exml",
+	"skins/BtnPlyaySkin.exml"
+]
