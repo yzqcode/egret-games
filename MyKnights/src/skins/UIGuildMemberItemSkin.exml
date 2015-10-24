@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin xmlns:e="http://ns.egret-labs.org/egret" xmlns:w="http://ns.egret-labs.org/wing" width="1021" height="55">
+	<w:HostComponent name="egret.gui.SkinnableComponent"/>
+	<w:Declarations/>
+	<e:states>
+		<e:State name="normal"/>
+		<e:State name="disabled"/>
+	</e:states>
+	<e:UIAsset width="235" height="50" x="0" y="0" source="chat_dialog_panel_png"/>
+	<e:UIAsset width="110" source="chat_dialog_panel_png" height="50" x="257" y="0"/>
+	<e:UIAsset height="50" width="110" source="chat_dialog_panel_png" x="379" y="0"/>
+	<e:UIAsset width="110" source="chat_dialog_panel_png" height="50" x="512" y="0"/>
+	<e:UIAsset height="50" width="230" source="chat_dialog_panel_png" x="637" y="0"/>
+	<e:Label id="label_name" width="204" height="41" textAlign="center" verticalAlign="middle" text="名字" size="25" fontFamily="Arial" x="12" y="5" textColor="0xFFF4CC"/>
+	<e:Label id="label_status" height="41" verticalAlign="middle" fontFamily="Arial" textAlign="center" size="25" width="204" x="651" y="5" text="副本中" textColor="0xFFF4CC"/>
+	<e:Label id="label_level" height="41" verticalAlign="middle" textAlign="center" width="80" size="25" fontFamily="Arial" text="Lv.?" x="528" y="5" textColor="0xFFF4CC"/>
+	<e:Label id="label_type" verticalAlign="middle" fontFamily="Arial" textAlign="center" size="25" width="84" height="41" text="职业" y="5" x="270" textColor="0xFFF4CC"/>
+	<e:Label id="label_position" height="41" verticalAlign="middle" fontFamily="Arial" textAlign="center" size="25" width="84" text="职位" y="5" x="393" textColor="0xFFF4CC"/>
+	<e:UIAsset source="chat_title_bg_png" x="874" y="4"/>
+	<e:UIAsset id="select_frame" scale9Grid="23,21,28,31" source="select_frame_png" height="54" width="872" x="-2" y="-2"/>
+	<e:UIAsset height="49" id="select_mask" source="black_round_square_png" width="872" alpha="0" scale9Grid="14,13,21,21" x="-2" y="-1"/>
+</e:Skin>

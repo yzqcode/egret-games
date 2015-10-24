@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin xmlns:e="http://ns.egret-labs.org/egret" xmlns:w="http://ns.egret-labs.org/wing">
+	<w:HostComponent name="egret.gui.Panel"/>
+	<w:Declarations/>
+	<e:states>
+		<e:State name="normal"/>
+		<e:State name="disabled"/>
+	</e:states>
+	<e:UIAsset source="black_round_square_png" scale9Grid="14,13,21,21" width="1136" height="874" alpha="0.5" horizontalCenter="0" verticalCenter="0"/>
+	<e:UIAsset source="dialog_title_bg_png" horizontalCenter="4.5" verticalCenter="-152"/>
+	<e:UIAsset source="chat_dialog_panel_2_jpg" width="453" height="327" horizontalCenter="1.5" verticalCenter="38.5"/>
+	<e:UIAsset width="456" height="332" source="send_msg_frame_png" scale9Grid="17,17,21,20" horizontalCenter="0" verticalCenter="39"/>
+	<e:UIAsset source="chat_dialog_panel_png" scale9Grid="24,24,28,28" width="386" height="275" horizontalCenter="1" verticalCenter="41.5"/>
+	<e:Label width="194" textAlign="center" verticalAlign="middle" textColor="0xF7EDBC" fontFamily="Arial" size="30" text="登录" horizontalCenter="3" verticalCenter="-158.5"/>
+	<e:UIAsset source="chat_content_panel_png" scale9Grid="10,8,10,13" width="229" height="44" horizontalCenter="30.5" verticalCenter="-44"/>
+	<e:UIAsset source="chat_content_panel_png" width="229" height="44" scale9Grid="10,8,10,13" horizontalCenter="30.5" verticalCenter="36"/>
+	<e:Button id="register_btn" skinName="skins.BtnRedSmallSkin" label="注册" verticalCenter="120" horizontalCenter="-64"/>
+	<e:Button id="ok_btn" skinName="skins.BtnYellowSmallSkin" label="确定" verticalCenter="120" horizontalCenter="74"/>
+	<e:Label text="账号" height="34" fontFamily="Arial" textAlign="center" verticalAlign="middle" textColor="0xF7EDBC" horizontalCenter="-122" verticalCenter="-45"/>
+	<e:Label text="密码" height="34" fontFamily="Arial" textAlign="center" verticalAlign="middle" horizontalCenter="-124" verticalCenter="35" textColor="0xF7EDBC"/>
+	<e:EditableText id="input_id" height="35" width="218" textColor="0x050404" displayAsPassword="false" horizontalCenter="30" verticalCenter="-42.5"/>
+	<e:EditableText id="input_password" width="218" height="35" horizontalCenter="30" verticalCenter="37.5" textColor="0x050404" displayAsPassword="true"/>
+	<e:UIAsset id="close_btn" source="close_png" horizontalCenter="190.5" verticalCenter="-88.5"/>
+</e:Skin>

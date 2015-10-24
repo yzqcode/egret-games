@@ -1,0 +1,90 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin width="1136" height="874" xmlns:e="http://ns.egret-labs.org/egret" xmlns:w="http://ns.egret-labs.org/wing" xmlns:ns1="*">
+	<w:HostComponent name="egret.gui.SkinnableComponent"/>
+	<w:Declarations/>
+	<e:states>
+		<e:State name="normal"/>
+		<e:State name="disabled"/>
+	</e:states>
+	<e:UIAsset horizontalCenter="0" width="1136" verticalCenter="0" height="874" x="10" y="10" source="home_bg_jpg"/>
+	<e:UIAsset verticalCenter="0" width="1098" horizontalCenter="0" source="chat_dialog_panel_2_jpg" height="415" x="10" y="10"/>
+	<e:UIAsset width="1136" source="chat_dialog_frame_png" scale9Grid="50,53,49,45" verticalCenter="0" horizontalCenter="0" height="450" x="10" y="10"/>
+	<e:UIAsset width="230" source="chat_dialog_panel_png" scale9Grid="24,24,28,28" height="310" verticalCenter="-45" horizontalCenter="-2"/>
+	<e:UIAsset source="chat_dialog_panel_png" height="400" width="200" scale9Grid="24,24,28,28" x="10" y="10" horizontalCenter="222" verticalCenter="0"/>
+	<e:UIAsset scale9Grid="24,24,28,28" source="chat_dialog_panel_png" height="400" width="265" verticalCenter="0" horizontalCenter="-259.5"/>
+	<e:UIAsset id="pos_bg_0" source="chat_dialog_panel_png" height="80" width="120" scale9Grid="24,24,28,28" horizontalCenter="-464" verticalCenter="-162"/>
+	<e:UIAsset id="pos_platform_0" source="on_position_bg_png" width="99" height="41" horizontalCenter="-463.5" verticalCenter="-147.5"/>
+	<e:UIAsset id="icon_head_pos_0" source="head_nor_1_png" width="69" height="58" horizontalCenter="-464.5" verticalCenter="-174"/>
+	<e:Label id="label_level_pos_0" height="14" italic="true" textColor="0x000000" text="Lv.9" touchEnabled="false" width="92" fontFamily="Arial" textAlign="center" bold="true" size="10" horizontalCenter="-464" verticalCenter="-137"/>
+	<e:UIAsset id="left_color_icon_pos_0" source="color_1_png" height="8" width="8" horizontalCenter="-498" verticalCenter="-137"/>
+	<e:UIAsset id="right_color_icon_pos_0" source="color_1_png" height="8" width="8" horizontalCenter="-428" verticalCenter="-137"/>
+	<e:UIAsset id="select_frame_0" source="select_frame_png" scale9Grid="23,21,28,31" width="123" height="82" horizontalCenter="-463.5" verticalCenter="-162"/>
+	<e:UIAsset id="pos_mask_0" source="black_round_square_png" height="79" width="120" alpha="0" scale9Grid="14,13,21,21" horizontalCenter="-464" verticalCenter="-161.5"/>
+	<e:UIAsset scale9Grid="24,24,28,28" id="pos_bg_1" source="chat_dialog_panel_png" width="120" height="80" verticalCenter="-81" horizontalCenter="-464"/>
+	<e:UIAsset id="pos_platform_1" source="on_position_bg_png" width="99" height="41" x="10" y="10" horizontalCenter="-463.5" verticalCenter="-66.5"/>
+	<e:UIAsset id="icon_head_pos_1" source="head_nor_1_png" width="69" height="58" x="10" y="10" horizontalCenter="-464.5" verticalCenter="-93"/>
+	<e:Label italic="true" textColor="0x000000" text="Lv.9" fontFamily="Arial" touchEnabled="false" width="92" height="14" size="10" id="label_level_pos_1" textAlign="center" bold="true" x="10" y="10" horizontalCenter="-464" verticalCenter="-56"/>
+	<e:UIAsset id="left_color_icon_pos_1" source="color_1_png" width="8" height="8" x="10" y="10" horizontalCenter="-498" verticalCenter="-56"/>
+	<e:UIAsset id="right_color_icon_pos_1" source="color_1_png" width="8" height="8" x="10" y="10" horizontalCenter="-428" verticalCenter="-56"/>
+	<e:UIAsset height="82" id="select_frame_1" source="select_frame_png" width="123" scale9Grid="23,21,28,31" x="10" y="10" horizontalCenter="-463.5" verticalCenter="-81"/>
+	<e:UIAsset scale9Grid="14,13,21,21" id="pos_mask_1" source="black_round_square_png" width="120" alpha="0" height="79" x="10" y="10" horizontalCenter="-464" verticalCenter="-80.5"/>
+	<e:UIAsset scale9Grid="24,24,28,28" height="80" source="chat_dialog_panel_png" id="pos_bg_2" width="120" x="20" y="20" horizontalCenter="-464" verticalCenter="0"/>
+	<e:UIAsset height="41" source="on_position_bg_png" id="pos_platform_2" width="99" x="20" y="20" horizontalCenter="-463.5" verticalCenter="14.5"/>
+	<e:UIAsset height="58" source="head_nor_1_png" id="icon_head_pos_2" width="69" x="20" y="20" horizontalCenter="-464.5" verticalCenter="-12"/>
+	<e:Label italic="true" textColor="0x000000" text="Lv.9" fontFamily="Arial" touchEnabled="false" width="92" height="14" size="10" textAlign="center" id="label_level_pos_2" bold="true" x="20" y="20" horizontalCenter="-464" verticalCenter="25"/>
+	<e:UIAsset height="8" source="color_1_png" id="left_color_icon_pos_2" width="8" x="20" y="20" horizontalCenter="-498" verticalCenter="25"/>
+	<e:UIAsset height="8" source="color_1_png" id="right_color_icon_pos_2" width="8" x="20" y="20" horizontalCenter="-428" verticalCenter="25"/>
+	<e:UIAsset height="82" scale9Grid="23,21,28,31" source="select_frame_png" id="select_frame_2" width="123" x="20" y="20" horizontalCenter="-463.5" verticalCenter="0"/>
+	<e:UIAsset scale9Grid="14,13,21,21" height="79" source="black_round_square_png" id="pos_mask_2" width="120" alpha="0" x="20" y="20" horizontalCenter="-464" verticalCenter="0.5"/>
+	<e:UIAsset height="80" source="chat_dialog_panel_png" id="pos_bg_3" width="120" scale9Grid="24,24,28,28" x="30" y="30" horizontalCenter="-464" verticalCenter="82"/>
+	<e:UIAsset source="on_position_bg_png" id="pos_platform_3" width="99" height="41" x="30" y="30" horizontalCenter="-463.5" verticalCenter="96.5"/>
+	<e:UIAsset source="head_nor_1_png" id="icon_head_pos_3" width="69" height="58" x="30" y="30" horizontalCenter="-464.5" verticalCenter="70"/>
+	<e:Label italic="true" textColor="0x000000" text="Lv.9" fontFamily="Arial" size="10" width="92" id="label_level_pos_3" height="14" touchEnabled="false" textAlign="center" bold="true" x="30" y="30" horizontalCenter="-464" verticalCenter="107"/>
+	<e:UIAsset source="color_1_png" id="left_color_icon_pos_3" width="8" height="8" x="30" y="30" horizontalCenter="-498" verticalCenter="107"/>
+	<e:UIAsset source="color_1_png" id="right_color_icon_pos_3" width="8" height="8" x="30" y="30" horizontalCenter="-428" verticalCenter="107"/>
+	<e:UIAsset scale9Grid="23,21,28,31" source="select_frame_png" id="select_frame_3" width="123" height="82" x="30" y="30" horizontalCenter="-463.5" verticalCenter="82"/>
+	<e:UIAsset height="79" source="black_round_square_png" id="pos_mask_3" width="120" alpha="0" scale9Grid="14,13,21,21" x="30" y="30" horizontalCenter="-464" verticalCenter="82.5"/>
+	<e:UIAsset scale9Grid="24,24,28,28" source="chat_dialog_panel_png" id="pos_bg_4" width="120" height="80" x="40" y="40" horizontalCenter="-464" verticalCenter="164"/>
+	<e:UIAsset height="41" source="on_position_bg_png" id="pos_platform_4" width="99" x="40" y="40" horizontalCenter="-463.5" verticalCenter="178.5"/>
+	<e:UIAsset height="58" source="head_nor_1_png" id="icon_head_pos_4" width="69" x="40" y="40" horizontalCenter="-464.5" verticalCenter="152"/>
+	<e:Label italic="true" textColor="0x000000" text="Lv.9" fontFamily="Arial" size="10" width="92" height="14" touchEnabled="false" id="label_level_pos_4" textAlign="center" bold="true" x="40" y="40" horizontalCenter="-464" verticalCenter="189"/>
+	<e:UIAsset height="8" source="color_1_png" id="left_color_icon_pos_4" width="8" x="40" y="40" horizontalCenter="-498" verticalCenter="189"/>
+	<e:UIAsset height="8" source="color_1_png" id="right_color_icon_pos_4" width="8" x="40" y="40" horizontalCenter="-428" verticalCenter="189"/>
+	<e:UIAsset height="82" source="select_frame_png" id="select_frame_4" width="123" scale9Grid="23,21,28,31" x="40" y="40" horizontalCenter="-463.5" verticalCenter="164"/>
+	<e:UIAsset scale9Grid="14,13,21,21" source="black_round_square_png" id="pos_mask_4" width="120" alpha="0" height="79" x="40" y="40" horizontalCenter="-464" verticalCenter="164.5"/>
+	<e:Button id="btn_enter_team" enabled="true" y="10" skinName="skins.BtnYellowSmallSkin" horizontalCenter="59" verticalCenter="154" label="上阵"/>
+	<e:Button id="btn_dismiss" enabled="true" skinName="skins.BtnRedSmallSkin" verticalCenter="155" horizontalCenter="-59" label="解雇"/>
+	<e:Button id="btn_exit_team" enabled="true" y="20" skinName="skins.BtnBlueSmallSkin" horizontalCenter="0" verticalCenter="154" label="下阵"/>
+	<e:UIAsset id="icon_name_frame_bg" source="color_frame_6_png" horizontalCenter="-262" verticalCenter="-163.5"/>
+	<e:Label id="label_name" textColor="0x000000" fontFamily="Arial" touchEnabled="false" verticalAlign="middle" width="129" height="34" textAlign="center" x="10" y="50" horizontalCenter="-260.5" verticalCenter="-161" text="我是一个大帅哥" size="15"/>
+	<e:Label fontFamily="Arial" touchEnabled="false" width="129" verticalAlign="middle" height="34" textAlign="center" x="20" y="60" size="30" text="基本信息" textColor="0xFDD00A" horizontalCenter="1.5" verticalCenter="-170"/>
+	<e:Label textColor="0xFDD00A" fontFamily="Arial" touchEnabled="false" size="30" width="129" verticalAlign="middle" height="34" textAlign="center" x="30" y="70" text="特殊技能" horizontalCenter="221.5" verticalCenter="-170"/>
+	<e:UIAsset id="icon_body_frame_bg" x="10" y="10" width="341" height="485" horizontalCenter="-259" verticalCenter="24.5" source="color_big_frame_6_png" scaleX="0.7" scaleY="0.7"/>
+	<e:UIAsset id="icon_body" source="knight_1_png" scaleX="0.7" scaleY="0.7" horizontalCenter="-259" verticalCenter="24.5"/>
+	<e:UIAsset id="icon_body_mask" scaleY="0.7" verticalCenter="24.5" horizontalCenter="-259" scaleX="0.7" x="10" y="10" source="red_mask_1_png"/>
+	<e:UIAsset source="attack_png" horizontalCenter="-76" verticalCenter="-113.5"/>
+	<e:UIAsset source="def_png" horizontalCenter="-75.5" verticalCenter="-54.5"/>
+	<e:UIAsset source="exp_png" horizontalCenter="-73.5" verticalCenter="61.5"/>
+	<e:UIAsset source="heart_png" horizontalCenter="-75" verticalCenter="6.5"/>
+	<e:UIAsset id="icon_atk_frame_bg" x="10" y="10" source="color_value_panel_5_png" horizontalCenter="18" width="132" verticalCenter="-116" height="40"/>
+	<e:Label id="label_atk_num" textColor="0x000000" fontFamily="Arial" touchEnabled="false" width="117" verticalAlign="middle" height="34" textAlign="center" x="20" y="60" size="25" text="1234" horizontalCenter="17.5" verticalCenter="-117"/>
+	<e:UIAsset id="icon_def_frame_bg" x="20" y="20" horizontalCenter="19" verticalCenter="-54.5" source="color_value_panel_5_png" width="132" height="40"/>
+	<e:Label id="label_def_num" textColor="0x000000" text="1234" fontFamily="Arial" touchEnabled="false" verticalAlign="middle" width="117" height="34" size="25" textAlign="center" x="30" y="70" horizontalCenter="17.5" verticalCenter="-55"/>
+	<e:UIAsset id="icon_hp_frame_bg" x="30" y="30" horizontalCenter="19" verticalCenter="7.5" source="color_value_panel_5_png" width="132" height="40"/>
+	<e:Label id="label_hp_num" textColor="0x000000" text="1234" fontFamily="Arial" touchEnabled="false" size="25" width="117" verticalAlign="middle" height="34" textAlign="center" x="40" y="80" horizontalCenter="17.5" verticalCenter="7"/>
+	<e:UIAsset source="exp_bar_frame_png" scale9Grid="10,7,26,1" width="100" horizontalCenter="3" verticalCenter="61.5"/>
+	<e:Label id="label_exp_percent" height="34" fontFamily="Arial" touchEnabled="false" verticalAlign="middle" width="62" textAlign="center" x="619" y="40" verticalCenter="62" text="99.9%" textColor="0x22FF48" size="18"/>
+	<e:UIAsset id="icon_exp_bar" source="exp_bar_png" scale9Grid="9,7,29,1" horizontalCenter="4" verticalCenter="61.5" width="100"/>
+	<e:Button id="btn_increase_team" enabled="true" y="30" verticalCenter="157" skinName="skins.BtnGreenLargeSkin" horizontalCenter="433.5"/>
+	<e:Scroller id="skill_list" width="185" height="324" verticalCenter="17" horizontalCenter="222.5">
+		<e:Group>
+		</e:Group>
+	</e:Scroller>
+	<e:Scroller id="knights_list" height="310" width="210" x="10" horizontalCenter="433" verticalCenter="-39">
+		<e:Group/>
+	</e:Scroller>
+	<e:Label id="label_pos_status" textAlign="center" verticalAlign="middle" fontFamily="Arial" touchEnabled="false" width="94" height="36" textColor="0x000000" size="20" text="100/123" verticalCenter="156" horizontalCenter="437"/>
+	<e:UIAsset source="add_icon_png" touchEnabled="false" horizontalCenter="497.5" verticalCenter="155.5"/>
+	<e:UIAsset source="lv_top_png" horizontalCenter="-159" verticalCenter="161.5"/>
+	<e:Label id="label_level" fontFamily="Arial" touchEnabled="false" verticalAlign="middle" width="32" height="36" size="20" textAlign="center" x="10" y="10" textColor="0xF7EDBC" text="9" horizontalCenter="-159" verticalCenter="169"/>
+</e:Skin>

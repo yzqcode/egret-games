@@ -1,0 +1,3 @@
+echo "=========== publish"
+
+egret publish

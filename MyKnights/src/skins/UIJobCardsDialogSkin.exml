@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin width="1136" height="874" xmlns:e="http://ns.egret-labs.org/egret" xmlns:w="http://ns.egret-labs.org/wing">
+	<w:HostComponent name="egret.gui.SkinnableComponent"/>
+	<w:Declarations/>
+	<e:states>
+		<e:State name="normal"/>
+		<e:State name="disabled"/>
+	</e:states>
+	<e:UIAsset source="black_round_square_png" scale9Grid="14,13,21,21" alpha="0.3" width="1136" height="874" verticalCenter="0" horizontalCenter="0"/>
+	<e:UIAsset source="special_detail_bg_png" horizontalCenter="0" verticalCenter="0" scaleX="1.4" scaleY="1.4"/>
+	<e:UIAsset source="yellow_panel_png" scale9Grid="11,10,15,16" width="914" height="300" horizontalCenter="0" verticalCenter="-24"/>
+	<e:Scroller id="cards_list" width="914" height="300" touchEnabled="true" horizontalCenter="0" verticalCenter="-24">
+		<e:Group touchEnabled="true">
+		</e:Group>
+	</e:Scroller>
+	<e:UIAsset id="close_icon" source="close_png" horizontalCenter="471.5" verticalCenter="-187.5"/>
+	<e:UIAsset source="chat_title_png" horizontalCenter="0" verticalCenter="-232.5"/>
+	<e:Label width="191" height="40" textAlign="center" verticalAlign="middle" fontFamily="Arial" textColor="0x070606" bold="true" horizontalCenter="0.5" verticalCenter="-238" text="选择转职卡"/>
+	<e:Button id="btn_sell" enabled="true" skinName="skins.BtnRedSmallSkin" verticalCenter="166" label="贩卖" horizontalCenter="80"/>
+	<e:Button id="btn_use" enabled="true" verticalCenter="166" x="10" y="10" label="使用" skinName="skins.BtnBlueSmallSkin" horizontalCenter="-80"/>
+</e:Skin>

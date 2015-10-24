@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin width="1136" height="874" xmlns:e="http://ns.egret-labs.org/egret" xmlns:w="http://ns.egret-labs.org/wing">
+	<w:HostComponent name="egret.gui.SkinnableComponent"/>
+	<w:Declarations/>
+	<e:states>
+		<e:State name="normal"/>
+		<e:State name="disabled"/>
+	</e:states>
+	<e:UIAsset id="loading_bg" width="1136" height="874" source="loading_bg_jpg" verticalCenter="0" horizontalCenter="0"/>
+	<e:Label verticalAlign="middle" textAlign="center" id="label_progress" width="677" height="55" x="10" text="读取中" textColor="0xF7EDBC" horizontalCenter="0.5" bottom="21"/>
+	<e:UIAsset id="logo" source="logo_png" horizontalCenter="13.5" verticalCenter="-146.5"/>
+	<e:Button id="btn_start_game" label="开始游戏" skinName="skins.BtnBlueLargeSkin" horizontalCenter="10.5" verticalCenter="52"/>
+	<e:Button id="btn_show_server_list" left="20" bottom="20" skinName="skins.BtnYellowLargeSkin"/>
+	<e:Button id="btn_switch_user" y="10" bottom="20" right="20" width="209" label="切换账号" skinName="skins.BtnYellowLargeSkin"/>
+	<e:Label id="label_server_desc" text="默认服务器" width="172" fontFamily="Arial" touchEnabled="false" left="35" bottom="31" height="35" textAlign="center" verticalAlign="middle" textColor="0x000000" size="25"/>
+</e:Skin>

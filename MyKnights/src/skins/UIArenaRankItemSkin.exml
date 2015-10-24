@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin xmlns:e="http://ns.egret-labs.org/egret" xmlns:w="http://ns.egret-labs.org/wing" width="768" height="68">
+	<w:HostComponent name="egret.gui.SkinnableComponent"/>
+	<w:Declarations/>
+	<e:states>
+		<e:State name="normal"/>
+		<e:State name="disabled"/>
+	</e:states>
+	<e:UIAsset source="yellow_panel_png" scale9Grid="11,10,15,16" x="0" width="76" height="56" y="6"/>
+	<e:UIAsset source="yellow_panel_png" scale9Grid="11,10,15,16" x="83" width="237" height="56" y="6"/>
+	<e:UIAsset source="yellow_panel_png" scale9Grid="11,10,15,16" x="327" width="237" height="56" y="6"/>
+	<e:UIAsset source="yellow_panel_png" scale9Grid="11,10,15,16" x="571" height="56" width="77" y="6"/>
+	<e:Label id="label_ranking" height="40" text="排名" textColor="0x040303" x="5" textAlign="center" verticalAlign="middle" fontFamily="Arial" width="66" y="17"/>
+	<e:Label id="label_name" width="225" height="40" textAlign="center" verticalAlign="middle" text="名字" textColor="0x030202" x="89" fontFamily="Arial" y="17"/>
+	<e:Label id="label_guild" text="骑士团" width="227" height="40" textAlign="center" verticalAlign="middle" textColor="0x050404" x="332" fontFamily="Arial" y="17"/>
+	<e:Label id="label_score" height="40" text="积分" width="77" textColor="0x040303" x="571" textAlign="center" verticalAlign="middle" fontFamily="Arial" y="16"/>
+	<e:Button id="btn_look" height="67" width="112" skinName="skins.BtnYellowSmallSkin" label="查看" x="655" y="-1"/>
+</e:Skin>

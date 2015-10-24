@@ -1,0 +1,82 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin width="1136" height="874" xmlns:e="http://ns.egret-labs.org/egret" xmlns:w="http://ns.egret-labs.org/wing">
+	<w:HostComponent name="egret.gui.SkinnableComponent"/>
+	<w:Declarations/>
+	<e:states>
+		<e:State name="normal"/>
+		<e:State name="disabled"/>
+	</e:states>
+	<e:UIAsset width="1136" height="874" source="home_bg_jpg" verticalCenter="0" horizontalCenter="0"/>
+	<e:UIAsset source="black_round_square_png" scale9Grid="14,13,21,21" width="1136" height="874" alpha="0.3" horizontalCenter="1" verticalCenter="0"/>
+	<e:UIAsset source="chat_dialog_panel_2_jpg" width="1009" height="400" verticalCenter="0" horizontalCenter="0"/>
+	<e:UIAsset source="chat_dialog_frame_png" scale9Grid="50,53,49,45" width="1039" height="430" verticalCenter="0" horizontalCenter="0"/>
+	<e:Group id="noMove_group" height="472" width="1017" verticalCenter="0" horizontalCenter="0"/>
+	<e:Group id="ten_group" height="472" width="1017" x="60" y="201">
+		<e:UIAsset source="special_detail_bg_png" width="892" height="392" y="40" x="63"/>
+		<e:UIAsset source="chat_title_png" bold="true" y="0" x="332"/>
+		<e:Label textColor="0x000000" fontFamily="Arial" bold="true" touchEnabled="false" size="35" verticalAlign="middle" textAlign="center" width="255" height="60" y="14" text="十大骑士排名" x="382"/>
+		<e:UIAsset source="pin_png" scaleX="-1" y="41" x="112"/>
+		<e:UIAsset source="pin_png" y="39" x="915"/>
+		<e:UIAsset source="black_round_square_png" scale9Grid="14,13,21,21" width="768" height="40" alpha="0.8" y="97" x="119"/>
+		<e:Label text="排名" y="100" x="135"/>
+		<e:Label text="名字" y="100" x="260"/>
+		<e:Label text="所在骑士团" y="100" x="420"/>
+		<e:Label x="617" y="100" text="段位"/>
+		<e:Label text="积分" x="699" y="100"/>
+		<e:Scroller id="ten_rank_scroller" width="768" height="259" y="140" x="118">
+			<e:Group/>
+		</e:Scroller>
+		<e:UIAsset id="bronze_btn" source="arrow_png" y="156" x="6"/>
+	</e:Group>
+	<e:Group id="bronze_group" height="472" width="1017" y="201" x="60">
+		<e:UIAsset source="special_detail_bg_png" width="892" height="392" x="63" y="40"/>
+		<e:UIAsset source="chat_title_png" bold="true" x="332" y="0"/>
+		<e:Label id="rank_area_label" textColor="0x000000" fontFamily="Arial" bold="true" touchEnabled="false" verticalAlign="middle" textAlign="center" width="255" height="60" x="382" y="14" size="35"/>
+		<e:UIAsset source="pin_png" scaleX="-1" x="112" y="41"/>
+		<e:UIAsset source="pin_png" x="915" y="39"/>
+		<e:UIAsset source="black_round_square_png" scale9Grid="14,13,21,21" x="119" y="97" width="768" height="40" alpha="0.8"/>
+		<e:Label text="排名" y="100" x="132"/>
+		<e:Label y="100" text="名字" x="291"/>
+		<e:Label x="489" y="100" text="所在骑士团"/>
+		<e:Label y="100" text="积分" x="701"/>
+		<e:Scroller id="bronze_rank_scroller" width="768" height="259" x="119" y="140">
+			<e:Group width="768" height="259"/>
+		</e:Scroller>
+		<e:UIAsset id="player_btn" source="arrow_png" y="156" x="6"/>
+		<e:UIAsset id="ten_btn" source="arrow_png" scaleX="-1" y="156" x="1007"/>
+	</e:Group>
+	<e:Group id="player_group" height="472" width="1017" y="201" x="60">
+		<e:UIAsset source="special_detail_bg_png" width="892" height="392" y="40" x="63"/>
+		<e:UIAsset source="black_round_square_png" scale9Grid="14,13,21,21" width="255" height="40" alpha="0.8" x="353" y="201"/>
+		<e:Label width="217" height="38" touchEnabled="false" verticalAlign="middle" textAlign="center" textColor="0xCDC8C8" size="24" text="段位积分" fontFamily="Arial" x="374" y="204"/>
+		<e:UIAsset source="yellow_panel_png" scale9Grid="11,10,15,16" width="255" height="56" x="353" y="246"/>
+		<e:Label id="label_rank_score" text="???" fontFamily="Arial" touchEnabled="false" width="217" height="52" size="30" verticalAlign="middle" textAlign="center" textColor="0x000000" x="373" y="252"/>
+		<e:UIAsset source="black_round_square_png" scale9Grid="14,13,21,21" width="255" height="40" alpha="0.8" x="353" y="307"/>
+		<e:Label height="40" fontFamily="Arial" touchEnabled="false" width="217" textAlign="center" verticalAlign="middle" textColor="0xDCD5D5" size="24" text="今日奖励荣誉值" x="374" y="309"/>
+		<e:UIAsset source="yellow_panel_png" scale9Grid="11,10,15,16" width="255" height="56" x="353" y="350"/>
+		<e:Label id="label_honer_award" height="52" text="???" fontFamily="Arial" size="30" width="217" touchEnabled="false" textAlign="center" verticalAlign="middle" textColor="0x000000" x="373" y="357"/>
+		<e:Button id="match_btn" enabled="true" height="69" skinName="skins.BtnRedLargeSkin" label="匹配对手" bold="true" x="664" y="328"/>
+		<e:UIAsset source="black_round_square_png" scale9Grid="14,13,21,21" width="255" height="40" alpha="0.8" x="353" y="96"/>
+		<e:Label fontFamily="Arial" width="217" height="38" verticalAlign="middle" textAlign="center" touchEnabled="false" text="世界排名" size="24" textColor="0xCDC8C8" x="372" y="99"/>
+		<e:UIAsset source="yellow_panel_png" scale9Grid="11,10,15,16" width="255" height="56" y="139" x="353"/>
+		<e:Label id="label_world_rank" height="52" touchEnabled="false" fontFamily="Arial" size="30" width="217" verticalAlign="middle" textAlign="center" text="???" textColor="0x000000" x="371" y="144"/>
+		<e:UIAsset source="black_round_square_png" scale9Grid="14,13,21,21" width="255" height="40" alpha="0.8" x="633" y="201"/>
+		<e:Label height="38" touchEnabled="false" fontFamily="Arial" width="217" verticalAlign="middle" textAlign="center" textColor="0xDFD8D8" size="24" text="入场券" x="653" y="205"/>
+		<e:UIAsset source="yellow_panel_png" scale9Grid="11,10,15,16" width="255" height="56" x="633" y="246"/>
+		<e:Label id="label_match_times" height="52" text="???" fontFamily="Arial" size="30" width="217" touchEnabled="false" textAlign="center" verticalAlign="middle" textColor="0x000000" x="653" y="252"/>
+		<e:UIAsset source="black_round_square_png" scale9Grid="14,13,21,21" width="255" height="40" alpha="0.8" x="633" y="96"/>
+		<e:Label height="38" fontFamily="Arial" width="217" touchEnabled="false" textAlign="center" verticalAlign="middle" textColor="0xCDC8C8" size="24" text="当前段位" x="653" y="99"/>
+		<e:UIAsset source="yellow_panel_png" scale9Grid="11,10,15,16" width="255" height="56" x="633" y="139"/>
+		<e:Label id="label_rank_title" text="???" fontFamily="Arial" touchEnabled="false" width="217" height="52" size="30" verticalAlign="middle" textAlign="center" textColor="0x000000" x="653" y="143"/>
+		<e:UIAsset id="view_rank_btn" source="arrow_png" scaleX="-1" x="1007" y="156"/>
+		<e:UIAsset source="chat_title_png" bold="true" x="332" y="0"/>
+		<e:Label height="60" touchEnabled="false" fontFamily="Arial" width="217" verticalAlign="middle" textColor="0x000000" text="竞技场" textAlign="center" bold="true" size="35" x="400" y="14"/>
+		<e:UIAsset source="color_big_frame_6_png" width="229" height="330" x="111" y="81"/>
+		<e:UIAsset source="knight_1_png" height="423" id="icon_body" scaleX="0.7" width="292" scaleY="0.7" x="123" y="97"/>
+		<e:UIAsset source="red_mask_1_png" height="423" id="icon_body_mask" scaleX="0.7" width="292" scaleY="0.7" x="123" y="97"/>
+		<e:UIAsset source="color_frame_6_png" x="154" y="65"/>
+		<e:Label id="player_name_label" width="110" textAlign="center" verticalAlign="middle" size="24" textColor="0x0B0A0A" height="30" x="170" y="80"/>
+		<e:UIAsset source="pin_png" scaleX="-1" x="112" y="41"/>
+		<e:UIAsset source="pin_png" x="915" y="39"/>
+	</e:Group>
+</e:Skin>

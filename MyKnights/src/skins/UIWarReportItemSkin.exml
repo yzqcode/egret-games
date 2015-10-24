@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin width="780" height="340" xmlns:e="http://ns.egret-labs.org/egret" xmlns:w="http://ns.egret-labs.org/wing">
+	<w:HostComponent name="egret.gui.SkinnableComponent"/>
+	<w:Declarations/>
+	<e:states>
+		<e:State name="normal"/>
+		<e:State name="disabled"/>
+	</e:states>
+	<e:UIAsset source="special_detail_bg_png" x="-2" y="0"/>
+	<e:Button id="btn_goto" x="286" y="245" skinName="skins.BtnGreenLargeSkin" label="前往"/>
+	<e:Button id="btn_get_award" skinName="skins.BtnGreenLargeSkin" x="286" y="245" label="领取奖励"/>
+	<e:UIAsset height="100" width="660" bold="true" scale9Grid="11,10,15,16" source="yellow_panel_png" x="60" y="83"/>
+	<e:UIAsset scale9Grid="14,13,21,21" source="black_round_square_png" width="660" height="50" x="60" y="190"/>
+	<e:Label verticalAlign="middle" text="难度:" fontFamily="Arial" size="25" textColor="0xF7EDBC" width="70" height="29" textAlign="center" x="70" y="198"/>
+	<e:Label height="29" verticalAlign="middle" text="经验:" fontFamily="Arial" size="25" textColor="0xF7EDBC" width="70" textAlign="center" x="292" y="198"/>
+	<e:Label height="29" verticalAlign="middle" text="金钱:" fontFamily="Arial" size="25" textColor="0xF7EDBC" width="70" textAlign="center" x="523" y="198"/>
+	<e:Label height="29" verticalAlign="middle" text="危险" fontFamily="Arial" size="25" textColor="0xF7EDBC" width="70" id="label_difficulty_des" textAlign="left" x="192" y="198"/>
+	<e:Label height="29" verticalAlign="middle" text="0" fontFamily="Arial" size="25" textColor="0xF7EDBC" width="72" id="label_money_award" textAlign="left" x="637" y="198"/>
+	<e:Label height="29" verticalAlign="middle" text="0" fontFamily="Arial" size="25" textColor="0xF7EDBC" width="80" id="label_exp_award" textAlign="left" x="414" y="198"/>
+	<e:UIAsset source="battle_png" x="139" y="192"/>
+	<e:UIAsset source="exp_png" x="363" y="198"/>
+	<e:UIAsset source="gold_icon_png" x="596" y="196"/>
+	<e:Label height="47" verticalAlign="middle" text="龙德广场" fontFamily="Arial" width="284" id="label_city_name" textAlign="center" x="242" y="31" textColor="0x000000" size="30"/>
+	<e:Label id="label_city_desc" height="84" verticalAlign="middle" fontFamily="Arial" textColor="0x000000" width="513" x="191" y="91" size="25" textAlign="left" text="龙德广场是宇宙中心，对不？"/>
+	<e:Label id="label_status" verticalAlign="middle" fontFamily="Arial" textAlign="center" size="25" width="191" height="47" x="531" y="31" textColor="0xFA000A" text="被攻打中"/>
+	<e:Label verticalAlign="middle" fontFamily="Arial" width="60" height="29" textAlign="center" size="25" text="消耗" textColor="0xFA000A" x="69" y="264"/>
+	<e:Label id="label_index" verticalAlign="middle" fontFamily="Arial" width="72" height="29" x="669" y="287" textColor="0x000000" size="20" textAlign="right" text="20/20"/>
+	<e:Label verticalAlign="middle" text="0" fontFamily="Arial" width="48" height="29" id="label_stamina_fee" textAlign="center" size="25" textColor="0xFA000A" x="174" y="263"/>
+	<e:UIAsset source="stamina_icon_png" x="133" y="257"/>
+	<e:UIAsset source="pin_png" x="748" y="0"/>
+	<e:UIAsset source="pin_png" scaleX="-1" x="31" y="-2"/>
+	<e:UIAsset id="icon_city" scaleX="0.8" scaleY="0.8" x="72" y="91" source="rand_building_1_png"/>
+	<e:UIAsset id="icon_finish" source="mission_complete_png" rotation="-15" y="63" x="-7"/>
+</e:Skin>

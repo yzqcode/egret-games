@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin xmlns:e="http://ns.egret-labs.org/egret" xmlns:w="http://ns.egret-labs.org/wing" width="900" height="65">
+	<w:HostComponent name="egret.gui.SkinnableComponent"/>
+	<w:Declarations/>
+	<e:states>
+		<e:State name="normal"/>
+		<e:State name="disabled"/>
+	</e:states>
+	<e:Button id="join_btn" skinName="skins.BtnBlueSmallSkin" y="-2" x="788" height="66" label="加入"/>
+	<e:UIAsset source="chat_dialog_panel_png" scale9Grid="24,24,28,28" x="0" y="5" width="255" height="55"/>
+	<e:UIAsset source="chat_dialog_panel_png" scale9Grid="24,24,28,28" width="120" height="55" y="5" x="276"/>
+	<e:UIAsset source="chat_dialog_panel_png" scale9Grid="24,24,28,28" height="55" width="129" y="5" x="416"/>
+	<e:UIAsset source="chat_dialog_panel_png" scale9Grid="24,24,28,28" y="5" width="207" height="55" x="564"/>
+	<e:Label id="captain_name" x="10" y="18" width="228" fontFamily="Arial" textAlign="center" size="28" height="33" verticalAlign="middle"/>
+	<e:Label id="captain_job_type" y="18" width="95" verticalAlign="middle" size="28" height="33" textAlign="center" fontFamily="Arial" x="289"/>
+	<e:Label id="captain_level" height="33" verticalAlign="middle" textAlign="center" width="106" size="28" fontFamily="Arial" x="427" y="18"/>
+	<e:Label id="team_number" size="28" verticalAlign="middle" textAlign="center" width="186" height="33" fontFamily="Arial" y="18" x="574"/>
+</e:Skin>

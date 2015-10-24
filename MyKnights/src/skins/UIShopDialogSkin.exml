@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin width="1136" height="874" xmlns:e="http://ns.egret-labs.org/egret" xmlns:w="http://ns.egret-labs.org/wing">
+	<w:HostComponent name="egret.gui.SkinnableComponent"/>
+	<w:Declarations/>
+	<e:states>
+		<e:State name="normal"/>
+		<e:State name="disabled"/>
+	</e:states>
+	<e:UIAsset height="874" source="black_round_square_png" width="1136" alpha="0.2" scale9Grid="14,13,21,21" horizontalCenter="1" verticalCenter="0"/>
+	<e:UIAsset height="345" source="chat_dialog_panel_2_jpg" width="1098" horizontalCenter="0" verticalCenter="0.5"/>
+	<e:UIAsset height="380" source="chat_dialog_frame_png" width="1136" scale9Grid="50,53,49,45" verticalCenter="0" horizontalCenter="0"/>
+	<e:Group id="shop_money_group" height="339" width="1091" horizontalCenter="0.5" verticalCenter="-2.5" visible="false">
+		<e:Scroller id="scroller_money" width="1061" height="260" x="14" y="8">
+			<e:Group/>
+		</e:Scroller>
+		<e:Button id="buy_money_btn" label="购买" x="15" y="266" skinName="skins.BtnGreenLargeSkin"/>
+		<e:UIAsset source="black_round_square_png" scale9Grid="14,13,21,21" x="450" y="278" width="587"/>
+		<e:Label id="label_money_hint" x="464" width="561" size="24" verticalAlign="middle" fontFamily="Arial" textColor="0xD39C04" y="290" text="????" textAlign="center"/>
+	</e:Group>
+	<e:Group id="shop_diamond_group" width="1091" height="339" horizontalCenter="0.5" verticalCenter="-2.5" visible="false">
+		<e:Scroller id="scroller_diamond" width="1061" height="260" x="14" y="8">
+			<e:Group/>
+		</e:Scroller>
+		<e:Button id="buy_diamond_btn" label="购买" skinName="skins.BtnGreenLargeSkin" x="15" y="266"/>
+		<e:UIAsset source="black_round_square_png" scale9Grid="14,13,21,21" width="587" x="450" y="278"/>
+		<e:Label id="label_diamond_hint" verticalAlign="middle" fontFamily="Arial" width="561" textColor="0xD39C04" size="24" text="?????" textAlign="center" x="464" y="290"/>
+	</e:Group>
+	<e:Group id="shop_stamina_group" height="339" width="1091" horizontalCenter="0.5" verticalCenter="-2.5" visible="false">
+		<e:Scroller id="scroller_stamina" width="1061" height="260" x="14" y="8">
+			<e:Group/>
+		</e:Scroller>
+		<e:Button id="buy_stamina_btn" label="购买" skinName="skins.BtnGreenLargeSkin" x="15" y="266"/>
+		<e:UIAsset source="black_round_square_png" scale9Grid="14,13,21,21" width="172" x="237" y="274" visible="false"/>
+		<e:Label verticalAlign="middle" fontFamily="Arial" textAlign="left" width="152" text="恢复时间：" textColor="0xB61904" size="20" x="247" y="287" visible="false"/>
+		<e:UIAsset source="black_round_square_png" scale9Grid="14,13,21,21" width="587" x="450" y="278"/>
+		<e:Label id="label_stamina_hint" verticalAlign="middle" fontFamily="Arial" width="561" textColor="0xD39C04" size="24" x="464" text="?????" textAlign="center" y="290"/>
+	</e:Group>
+	<e:Group id="shop_jobCard_group" width="1091" height="339" horizontalCenter="0.5" verticalCenter="-2.5" visible="false">
+		<e:Scroller id="scroller_jobCard" width="1061" height="260" x="14" y="8">
+			<e:Group/>
+		</e:Scroller>
+		<e:Button id="buy_jobCard_btn" label="购买" skinName="skins.BtnGreenLargeSkin" x="15" y="266"/>
+		<e:UIAsset source="black_round_square_png" scale9Grid="14,13,21,21" width="587" x="450" y="278"/>
+		<e:Label id="label_jobcrad_hint" verticalAlign="middle" fontFamily="Arial" width="561" textColor="0xD39C04" size="24" textAlign="center" text="??????" x="464" y="290"/>
+		<e:Button id="refresh_jobCard_btn" x="228" skinName="skins.BtnGreenLargeSkin" y="266"/>
+		<e:Label text="刷新" size="24" textColor="0x060505" textAlign="center" verticalAlign="middle" enabled="false" x="260" touchEnabled="false" y="289"/>
+		<e:UIAsset source="diamond_1_png" scaleY="0.5" scaleX="0.5" enabled="false" x="302" touchEnabled="false" y="275"/>
+		<e:Label id="label_refresh_fee" size="24" textColor="0x070606" width="62" enabled="false" height="31" x="355" textAlign="left" text="???" verticalAlign="middle" touchEnabled="false" y="285"/>
+	</e:Group>
+	<e:Group id="shop_ticket_group" height="339" width="1091" verticalCenter="-2.5" horizontalCenter="0.5" visible="false">
+		<e:Scroller id="scroller_ticket" width="1061" height="260" x="14" y="8">
+			<e:Group/>
+		</e:Scroller>
+		<e:Button id="buy_ticket_btn" skinName="skins.BtnGreenLargeSkin" label="购买" x="15" y="266"/>
+		<e:UIAsset source="black_round_square_png" scale9Grid="14,13,21,21" width="587" x="450" y="278"/>
+		<e:Label id="label_ticket_hint" text="???" width="559" textAlign="center" verticalAlign="middle" size="24" fontFamily="Arial" textColor="0xD39C04" y="290" x="464"/>
+	</e:Group>
+	<e:Group id="shop_tab_btn_bg" width="1100" height="64" x="10" y="10" horizontalCenter="0" verticalCenter="-199">
+		<e:Button id="shop_money_btn" enabled="true" height="62" skinName="skins.BtnGuildTabSkin" x="16" y="3"/>
+		<e:Label id="shop_money_label" width="152" textAlign="center" verticalAlign="middle" size="28" enabled="false" textColor="0xFFD800" fontFamily="Arial" touchEnabled="false" text="金钱" x="38" y="7"/>
+		<e:Button id="shop_diamond_btn" enabled="true" height="62" skinName="skins.BtnGuildTabSkin" x="229" y="4"/>
+		<e:Label id="shop_diamond_label" textAlign="center" width="152" verticalAlign="middle" size="28" enabled="false" fontFamily="Arial" textColor="0x00F0FF" touchEnabled="false" text="钻石" x="254" y="7"/>
+		<e:Button id="shop_stamina_btn" enabled="true" height="62" skinName="skins.BtnGuildTabSkin" x="444" y="4"/>
+		<e:Label id="shop_stamina_label" textAlign="center" width="152" verticalAlign="middle" size="28" enabled="false" fontFamily="Arial" textColor="0xFF6F48" touchEnabled="false" text="体力" x="469" y="7"/>
+		<e:Button id="shop_jobCard_btn" enabled="true" height="62" skinName="skins.BtnGuildTabSkin" x="662" y="4"/>
+		<e:Label id="shop_jobCard_label" width="152" verticalAlign="middle" size="28" textAlign="center" enabled="false" fontFamily="Arial" textColor="0xE372FF" touchEnabled="false" text="转职卡" x="687" y="7"/>
+		<e:Button id="shop_ticket_btn" skinName="skins.BtnGuildTabSkin" height="62" enabled="true" x="878" y="4"/>
+		<e:Label id="shop_ticket_label" fontFamily="Arial" size="28" enabled="false" textAlign="center" width="152" touchEnabled="false" verticalAlign="middle" x="906" y="7" text="入场券" textColor="0x43F00A"/>
+	</e:Group>
+	<e:Button id="close_btn" label="按钮" skinName="skins.BtnBackHomeSkin" right="-1" bottom="5"/>
+	<e:Label textColor="0x000000" fontFamily="Arial" bold="true" size="28" textAlign="center" width="150" height="36" touchEnabled="false" text="返回" right="14" bottom="28"/>
+</e:Skin>

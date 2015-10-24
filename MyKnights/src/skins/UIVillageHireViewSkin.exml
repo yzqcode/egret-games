@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin width="1136" height="874" xmlns:e="http://ns.egret-labs.org/egret" xmlns:w="http://ns.egret-labs.org/wing">
+	<w:HostComponent name="egret.gui.SkinnableComponent"/>
+	<w:Declarations/>
+	<e:states>
+		<e:State name="normal"/>
+		<e:State name="disabled"/>
+	</e:states>
+	<e:UIAsset horizontalCenter="0" width="1136" verticalCenter="0" height="874" x="10" y="10" source="home_bg_jpg"/>
+	<e:UIAsset source="black_round_square_png" scale9Grid="14,13,21,21" height="874" width="1136" alpha="0.2" verticalCenter="0" horizontalCenter="0"/>
+	<e:UIAsset source="chat_dialog_panel_2_jpg" width="1100" height="400" verticalCenter="0" horizontalCenter="0"/>
+	<e:UIAsset source="chat_dialog_frame_png" scale9Grid="50,53,49,45" width="1120" height="435" verticalCenter="0" horizontalCenter="0"/>
+	<e:UIAsset source="chat_title_png" verticalCenter="-191.5" horizontalCenter="0"/>
+	<e:Label fontFamily="Arial" width="217" height="48" verticalAlign="middle" textAlign="center" touchEnabled="false" text="村庄招募" size="30" horizontalCenter="-0.5" verticalCenter="-201" textColor="0x121111" bold="true"/>
+	<e:UIAsset source="chat_dialog_panel_png" scale9Grid="24,24,28,28" width="200" height="326" horizontalCenter="-345" verticalCenter="4"/>
+	<e:UIAsset source="chat_dialog_panel_png" scale9Grid="24,24,28,28" width="200" height="326" horizontalCenter="-2" verticalCenter="4"/>
+	<e:UIAsset source="chat_dialog_panel_png" scale9Grid="24,24,28,28" width="200" height="326" horizontalCenter="346" verticalCenter="4"/>
+	<e:UIAsset id="corner_0_left" source="color_special_1_png" verticalCenter="114" horizontalCenter="-412"/>
+	<e:UIAsset id="corner_0_right" source="color_special_1_png" scaleX="-1" verticalCenter="114" horizontalCenter="-276"/>
+	<e:UIAsset id="corner_1_left" source="color_special_1_png" horizontalCenter="-69" verticalCenter="114"/>
+	<e:UIAsset id="corner_1_right" source="color_special_1_png" scaleX="-1" x="10" y="10" horizontalCenter="67" verticalCenter="114"/>
+	<e:UIAsset id="corner_2_left" source="color_special_1_png" horizontalCenter="279" verticalCenter="114"/>
+	<e:UIAsset id="corner_2_right" source="color_special_1_png" scaleX="-1" horizontalCenter="417" verticalCenter="114"/>
+	<e:UIAsset id="body_frame_0" source="color_big_frame_1_png" width="172" height="242" verticalCenter="-14" horizontalCenter="-344"/>
+	<e:UIAsset id="icon_body_0" source="knight_1_png" width="165" height="254" horizontalCenter="-344.5" verticalCenter="-19"/>
+	<e:UIAsset id="name_frame_0" source="color_frame_1_png" horizontalCenter="-344" verticalCenter="-117.5"/>
+	<e:Label id="label_name_0" width="117" textColor="0x040303" textAlign="center" verticalAlign="middle" size="24" height="28" verticalCenter="-116" horizontalCenter="-345.5" text="名字"/>
+	<e:UIAsset id="gold_frame_0" source="color_frame_1_png" verticalCenter="122.5" horizontalCenter="-344" width="126" height="57"/>
+	<e:Label id="label_gold_0" textColor="0x030202" width="66" height="26" textAlign="center" verticalAlign="middle" text="0" size="20" horizontalCenter="-327" verticalCenter="123"/>
+	<e:UIAsset id="circle_0_attack" source="color_1_png" verticalCenter="27.5" horizontalCenter="-398.5"/>
+	<e:UIAsset id="circle_0_defense" source="color_1_png" horizontalCenter="-398.5" verticalCenter="48.5"/>
+	<e:UIAsset id="circle_0_blood" source="color_1_png" horizontalCenter="-398.5" verticalCenter="70.5"/>
+	<e:UIAsset id="body_frame_1" source="color_big_frame_1_png" height="242" width="172" horizontalCenter="-2" verticalCenter="-14"/>
+	<e:UIAsset id="icon_body_1" source="knight_1_png" width="165" height="254" horizontalCenter="-2.5" verticalCenter="-19"/>
+	<e:UIAsset id="name_frame_1" source="color_frame_1_png" horizontalCenter="-2" verticalCenter="-117.5"/>
+	<e:Label id="label_name_1" textColor="0x040303" height="28" textAlign="center" width="117" size="24" verticalAlign="middle" text="名字" horizontalCenter="-3.5" verticalCenter="-116"/>
+	<e:UIAsset id="gold_frame_1" source="color_frame_1_png" width="126" height="57" horizontalCenter="0" verticalCenter="122.5"/>
+	<e:Label id="label_gold_1" textColor="0x010000" width="66" height="26" textAlign="center" verticalAlign="middle" text="0" size="20" horizontalCenter="17" verticalCenter="123"/>
+	<e:UIAsset id="circle_1_attack" source="color_1_png" horizontalCenter="-57.5" verticalCenter="27.5"/>
+	<e:UIAsset id="circle_1_defense" source="color_1_png" horizontalCenter="-57.5" verticalCenter="48.5"/>
+	<e:UIAsset id="circle_1_blood" source="color_1_png" horizontalCenter="-57.5" verticalCenter="70.5"/>
+	<e:UIAsset id="body_frame_2" source="color_big_frame_1_png" width="172" height="242" horizontalCenter="347" verticalCenter="-14"/>
+	<e:UIAsset id="icon_body_2" source="knight_1_png" width="165" height="254" horizontalCenter="345.5" verticalCenter="-19"/>
+	<e:UIAsset id="name_frame_2" source="color_frame_1_png" horizontalCenter="347" verticalCenter="-117.5"/>
+	<e:Label id="label_name_2" textColor="0x040303" size="24" textAlign="center" width="117" height="28" verticalAlign="middle" text="名字" horizontalCenter="345.5" verticalCenter="-116"/>
+	<e:UIAsset id="gold_frame_2" source="color_frame_1_png" width="126" height="57" horizontalCenter="347" verticalCenter="122.5"/>
+	<e:Label id="label_gold_2" textColor="0x010000" width="68" height="26" textAlign="center" verticalAlign="middle" text="0" size="20" horizontalCenter="363" verticalCenter="123"/>
+	<e:UIAsset id="circle_2_attack" source="color_1_png" horizontalCenter="291.5" verticalCenter="27.5"/>
+	<e:UIAsset id="circle_2_defense" source="color_1_png" horizontalCenter="291.5" verticalCenter="48.5"/>
+	<e:UIAsset id="circle_2_blood" source="color_1_png" horizontalCenter="291.5" verticalCenter="70.5"/>
+	<e:UIAsset id="icon_gold_0" source="gold_icon_png" verticalCenter="123.5" horizontalCenter="-374.5" height="27" width="29"/>
+	<e:UIAsset id="icon_gold_1" source="gold_icon_png" height="27" width="29" horizontalCenter="-29.5" verticalCenter="123.5"/>
+	<e:UIAsset id="icon_gold_2" source="gold_icon_png" width="27" height="27" horizontalCenter="317.5" verticalCenter="123.5"/>
+	<e:UIAsset id="btn_select_0" source="black_round_square_png" scale9Grid="14,13,21,21" width="200" height="326" alpha="0" verticalCenter="4" horizontalCenter="-345" touchEnabled="true"/>
+	<e:UIAsset id="btn_select_1" source="black_round_square_png" scale9Grid="14,13,21,21" width="200" height="326" alpha="0" horizontalCenter="-3" verticalCenter="4" touchEnabled="true"/>
+	<e:UIAsset id="btn_select_2" source="black_round_square_png" scale9Grid="14,13,21,21" width="200" height="326" alpha="0" horizontalCenter="346" verticalCenter="4" touchEnabled="true"/>
+</e:Skin>

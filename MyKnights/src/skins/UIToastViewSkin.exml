@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin xmlns:e="http://ns.egret-labs.org/egret" xmlns:w="http://ns.egret-labs.org/wing">
+	<w:HostComponent name="egret.gui.SkinnableComponent"/>
+	<w:Declarations/>
+	<e:states>
+		<e:State name="normal"/>
+		<e:State name="disabled"/>
+	</e:states>
+	<e:UIAsset width="202" alpha="0.9" height="51" horizontalCenter="0" verticalCenter="0" source="toast_bg_png" scale9Grid="13,13,10,10"/>
+	<e:Label id="labelToast" textColor="0xFFFFFF" text="toast" fontFamily="Arial" textAlign="center" size="20" verticalAlign="middle" width="169" height="37" horizontalCenter="-0.5" verticalCenter="-1"/>
+</e:Skin>

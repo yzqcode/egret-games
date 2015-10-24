@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin xmlns:e="http://ns.egret-labs.org/egret" xmlns:w="http://ns.egret-labs.org/wing" width="550" height="83">
+	<w:HostComponent name="egret.gui.SkinnableComponent"/>
+	<w:Declarations/>
+	<e:states>
+		<e:State name="normal"/>
+		<e:State name="disabled"/>
+	</e:states>
+	<e:UIAsset id="back_png" source="black_round_square_png" scale9Grid="14,13,21,21" x="0" y="11" width="450" height="66" alpha="0.5"/>
+	<e:Button id="B1" label="按钮" enabled="true" skinName="skins.BtnNoticeSkin" x="16" y="15"/>
+	<e:Button id="B2" label="按钮" enabled="true" skinName="skins.BtnActivitySkin" x="114" y="15"/>
+	<e:Button id="B3" label="按钮" enabled="true" skinName="skins.BtnRankSkin" x="205" y="15"/>
+	<e:Button id="B4" label="按钮" enabled="true" skinName="skins.BtnSystemSkin" x="297" y="15"/>
+	<e:Button id="B5" label="按钮" enabled="true" skinName="skins.BtnChargeSkin" x="381" y="15"/>
+	<e:UIAsset id="B6" source="bag_nor_png" x="456" y="-1"/>
+	<e:UIAsset id="B7" source="bag_sel_png" x="456" y="-1"/>
+</e:Skin>

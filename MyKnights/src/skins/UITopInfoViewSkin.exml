@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin width="1136" height="94" xmlns:e="http://ns.egret-labs.org/egret" xmlns:w="http://ns.egret-labs.org/wing">
+	<w:HostComponent name="egret.gui.SkinnableComponent"/>
+	<w:Declarations/>
+	<e:states>
+		<e:State name="normal"/>
+		<e:State name="disabled"/>
+	</e:states>
+	<e:UIAsset source="top_bar_bg_jpg" x="0" y="0"/>
+	<e:UIAsset id="head" source="head_bg_frame_png" y="-6" x="-1"/>
+	<e:UIAsset id="icon_head" source="head_nor_1_png" x="11" y="4" width="53" height="49"/>
+	<e:UIAsset source="level_bg_png" x="5" y="47"/>
+	<e:Label id="label_level" x="28" width="45" height="28" verticalAlign="middle" y="54" textAlign="center" text="0"/>
+	<e:Label id="label_name" width="200" height="24" size="24" textAlign="center" verticalAlign="middle" x="75" y="17"/>
+	<e:UIAsset source="guild_icon_png" y="5" x="299"/>
+	<e:Label id="label_guild" width="200" textAlign="center" verticalAlign="middle" size="24" height="24" x="339" y="17"/>
+	<e:UIAsset source="diamond_icon_png" y="12" x="554"/>
+	<e:UIAsset source="add_icon_png" y="32" x="576"/>
+	<e:BitmapLabel id="label_diamond" height="37" textAlign="center" verticalAlign="middle" width="169" font="zi1_json" size="24" scaleX="0.5" scaleY="0.8" y="14" x="594" text="0"/>
+	<e:UIAsset source="gold_icon_png" y="12" x="697"/>
+	<e:UIAsset source="add_icon_png" y="35" x="724"/>
+	<e:UIAsset source="honor_icon_png" y="10" x="884"/>
+	<e:BitmapLabel id="label_money" width="232" height="37" verticalAlign="middle" textAlign="center" font="zi1_json" size="24" scaleX="0.5" scaleY="0.8" y="14" x="742" text="0"/>
+	<e:BitmapLabel id="label_honor" font="zi1_json" width="148" size="24" scaleX="0.5" scaleY="0.8" y="14" x="919" text="0" height="37"/>
+	<e:UIAsset source="stamina_icon_png" y="7" x="1013"/>
+	<e:UIAsset source="add_icon_png" y="34" x="1038"/>
+	<e:BitmapLabel id="label_stamina" width="142" height="32" font="zi1_json" size="24" scaleX="0.5" scaleY="0.8" textAlign="center" verticalAlign="middle" y="14" x="1058" text="0"/>
+	<e:UIAsset source="span_bar_png" x="992" y="-4"/>
+	<e:UIAsset source="span_bar_png" x="859" y="-4"/>
+	<e:UIAsset source="span_bar_png" x="677" y="-4"/>
+	<e:UIAsset source="span_bar_png" x="531" y="-3"/>
+	<e:UIAsset source="span_bar_png" x="271" y="-4"/>
+	<e:UIAsset id="add_diamond_icon" source="black_round_square_png" scale9Grid="14,13,21,21" width="127" height="39" alpha="0" x="553" y="10"/>
+	<e:UIAsset id="add_money_icon" source="black_round_square_png" scale9Grid="14,13,21,21" width="158" height="39" alpha="0" x="701" y="10"/>
+	<e:UIAsset id="add_stamina_icon" source="black_round_square_png" scale9Grid="14,13,21,21" width="112" height="39" alpha="0" x="1013" y="10"/>
+</e:Skin>

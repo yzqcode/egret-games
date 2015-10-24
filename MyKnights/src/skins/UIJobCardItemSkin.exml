@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin width="240" height="300" xmlns:e="http://ns.egret-labs.org/egret" xmlns:w="http://ns.egret-labs.org/wing">
+	<w:HostComponent name="egret.gui.SkinnableComponent"/>
+	<w:Declarations/>
+	<e:states>
+		<e:State name="normal"/>
+		<e:State name="disabled"/>
+	</e:states>
+	<e:UIAsset id="icon_card_frame" scaleX="0.6" scaleY="0.6" x="15" y="2" source="job_big_frame_6_png"/>
+	<e:UIAsset id="icon_body" source="knight_1_png" scaleX="0.6" scaleY="0.6" x="13" y="-8"/>
+	<e:Label id="label_card_num" height="57" verticalAlign="middle" width="70" fontFamily="Arial" bold="true" x="26" y="24" textColor="0xFFFFFF" text="??" size="50" textAlign="left"/>
+	<e:UIAsset id="select_frame" source="select_frame_png" height="268" width="192" scale9Grid="23,21,28,31" y="19" x="21"/>
+	<e:UIAsset id="pos_mask" source="black_round_square_png" scale9Grid="14,13,21,21" width="239" alpha="0" height="300" x="0" y="0"/>
+</e:Skin>

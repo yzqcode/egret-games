@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin width="1136" height="874" xmlns:e="http://ns.egret-labs.org/egret" xmlns:w="http://ns.egret-labs.org/wing">
+	<w:HostComponent name="egret.gui.SkinnableComponent"/>
+	<w:Declarations/>
+	<e:states>
+		<e:State name="normal"/>
+		<e:State name="disabled"/>
+	</e:states>
+	<e:UIAsset horizontalCenter="0" width="1136" verticalCenter="0" height="874" x="10" y="10" source="home_bg_jpg"/>
+	<e:UIAsset height="874" horizontalCenter="0" verticalCenter="0" source="black_round_square_png" width="1136" alpha="0.2" scale9Grid="14,13,21,21" x="20" y="20"/>
+	<e:UIAsset horizontalCenter="0" verticalCenter="0" source="chat_dialog_panel_2_jpg" width="1098" height="415" x="20" y="20"/>
+	<e:UIAsset height="450" horizontalCenter="0" verticalCenter="0" source="chat_dialog_frame_png" width="1136" scale9Grid="50,53,49,45" x="20" y="20"/>
+	<e:Scroller id="guild_list" height="257" width="800" x="10" y="10" horizontalCenter="0" verticalCenter="-7.5">
+		<e:Group/>
+	</e:Scroller>
+	<e:Label height="46" textColor="0xFFF4CC" fontFamily="Arial" verticalAlign="middle" textAlign="center" size="30" width="81" text="活跃" horizontalCenter="-339.5" verticalCenter="-166"/>
+	<e:Label height="46" textColor="0xFFF4CC" fontFamily="Arial" verticalAlign="middle" size="30" width="81" textAlign="center" x="10" y="10" horizontalCenter="48.5" verticalCenter="-166" text="人数"/>
+	<e:Label height="46" textColor="0xFFF4CC" fontFamily="Arial" verticalAlign="middle" size="30" width="144" textAlign="center" x="20" y="20" text="申请状态" horizontalCenter="247" verticalCenter="-166"/>
+	<e:Label height="46" textColor="0xFFF4CC" fontFamily="Arial" verticalAlign="middle" size="30" width="181" textAlign="center" x="10" y="10" text="骑士团名称" horizontalCenter="-153.5" verticalCenter="-166"/>
+	<e:UIAsset source="chat_title_png" scaleY="1" scaleX="1" x="20" y="20" horizontalCenter="0" verticalCenter="-228.5"/>
+	<e:Label height="58" textColor="0x000000" fontFamily="Arial" verticalAlign="middle" textAlign="center" size="40" width="241" bold="true" horizontalCenter="0.5" verticalCenter="-236" text="骑士团列表"/>
+	<e:Button id="guild_create_btn" enabled="true" height="69" skinName="skins.BtnGreenLargeSkin" horizontalCenter="0" verticalCenter="165.5" label="建立骑士团"/>
+	<e:Button id="btn_apply" enabled="true" height="71" horizontalCenter="171" verticalCenter="166.5" skinName="skins.BtnYellowSmallSkin" label="申请"/>
+	<e:Button id="btn_cancel" enabled="true" height="71" x="10" y="10" horizontalCenter="-170" verticalCenter="166.5" skinName="skins.BtnRedSmallSkin" label="取消"/>
+	<e:UIAsset source="chat_content_bg_png" scale9Grid="15,15,18,17" width="260" height="54" horizontalCenter="390" verticalCenter="167"/>
+	<e:UIAsset source="send_msg_frame_png" scale9Grid="18,18,19,19" width="260" horizontalCenter="389" verticalCenter="165"/>
+	<e:EditableText id="guild_name_edit" height="34" width="185" multiline="false" x="10" horizontalCenter="367.5" verticalCenter="165" fontFamily="Arial" size="20" verticalAlign="middle" textAlign="left" textColor="0xFFF4CC"/>
+	<e:UIAsset id="icon_search_guild" source="magnifer_png" horizontalCenter="488.5" verticalCenter="164"/>
+</e:Skin>

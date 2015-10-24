@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin width="1136" height="116" xmlns:e="http://ns.egret-labs.org/egret" xmlns:w="http://ns.egret-labs.org/wing" xmlns:ns1="*">
+	<w:HostComponent name="egret.gui.SkinnableComponent"/>
+	<w:Declarations/>
+	<e:states>
+		<e:State name="normal"/>
+		<e:State name="disabled"/>
+	</e:states>
+	<e:Group id="knight_team_group" width="785" height="116" x="174">
+	</e:Group>
+	<e:UIAsset source="chat_content_bg_png" scale9Grid="15,15,18,17" x="2" y="38" width="174" height="80"/>
+	<e:UIAsset source="chat_title_bg_png" x="19" y="4"/>
+	<e:UIAsset source="loudspeaker_png" x="145" y="5"/>
+	<e:Label height="32" textColor="0x000000" fontFamily="Arial" width="123" touchEnabled="false" textAlign="center" bold="false" text="骑士团聊天" size="20" y="14" x="27"/>
+	<e:Button id="btn_back" enabled="true" skinName="skins.BtnBackHomeSkin" x="960" y="22"/>
+	<e:Label id="label_join_guild" textColor="0x000000" fontFamily="Arial" size="28" width="150" touchEnabled="false" height="36" textAlign="center" bold="true" x="974" y="54" text="出征"/>
+	<e:Label id="label_check_guild" textColor="0x000000" fontFamily="Arial" size="28" width="150" touchEnabled="false" height="36" textAlign="center" bold="true" x="974" y="54" text="出征" visible="false"/>
+	<e:Label id="label_back" textColor="0x000000" fontFamily="Arial" size="28" width="150" touchEnabled="false" height="36" textAlign="center" bold="true" text="返回" x="974" y="54" visible="false"/>
+	<e:Scroller id="scroller_view" width="150" height="56" x="13" y="50">
+		<e:Group/>
+	</e:Scroller>
+	<e:UIAsset id="chat_mask_icon" source="black_round_square_png" scale9Grid="14,13,21,21" width="176" height="112" alpha="0" y="1" x="2"/>
+	<e:UIAsset id="knight_head" source="head_nor_1_png" width="126" height="105" alpha="0.5" x="204" y="-9"/>
+</e:Skin>

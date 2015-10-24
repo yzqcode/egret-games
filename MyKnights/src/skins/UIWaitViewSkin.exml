@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin width="1136" height="874" xmlns:e="http://ns.egret-labs.org/egret" xmlns:w="http://ns.egret-labs.org/wing">
+	<w:HostComponent name="egret.gui.SkinnableComponent"/>
+	<w:Declarations/>
+	<e:states>
+		<e:State name="normal"/>
+		<e:State name="disabled"/>
+	</e:states>
+	<e:UIAsset id="mask_layer" width="1136" height="874" verticalCenter="0" horizontalCenter="0" touchEnabled="true" enabled="true" source="black_round_square_png" alpha="0"/>
+	<e:UIAsset id="wait_icon" width="72" height="72" verticalCenter="0" horizontalCenter="0" source="cmn_wait_png"/>
+</e:Skin>

@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin width="1136" height="874" xmlns:e="http://ns.egret-labs.org/egret" xmlns:w="http://ns.egret-labs.org/wing">
+	<w:HostComponent name="egret.gui.SkinnableComponent"/>
+	<w:Declarations/>
+	<e:states>
+		<e:State name="normal"/>
+		<e:State name="disabled"/>
+	</e:states>
+	<e:UIAsset width="1136" height="874" source="home_bg_jpg" horizontalCenter="0" verticalCenter="0"/>
+	<e:UIAsset source="job_title_png" horizontalCenter="200" verticalCenter="-162"/>
+	<e:Button id="job_btn" enabled="true" height="119" skinName="skins.BtnHomeJobSkin" width="119" horizontalCenter="131.5" verticalCenter="-161.5"/>
+	<e:UIAsset source="guild_title_png" horizontalCenter="12.5" verticalCenter="-95"/>
+	<e:Button id="guild_btn" enabled="true" width="225" height="187" x="10" y="10" skinName="skins.BtnHomeGuildSkin" horizontalCenter="-116.5" verticalCenter="-129.5"/>
+	<e:UIAsset source="arena_title_png" horizontalCenter="85" verticalCenter="22.5"/>
+	<e:Button id="arena_btn" enabled="true" width="225" height="187" x="30" y="30" horizontalCenter="-34.5" verticalCenter="69.5" skinName="skins.BtnHomeArenaSkin"/>
+	<e:UIAsset source="setting_title_png" horizontalCenter="312" verticalCenter="104"/>
+	<e:Button id="setting_btn" enabled="true" height="155" width="157" x="40" y="40" horizontalCenter="197.5" verticalCenter="155.5" skinName="skins.BtnHomeSettingSkin"/>
+	<e:UIAsset source="quest_title_png" horizontalCenter="423.5" verticalCenter="10"/>
+	<e:Button id="fight_btn" enabled="true" width="209" height="169" x="50" y="50" horizontalCenter="296.5" verticalCenter="-45.5" skinName="skins.BtnHomeQuestSkin"/>
+	<e:UIAsset source="shop_title_png" horizontalCenter="-334" verticalCenter="141.5"/>
+	<e:Button id="shop_btn" enabled="true" width="225" height="187" x="20" y="20" horizontalCenter="-234.5" verticalCenter="138.5" skinName="skins.BtnHomeShopSkin"/>
+	<e:UIAsset source="hire_title_png" verticalCenter="4.5" horizontalCenter="-421.5"/>
+	<e:Button id="hire_btn" enabled="true" width="225" height="187" x="30" y="30" horizontalCenter="-356.5" verticalCenter="22.5" skinName="skins.BtnHomeHireSkin"/>
+	<e:Button id="bang_ID" label="绑定账号" skinName="skins.BtnRedLargeSkin" left="51" top="172"/>
+</e:Skin>

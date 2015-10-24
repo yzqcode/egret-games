@@ -1,0 +1,92 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin width="1136" height="874" xmlns:e="http://ns.egret-labs.org/egret" xmlns:w="http://ns.egret-labs.org/wing">
+	<w:HostComponent name="egret.gui.SkinnableComponent"/>
+	<w:Declarations/>
+	<e:states>
+		<e:State name="normal"/>
+		<e:State name="disabled"/>
+	</e:states>
+	<e:UIAsset horizontalCenter="0" width="1136" verticalCenter="0" height="874" x="10" y="10" source="home_bg_jpg"/>
+	<e:UIAsset height="874" source="black_round_square_png" horizontalCenter="0" verticalCenter="0" width="1136" alpha="0.2" scale9Grid="14,13,21,21" x="10" y="10"/>
+	<e:UIAsset height="345" source="chat_dialog_panel_2_jpg" horizontalCenter="0" verticalCenter="0" width="1098" x="20" y="20"/>
+	<e:UIAsset height="380" source="chat_dialog_frame_png" horizontalCenter="0" verticalCenter="0" width="1136" scale9Grid="50,53,49,45" x="20" y="20"/>
+	<e:Group id="guild_notice_group" height="339" width="1091" horizontalCenter="0.5" verticalCenter="-2.5">
+		<e:UIAsset height="227" scale9Grid="24,24,28,28" source="chat_dialog_panel_png" width="1027" x="41" y="33"/>
+		<e:Label id="label_guild_notice" fontFamily="Arial" textAlign="center" verticalAlign="middle" width="997" height="192" x="60" textColor="0xFFF4CC" size="35" y="57"/>
+		<e:UIAsset source="chat_title_png" scaleX="0.7" scaleY="0.7" x="426" height="91" y="-4"/>
+		<e:Label height="46" fontFamily="Arial" textAlign="center" width="177" verticalAlign="middle" text="公告" textColor="0x000000" bold="true" x="461" size="40" y="0"/>
+		<e:Button id="set_notice_btn" enabled="true" height="71" skinName="skins.BtnGreenLargeSkin" label="修改公告" x="442" y="264"/>
+	</e:Group>
+	<e:Group id="guild_members_group" width="1088" height="339" x="10" y="10" horizontalCenter="0" verticalCenter="-0.5" visible="false">
+		<e:Scroller id="members_list" width="1021" height="221" x="32" y="44">
+			<e:Group/>
+		</e:Scroller>
+		<e:Label height="41" verticalAlign="middle" textColor="0xFFF4CC" fontFamily="Arial" textAlign="center" width="84" x="104" y="10" text="名称" size="30"/>
+		<e:Label size="30" textColor="0xFFF4CC" fontFamily="Arial" textAlign="center" verticalAlign="middle" width="84" height="41" x="304" y="10" text="职业"/>
+		<e:Label height="41" verticalAlign="middle" textColor="0xFFF4CC" fontFamily="Arial" textAlign="center" size="30" width="84" x="425" y="10" text="职位"/>
+		<e:Label size="30" textColor="0xFFF4CC" fontFamily="Arial" textAlign="center" verticalAlign="middle" width="84" height="41" x="552" y="10" text="等级"/>
+		<e:Label height="41" verticalAlign="middle" textColor="0xFFF4CC" fontFamily="Arial" textAlign="center" size="30" width="84" x="737" y="10" text="状态"/>
+		<e:Button id="btn_change_chairman" enabled="true" height="71" x="597" skinName="skins.BtnGreenLargeSkin" label="任命为团长" y="268"/>
+		<e:Button id="btn_kick" enabled="true" height="71" x="266" y="268" skinName="skins.BtnRedLargeSkin" label="开除该骑士"/>
+		<e:Button id="btn_memeber_detail" enabled="true" height="71" x="479" y="268" skinName="skins.BtnYellowSmallSkin" label="详情"/>
+	</e:Group>
+	<e:Group id="guild_donation_group" height="330" width="1091" x="20" y="20" horizontalCenter="0.5" verticalCenter="-3" visible="false">
+		<e:Scroller id="donate_list" height="280" width="380" y="42" x="60">
+			<e:Group/>
+		</e:Scroller>
+		<e:Label textColor="0xFFF4CC" fontFamily="Arial" verticalAlign="middle" textAlign="center" size="30" width="96" height="46" y="3" text="捐献值" x="320"/>
+		<e:UIAsset height="244" width="580" source="chat_dialog_panel_png" x="494" y="16"/>
+		<e:Label id="label_current_max" height="41" verticalAlign="middle" fontFamily="Arial" textAlign="center" width="204" x="813" size="30" text="???" y="75" textColor="0xFFF4CC"/>
+		<e:Label id="label_next_max" size="30" text="???" fontFamily="Arial" textAlign="center" verticalAlign="middle" width="204" height="41" x="813" y="121" textColor="0xF9BC0B"/>
+		<e:Label verticalAlign="middle" textColor="0xF9BC0B" fontFamily="Arial" width="531" height="46" x="520" textAlign="center" text="捐献金钱能够提高骑士团成员上限数" size="30" y="34"/>
+		<e:Label height="46" size="30" fontFamily="Arial" verticalAlign="middle" width="242" text="当前成员上限数:" textAlign="left" x="575" textColor="0xFFF4CC" y="75"/>
+		<e:Label height="46" textColor="0xFFF4CC" fontFamily="Arial" verticalAlign="middle" size="30" width="81" y="3" text="名称" textAlign="center" x="134"/>
+		<e:Label height="46" size="30" fontFamily="Arial" textAlign="left" verticalAlign="middle" width="242" x="576" text="升级后成员上限:" textColor="0xF9BC0B" y="121"/>
+		<e:Label height="42" verticalAlign="middle" fontFamily="Arial" textAlign="center" size="30" width="33" x="776" text="/" textColor="0xF9BC0B" y="182"/>
+		<e:Label id="label_donate_exp_max" height="42" verticalAlign="middle" textColor="0xF9BC0B" fontFamily="Arial" size="30" width="223" textAlign="left" text="?????????" x="797" y="182"/>
+		<e:Label id="label_donate_exp" size="30" text="?????????" fontFamily="Arial" verticalAlign="middle" width="223" height="42" textAlign="right" textColor="0xFFF4CC" x="567" y="182"/>
+		<e:Button id="btn_donate" enabled="true" height="70" x="711" y="261" skinName="skins.BtnGreenLargeSkin"/>
+		<e:Label id="label_donate_money" height="39" textColor="0x000000" fontFamily="Arial" textAlign="center" verticalAlign="middle" width="97" touchEnabled="false" size="25" x="809" text="123456" y="278"/>
+		<e:Label height="39" verticalAlign="middle" textColor="0x000000" fontFamily="Arial" textAlign="center" width="66" y="278" text="捐献" size="25" touchEnabled="false" x="725"/>
+		<e:UIAsset source="gold_icon_png" y="280" x="781" touchEnabled="false"/>
+		<e:UIAsset source="upgrade_bar_bg_png" scale9Grid="13,11,49,3" x="546" width="488" height="25" y="218"/>
+		<e:UIAsset id="icon_donate_exp_bar" source="upgrade_bar_png" scale9Grid="13,11,49,3" x="546" width="488" height="25" y="218"/>
+	</e:Group>
+	<e:Group id="guild_manager_group" width="1097" height="339" x="30" y="30" horizontalCenter="0.5" verticalCenter="0.5" visible="false">
+		<e:UIAsset scale9Grid="24,24,28,28" source="chat_dialog_panel_png" height="240" width="270" x="803" y="22"/>
+		<e:UIAsset scale9Grid="24,24,28,28" source="chat_dialog_panel_png" width="270" height="240" x="520" y="22"/>
+		<e:Scroller id="apply_list" height="212" width="470" x="27" y="48">
+			<e:Group/>
+		</e:Scroller>
+		<e:Label height="46" verticalAlign="middle" fontFamily="Arial" width="158" x="524" y="72" size="25" text="副本首杀数:" textAlign="right" textColor="0xF9BC0B"/>
+		<e:Label verticalAlign="middle" textColor="0xF9BC0B" fontFamily="Arial" size="25" width="120" height="46" x="823" y="72" text="创建时间:" textAlign="left"/>
+		<e:Label height="46" size="25" textColor="0xF9BC0B" fontFamily="Arial" textAlign="left" verticalAlign="middle" width="120" x="823" y="168" text="团员人数:"/>
+		<e:Label height="46" size="25" textColor="0xF9BC0B" fontFamily="Arial" textAlign="left" verticalAlign="middle" width="88" x="823" y="121" text="创建人:"/>
+		<e:Label id="label_create_time" height="46" size="25" textColor="0xF9BC0B" fontFamily="Arial" verticalAlign="middle" width="134" x="930" y="72" text="2015/07/02" textAlign="center" maxDisplayedLines="1"/>
+		<e:Label id="label_creator" verticalAlign="middle" textColor="0xF9BC0B" fontFamily="Arial" textAlign="center" size="25" width="134" height="46" x="930" y="121" text="????" maxDisplayedLines="1"/>
+		<e:Label id="label_guild_members" verticalAlign="middle" textColor="0xF9BC0B" fontFamily="Arial" size="25" width="134" height="46" x="930" y="168" text="??/??" textAlign="center" maxDisplayedLines="1"/>
+		<e:Label size="25" textColor="0xF9BC0B" fontFamily="Arial" verticalAlign="middle" width="98" height="46" x="683" textAlign="center" text="??????" y="72"/>
+		<e:Label height="46" verticalAlign="middle" textColor="0xF9BC0B" text="??????" fontFamily="Arial" textAlign="center" size="25" width="98" x="683" y="121"/>
+		<e:Label id="label_guild_rank" size="25" textColor="0xF9BC0B" text="??????" fontFamily="Arial" textAlign="center" verticalAlign="middle" width="98" height="46" x="683" y="168"/>
+		<e:Label size="25" textColor="0xF9BC0B" fontFamily="Arial" textAlign="right" verticalAlign="middle" width="158" height="46" x="524" y="121" text="副本通关数:"/>
+		<e:Label height="46" verticalAlign="middle" textColor="0xF9BC0B" fontFamily="Arial" textAlign="right" size="25" width="158" x="524" y="168" text="骑士团排名:"/>
+		<e:UIAsset scaleY="0.6" source="chat_title_png" scaleX="0.6" x="550" y="3"/>
+		<e:Label height="34" textColor="0x000000" fontFamily="Arial" textAlign="center" width="145" verticalAlign="middle" bold="true" text="荣誉" size="30" x="583" y="10"/>
+		<e:UIAsset scaleY="0.6" source="chat_title_png" scaleX="0.6" x="837" y="3"/>
+		<e:Label height="34" verticalAlign="middle" textColor="0x000000" fontFamily="Arial" textAlign="center" size="30" width="145" bold="true" x="873" y="10" text="信息"/>
+		<e:Button id="btn_exit_guild" enabled="true" height="71" x="696" skinName="skins.BtnRedLargeSkin" label="退出骑士团" y="267"/>
+		<e:Button id="btn_dismiss_guild" enabled="true" height="71" skinName="skins.BtnRedLargeSkin" label="解散骑士团" x="696" y="267"/>
+		<e:Label height="46" textColor="0xFFF4CC" fontFamily="Arial" verticalAlign="middle" textAlign="center" size="30" width="131" text="申请者" y="5" x="80"/>
+		<e:Label textColor="0xFFF4CC" fontFamily="Arial" verticalAlign="middle" textAlign="center" size="30" width="131" height="46" text="职业" y="5" x="254"/>
+		<e:Label height="46" textColor="0xFFF4CC" fontFamily="Arial" verticalAlign="middle" textAlign="center" size="30" width="131" text="等级" y="5" x="377"/>
+		<e:Button id="btn_reject_apply" enabled="true" height="71" x="70" y="267" skinName="skins.BtnRedSmallSkin" label="拒绝"/>
+		<e:Button id="btn_apply_detail" enabled="true" height="71" x="200" y="267" skinName="skins.BtnYellowSmallSkin" label="详情"/>
+		<e:Button id="btn_accept_apply" enabled="true" height="71" x="330" y="267" skinName="skins.BtnBlueSmallSkin" label="同意"/>
+	</e:Group>
+	<e:Group id="guild_tab_btn_bg" width="1100" height="64" x="10" y="10" horizontalCenter="0" verticalCenter="-199">
+		<e:Button id="guild_notice_btn" enabled="true" height="62" skinName="skins.BtnGuildTabSkin" label="公告" x="35" y="5"/>
+		<e:Button id="guild_member_btn" enabled="true" height="62" label="成员" skinName="skins.BtnGuildTabSkin" x="255" y="5"/>
+		<e:Button id="guild_donate_btn" enabled="true" height="62" label="捐献" skinName="skins.BtnGuildTabSkin" x="475" y="5"/>
+		<e:Button id="guild_set_btn" enabled="true" height="62" label="管理" skinName="skins.BtnGuildTabSkin" x="695" y="5"/>
+	</e:Group>
+</e:Skin>

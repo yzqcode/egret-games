@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin width="185" height="70" xmlns:e="http://ns.egret-labs.org/egret" xmlns:w="http://ns.egret-labs.org/wing">
+	<w:HostComponent name="egret.gui.SkinnableComponent"/>
+	<w:Declarations/>
+	<e:states>
+		<e:State name="normal"/>
+		<e:State name="disabled"/>
+	</e:states>
+	<e:UIAsset id="icon_skill" source="skill_1_png" x="5" y="13"/>
+	<e:Label id="label_skill_des" height="67" fontFamily="Arial" verticalAlign="middle" width="122" size="15" y="1" textColor="0xF7EDBC" x="57" textAlign="left" text="我们是共产主义接班人我们是共产主义接班人我们是共产主义接班人"/>
+</e:Skin>

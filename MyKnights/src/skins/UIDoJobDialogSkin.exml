@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin xmlns:e="http://ns.egret-labs.org/egret" xmlns:w="http://ns.egret-labs.org/wing">
+	<w:HostComponent name="egret.gui.Panel"/>
+	<w:Declarations/>
+	<e:states>
+		<e:State name="normal"/>
+		<e:State name="disabled"/>
+	</e:states>
+	<e:UIAsset source="black_round_square_png" scale9Grid="14,13,21,21" width="1136" height="874" alpha="0.5" horizontalCenter="0" verticalCenter="0"/>
+	<e:UIAsset source="dialog_title_bg_png" horizontalCenter="4.5" verticalCenter="-116"/>
+	<e:UIAsset source="chat_dialog_panel_2_jpg" width="540" height="280" horizontalCenter="1.5" verticalCenter="38.5"/>
+	<e:UIAsset width="550" height="290" source="send_msg_frame_png" horizontalCenter="0" verticalCenter="39"/>
+	<e:UIAsset source="chat_dialog_panel_png" scale9Grid="24,24,28,28" width="510" height="190" horizontalCenter="0" verticalCenter="6"/>
+	<e:Button id="doJob_use_diamond_btn" skinName="skins.BtnRedLargeSkin" horizontalCenter="129.5" verticalCenter="137"/>
+	<e:Button id="doJob_use_money_btn" skinName="skins.BtnGreenLargeSkin" horizontalCenter="-125.5" verticalCenter="140"/>
+	<e:Label id="label_diamond_fee" text="300" size="24" textColor="0x040303" width="106" height="28" fontFamily="Arial" textAlign="center" verticalAlign="middle" touchEnabled="false" horizontalCenter="158" verticalCenter="138"/>
+	<e:Label id="label_money_fee" text="66666" size="24" textColor="0x040303" width="106" height="28" textAlign="center" verticalAlign="middle" fontFamily="Arial" verticalCenter="142" horizontalCenter="-101" touchEnabled="false"/>
+	<e:UIAsset source="gold_icon_png" horizontalCenter="-178.5" verticalCenter="140.5" touchEnabled="false"/>
+	<e:UIAsset source="diamond_icon_png" touchEnabled="false" horizontalCenter="81" verticalCenter="139"/>
+	<e:Label width="194" textAlign="center" verticalAlign="middle" horizontalCenter="0" verticalCenter="-127.5" fontFamily="Arial" size="30" textColor="0xF7EDBC" text="转职"/>
+	<e:UIAsset id="doJob_before_body" source="knight_2_png" scaleX="0.5" scaleY="0.5" horizontalCenter="-152.75" verticalCenter="-5.75"/>
+	<e:UIAsset id="doJob_later_body" source="knight_7_png" scaleX="0.5" scaleY="0.5" horizontalCenter="149.25" verticalCenter="-5.75"/>
+	<e:UIAsset source="arrow_png" scaleX="-0.5" scaleY="0.5" verticalCenter="0" horizontalCenter="0"/>
+	<e:UIAsset id="doJob_before_body_mask" source="red_mask_2_png" scaleY="0.5" scaleX="0.5" horizontalCenter="-151.75" verticalCenter="-5.75"/>
+	<e:UIAsset id="doJob_later_body_mask" source="red_mask_7_png" scaleY="0.5" scaleX="0.5" horizontalCenter="149.25" verticalCenter="-4.75"/>
+	<e:UIAsset id="close_icon" x="10" y="10" horizontalCenter="228.5" verticalCenter="-57.5" source="close_png"/>
+</e:Skin>

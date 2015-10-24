@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin xmlns:e="http://ns.egret-labs.org/egret" xmlns:w="http://ns.egret-labs.org/wing">
+	<w:HostComponent name="egret.gui.Button"/>
+	<w:Declarations/>
+	<e:states>
+		<e:State name="up"/>
+		<e:State name="down"/>
+		<e:State name="disabled"/>
+	</e:states>
+	<e:UIAsset includeIn="down" x="0" source="guild_tab_bg_png" y="-15"/>
+	<e:UIAsset includeIn="up" x="0" source="guild_tab_bg_png" y="-15"/>
+	<e:UIAsset x="0" y="0" source="guild_tab_bg_png" includeIn="disabled"/>
+	<e:Label textColor="0x000000" text="确定" fontFamily="Arial" size="25" id="labelDisplay" x.up="14" width.up="175" height.up="49" textAlign.up="center" verticalAlign.up="middle" textColor.up="0xFFF4CC" size.up="30" width.down="175" height.down="49" x.down="14" textAlign.down="center" verticalAlign.down="middle" textColor.down="0xFFF4CC" size.down="30" width.disabled="175" height.disabled="49" x.disabled="14" y.disabled="6" textAlign.disabled="center" verticalAlign.disabled="middle" textColor.disabled="0xFFF4CC" size.disabled="30" x="14" y="7" y.up="-9" y.down="-9"/>
+	<e:UIAsset source="span_bar_png" x="17" y="-3" includeIn="disabled"/>
+	<e:UIAsset source="span_bar_png" x="159" y="-3" includeIn="disabled"/>
+	<e:UIAsset source="callipers_png" x="15" y="58" includeIn="disabled"/>
+	<e:UIAsset includeIn="disabled" source="callipers_png" x="157" y="58"/>
+</e:Skin>

@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin xmlns:e="http://ns.egret-labs.org/egret" xmlns:w="http://ns.egret-labs.org/wing">
+	<w:HostComponent name="egret.gui.Panel"/>
+	<w:Declarations/>
+	<e:states>
+		<e:State name="normal"/>
+		<e:State name="disabled"/>
+	</e:states>
+	<e:UIAsset source="black_round_square_png" scale9Grid="14,13,21,21" width="1136" height="874" alpha="0.5" horizontalCenter="0" verticalCenter="0"/>
+	<e:UIAsset source="dialog_title_bg_png" horizontalCenter="4.5" verticalCenter="-165"/>
+	<e:UIAsset source="chat_dialog_panel_2_jpg" width="495" height="343" horizontalCenter="-0.5" verticalCenter="38.5"/>
+	<e:UIAsset width="512" height="360" source="send_msg_frame_png" horizontalCenter="0" verticalCenter="39"/>
+	<e:UIAsset source="chat_dialog_panel_png" scale9Grid="24,24,28,28" width="426" height="267" horizontalCenter="1" verticalCenter="38.5"/>
+	<e:Label width="194" textAlign="center" verticalAlign="middle" textColor="0xF7EDBC" fontFamily="Arial" size="30" text="服务器列表" horizontalCenter="3" verticalCenter="-171.5"/>
+	<e:Scroller id="server_scroller" width="396" height="239" verticalCenter="37.5" horizontalCenter="1">
+		<e:Group/>
+	</e:Scroller>
+	<e:UIAsset id="close_btn" source="close_png" horizontalCenter="217.5" verticalCenter="-103.5"/>
+</e:Skin>

@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin xmlns:e="http://ns.egret-labs.org/egret" xmlns:w="http://ns.egret-labs.org/wing" width="604" height="97">
+	<w:HostComponent name="egret.gui.SkinnableComponent"/>
+	<w:Declarations/>
+	<e:states>
+		<e:State name="normal"/>
+		<e:State name="disabled"/>
+	</e:states>
+	<e:UIAsset id="say_back" source="chat_content_panel_png" scale9Grid="10,8,10,13" width="519" height="47" y="46" x="69"/>
+	<e:UIAsset id="name_frame" source="chat_title_bg_png" x="54" y="2" width="219" height="43"/>
+	<e:UIAsset id="icon_head_frame" source="head_bg_frame_png" x="0" y="0"/>
+	<e:UIAsset id="chat_player_head" source="head_nor_1_png" x="10" y="9" width="55" height="50"/>
+	<e:UIAsset id="level_frame" source="level_bg_png" x="9" y="51"/>
+	<e:Label id="chat_player_level" text="0" x="39" width="31" height="30" size="24" textAlign="center" verticalAlign="middle" fontFamily="Arial" y="60"/>
+	<e:Label id="chat_player_say" width="495" height="47" textColor="0x090808" fontFamily="Arial" size="20" y="47" verticalAlign="middle" x="86"/>
+	<e:Label id="chat_player_name" x="77" y="9" size="24" width="181" height="31" textColor="0x060505" fontFamily="Arial" textAlign="center" verticalAlign="middle"/>
+</e:Skin>

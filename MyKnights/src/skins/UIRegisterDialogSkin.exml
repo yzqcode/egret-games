@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin xmlns:e="http://ns.egret-labs.org/egret" xmlns:w="http://ns.egret-labs.org/wing">
+	<w:HostComponent name="egret.gui.Panel"/>
+	<w:Declarations/>
+	<e:states>
+		<e:State name="normal"/>
+		<e:State name="disabled"/>
+	</e:states>
+	<e:UIAsset source="black_round_square_png" width="1136" height="874" alpha="0.5" horizontalCenter="0" verticalCenter="0" scale9Grid="14,13,21,21"/>
+	<e:UIAsset source="dialog_title_bg_png" horizontalCenter="4.5" verticalCenter="-177"/>
+	<e:UIAsset source="chat_dialog_panel_2_jpg" width="509" height="369" horizontalCenter="0.5" verticalCenter="38.5"/>
+	<e:UIAsset width="528" height="382" source="send_msg_frame_png" scale9Grid="17,17,21,20" horizontalCenter="0" verticalCenter="39"/>
+	<e:UIAsset source="chat_dialog_panel_png" width="452" height="315" scale9Grid="24,24,28,28" horizontalCenter="1" verticalCenter="38.5"/>
+	<e:UIAsset source="chat_content_panel_png" width="229" height="44" verticalCenter="63" horizontalCenter="49.5" scale9Grid="10,8,10,13"/>
+	<e:Label fontFamily="Arial" textAlign="center" height="34" verticalAlign="middle" text="确认密码" horizontalCenter="-135" verticalCenter="62" textColor="0xF7EDBC"/>
+	<e:EditableText id="input_password_2" width="218" height="35" horizontalCenter="49" verticalCenter="64.5" textColor="0x050404" displayAsPassword="true"/>
+	<e:Label width="194" textAlign="center" verticalAlign="middle" textColor="0xF7EDBC" fontFamily="Arial" size="30" text="注册" horizontalCenter="3" verticalCenter="-183.5"/>
+	<e:UIAsset source="chat_content_panel_png" width="229" height="44" scale9Grid="10,8,10,13" horizontalCenter="49.5" verticalCenter="-68"/>
+	<e:UIAsset source="chat_content_panel_png" width="229" height="44" scale9Grid="10,8,10,13" horizontalCenter="49.5" verticalCenter="-1"/>
+	<e:Button id="register_fast_btn" skinName="skins.BtnRedSmallSkin" horizontalCenter="-90" verticalCenter="138"/>
+	<e:Button id="ok_btn" skinName="skins.BtnYellowSmallSkin" label="确定" horizontalCenter="95" verticalCenter="138"/>
+	<e:Label text="账号" height="34" fontFamily="Arial" textAlign="center" verticalAlign="middle" textColor="0xF7EDBC" horizontalCenter="-135" verticalCenter="-69"/>
+	<e:Label text="密码" height="34" fontFamily="Arial" textAlign="center" verticalAlign="middle" textColor="0xF7EDBC" horizontalCenter="-135" verticalCenter="-2"/>
+	<e:EditableText id="input_id" height="35" width="218" textColor="0x040303" horizontalCenter="49" verticalCenter="-66.5"/>
+	<e:EditableText id="input_password_1" width="218" height="35" textColor="0x040303" displayAsPassword="true" horizontalCenter="49" verticalCenter="0.5"/>
+	<e:Label id="register_fast_label" fontFamily="Arial" size="20" textColor="0x050404" touchEnabled="false" width="85" textAlign="center" verticalAlign="middle" text="快速注册" height="31" horizontalCenter="-89.5" verticalCenter="139.5"/>
+	<e:UIAsset id="close_btn" source="close_png" verticalCenter="-111.5" horizontalCenter="221.5"/>
+</e:Skin>

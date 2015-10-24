@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin width="1136" height="874" xmlns:e="http://ns.egret-labs.org/egret" xmlns:w="http://ns.egret-labs.org/wing">
+	<w:HostComponent name="egret.gui.SkinnableComponent"/>
+	<w:Declarations/>
+	<e:states>
+		<e:State name="normal"/>
+		<e:State name="disabled"/>
+	</e:states>
+	<e:Button id="btn_hire" label="攻打" skinName="skins.BtnHireSkin" left="27" top="103"/>
+	<e:Button id="btn_report" label="攻打" skinName="skins.BtnWarReportSkin" left="27" top="237"/>
+	<e:UIAsset id="icon_report_flag" source="exclamation_png" touchEnabled="false" left="98" top="297"/>
+	<e:UIAsset id="icon_hire_flag" source="gou_png" touchEnabled="false" left="97" top="166"/>
+</e:Skin>

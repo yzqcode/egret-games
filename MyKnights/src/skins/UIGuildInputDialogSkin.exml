@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin xmlns:e="http://ns.egret-labs.org/egret" xmlns:w="http://ns.egret-labs.org/wing" width="1136" height="874">
+	<w:HostComponent name="egret.gui.SkinnableComponent"/>
+	<w:Declarations/>
+	<e:states>
+		<e:State name="normal"/>
+		<e:State name="disabled"/>
+	</e:states>
+	<e:UIAsset source="black_round_square_png" scale9Grid="14,13,21,21" width="1136" height="874" alpha="0.3" horizontalCenter="0" verticalCenter="0"/>
+	<e:UIAsset source="dialog_title_bg_png" horizontalCenter="0.5" verticalCenter="-221"/>
+	<e:UIAsset source="chat_dialog_panel_2_jpg" width="588" height="376" horizontalCenter="0" verticalCenter="0"/>
+	<e:UIAsset source="send_msg_frame_png" scale9Grid="18,18,19,19" width="606" height="392" horizontalCenter="0" verticalCenter="0"/>
+	<e:UIAsset source="chat_dialog_panel_png" scale9Grid="24,24,28,28" width="513" height="244" verticalCenter="-23" horizontalCenter="0"/>
+	<e:UIAsset source="chat_content_panel_png" scale9Grid="10,8,10,13" width="495" height="223" verticalCenter="-23.5" horizontalCenter="0"/>
+	<e:Label fontFamily="Arial" textAlign="center" width="166" verticalAlign="middle" text="修改公告" textColor="0xFFF4CC" horizontalCenter="0" verticalCenter="-224.5"/>
+	<e:EditableText id="input_edit" width="479" height="206" size="20" fontFamily="Arial" textAlign="left" horizontalCenter="0.5" verticalCenter="-24" textColor="0x040303"/>
+	<e:Button id="ok_btn" label="确定" skinName="skins.BtnGreenLargeSkin" horizontalCenter="0.5" verticalCenter="140"/>
+	<e:UIAsset id="close_btn" source="close_png" horizontalCenter="258.5" verticalCenter="-156.5"/>
+</e:Skin>

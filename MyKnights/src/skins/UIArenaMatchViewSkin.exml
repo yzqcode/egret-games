@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin width="1136" height="874" xmlns:e="http://ns.egret-labs.org/egret" xmlns:w="http://ns.egret-labs.org/wing">
+	<w:HostComponent name="egret.gui.SkinnableComponent"/>
+	<w:Declarations/>
+	<e:states>
+		<e:State name="normal"/>
+		<e:State name="disabled"/>
+	</e:states>
+	<e:UIAsset horizontalCenter="0" width="1136" verticalCenter="0" height="874" x="10" y="10" source="battle_bg_2_jpg"/>
+	<e:UIAsset source="black_round_square_png" height="874" width="1136" alpha="0.3" scale9Grid="14,13,21,21" x="10" y="10" horizontalCenter="0" verticalCenter="0"/>
+	<e:UIAsset id="enemy_frame_0" scaleY="0.56" source="color_big_frame_1_png" scaleX="0.56" x="10" y="10" horizontalCenter="-389.52" verticalCenter="-172.2"/>
+	<e:UIAsset id="enemy_body_0" scaleY="0.56" source="knight_1_png" width="292" scaleX="0.56" height="423" x="10" y="10" horizontalCenter="-390.24" verticalCenter="-171.56"/>
+	<e:UIAsset id="enemy_body_mask_0" scaleY="0.56" width="292" scaleX="0.56" height="423" x="10" y="10" source="blue_mask_1_png" horizontalCenter="-390.24" verticalCenter="-171.56"/>
+	<e:UIAsset scaleY="0.56" id="enemy_frame_1" source="color_big_frame_1_png" scaleX="0.56" x="20" y="20" verticalCenter="-172.2" horizontalCenter="-189.51999999999998"/>
+	<e:UIAsset scaleY="0.56" id="enemy_body_1" source="knight_1_png" height="423" width="292" scaleX="0.56" x="20" y="20" verticalCenter="-171.56" horizontalCenter="-190.24"/>
+	<e:UIAsset scaleY="0.56" id="enemy_body_mask_1" source="blue_mask_1_png" height="423" width="292" scaleX="0.56" x="20" y="20" verticalCenter="-171.56" horizontalCenter="-190.24"/>
+	<e:UIAsset scaleY="0.56" id="enemy_frame_2" source="color_big_frame_1_png" scaleX="0.56" x="30" y="30" horizontalCenter="10.480000000000018" verticalCenter="-172.2"/>
+	<e:UIAsset scaleY="0.56" id="enemy_body_2" source="knight_1_png" height="423" width="292" scaleX="0.56" x="30" y="30" horizontalCenter="9.759999999999991" verticalCenter="-171.56"/>
+	<e:UIAsset scaleY="0.56" id="enemy_body_mask_2" source="blue_mask_1_png" height="423" width="292" scaleX="0.56" x="30" y="30" horizontalCenter="9.759999999999991" verticalCenter="-171.56"/>
+	<e:UIAsset scaleY="0.56" id="enemy_frame_3" source="color_big_frame_1_png" scaleX="0.56" x="40" y="40" horizontalCenter="210.48000000000002" verticalCenter="-172.2"/>
+	<e:UIAsset scaleY="0.56" id="enemy_body_3" source="knight_1_png" width="292" scaleX="0.56" height="423" x="40" y="40" horizontalCenter="209.76" verticalCenter="-171.56"/>
+	<e:UIAsset scaleY="0.56" id="enemy_body_mask_3" source="blue_mask_1_png" width="292" scaleX="0.56" height="423" x="40" y="40" horizontalCenter="209.76" verticalCenter="-171.56"/>
+	<e:UIAsset scaleY="0.56" id="enemy_frame_4" source="color_big_frame_1_png" scaleX="0.56" x="50" y="50" horizontalCenter="410.48" verticalCenter="-172.2"/>
+	<e:UIAsset scaleY="0.56" id="enemy_body_4" source="knight_1_png" height="423" width="292" scaleX="0.56" x="50" y="50" horizontalCenter="409.76" verticalCenter="-171.56"/>
+	<e:UIAsset scaleY="0.56" id="enemy_body_mask_4" source="blue_mask_1_png" height="423" width="292" scaleX="0.56" x="50" y="50" horizontalCenter="409.76" verticalCenter="-171.56"/>
+	<e:UIAsset id="self_frame_0" source="color_big_frame_1_png" scaleX="0.56" scaleY="0.56" horizontalCenter="-389.52" verticalCenter="157.8"/>
+	<e:UIAsset id="self_body_0" scaleY="0.56" source="knight_1_png" height="423" width="292" scaleX="0.56" horizontalCenter="-390.24" verticalCenter="158.44"/>
+	<e:UIAsset id="self_body_mask_0" scaleY="0.56" source="red_mask_1_png" height="423" width="292" scaleX="0.56" horizontalCenter="-390.24" verticalCenter="158.44"/>
+	<e:UIAsset scaleY="0.56" id="self_frame_1" source="color_big_frame_1_png" scaleX="0.56" x="10" y="10" horizontalCenter="-189.51999999999998" verticalCenter="157.8"/>
+	<e:UIAsset scaleY="0.56" id="self_body_1" source="knight_1_png" width="292" scaleX="0.56" height="423" x="10" y="10" horizontalCenter="-190.24" verticalCenter="158.44"/>
+	<e:UIAsset scaleY="0.56" id="self_body_mask_1" source="red_mask_1_png" width="292" scaleX="0.56" height="423" x="10" y="10" horizontalCenter="-190.24" verticalCenter="158.44"/>
+	<e:UIAsset scaleY="0.56" id="self_frame_2" source="color_big_frame_1_png" scaleX="0.56" x="20" y="20" horizontalCenter="10.480000000000018" verticalCenter="157.8"/>
+	<e:UIAsset scaleY="0.56" id="self_body_2" source="knight_1_png" height="423" width="292" scaleX="0.56" x="20" y="20" horizontalCenter="9.759999999999991" verticalCenter="158.44"/>
+	<e:UIAsset scaleY="0.56" id="self_body_mask_2" source="red_mask_1_png" height="423" width="292" scaleX="0.56" x="20" y="20" horizontalCenter="9.759999999999991" verticalCenter="158.44"/>
+	<e:UIAsset scaleY="0.56" id="self_frame_3" source="color_big_frame_1_png" scaleX="0.56" x="30" y="30" horizontalCenter="210.48000000000002" verticalCenter="157.8"/>
+	<e:UIAsset scaleY="0.56" id="self_body_3" source="knight_1_png" width="292" scaleX="0.56" height="423" x="30" y="30" horizontalCenter="209.76" verticalCenter="158.44"/>
+	<e:UIAsset scaleY="0.56" id="self_body_mask_3" source="red_mask_1_png" width="292" scaleX="0.56" height="423" x="30" y="30" horizontalCenter="209.76" verticalCenter="158.44"/>
+	<e:UIAsset scaleY="0.56" id="self_frame_4" source="color_big_frame_1_png" scaleX="0.56" x="40" y="40" horizontalCenter="410.48" verticalCenter="157.8"/>
+	<e:UIAsset scaleY="0.56" id="self_body_4" source="knight_1_png" height="423" width="292" scaleX="0.56" x="40" y="40" horizontalCenter="409.76" verticalCenter="158.44"/>
+	<e:UIAsset scaleY="0.56" id="self_body_mask_4" source="red_mask_1_png" height="423" width="292" scaleX="0.56" x="40" y="40" horizontalCenter="409.76" verticalCenter="158.44"/>
+	<e:Label id="label_match_title" touchEnabled="false" fontFamily="Arial" textAlign="center" width="269" verticalAlign="middle" height="83" x="10" textColor="0xFECA0B" size="50" text="努力匹配中" horizontalCenter="5.5" verticalCenter="-82.5"/>
+	<e:Label id="label_tick_num" verticalAlign="middle" fontFamily="Arial" touchEnabled="false" size="50" textColor="0xFECA0B" width="272" height="83" x="20" y="10" textAlign="left" text="......" horizontalCenter="267" verticalCenter="-82.5"/>
+	<e:UIAsset source="vs_2_png" horizontalCenter="17" verticalCenter="-4"/>
+	<e:UIAsset source="black_round_square_png" scale9Grid="14,13,21,21" height="46" width="275" y="20" horizontalCenter="207.5" verticalCenter="-5"/>
+	<e:UIAsset source="black_round_square_png" scale9Grid="14,13,21,21" width="275" height="46" y="30" horizontalCenter="-169.5" verticalCenter="-5"/>
+	<e:UIAsset source="black_round_square_png" height="70" width="227" scale9Grid="14,13,21,21" x="10" y="40" horizontalCenter="-432.5" verticalCenter="-4"/>
+	<e:Label id="label_hint" height="56" verticalAlign="middle" fontFamily="Arial" touchEnabled="false" textColor="0xFECA0B" width="208" textAlign="center" x="20" y="10" size="20" text="???????????????" horizontalCenter="-432" verticalCenter="-6"/>
+	<e:Label id="label_self_name" verticalAlign="middle" fontFamily="Arial" touchEnabled="false" width="244" height="38" textAlign="center" x="30" y="20" size="25" text="zf369" textColor="0xF7474D" horizontalCenter="-172" verticalCenter="-5"/>
+	<e:Label id="label_enemy_name" verticalAlign="middle" fontFamily="Arial" touchEnabled="false" size="25" width="244" height="38" textAlign="center" x="40" y="30" textColor="0x56BEFF" horizontalCenter="208" verticalCenter="-5" text="????????"/>
+	<e:Group id="knight_anim_layer" width="0" height="0" horizontalCenter="0" verticalCenter="-137"/>
+	<e:Button id="back_btn" skinName="skins.BtnRedLargeSkin" enabled="true" height="69" bold="true" horizontalCenter="452.5" verticalCenter="-6.5" label="退出匹配"/>
+</e:Skin>

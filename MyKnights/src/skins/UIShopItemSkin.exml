@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin xmlns:e="http://ns.egret-labs.org/egret" xmlns:w="http://ns.egret-labs.org/wing" width="178">
+	<w:HostComponent name="egret.gui.SkinnableComponent"/>
+	<w:Declarations/>
+	<e:states>
+		<e:State name="normal"/>
+		<e:State name="disabled"/>
+	</e:states>
+	<e:UIAsset source="special_detail_bg_png" scaleX="0.32" rotation="-90" scaleY="0.5" x="3" y="263"/>
+	<e:UIAsset id="recive_png" source="money_1_png" scaleY="0.9" scaleX="0.9" x="12" y="30"/>
+	<e:UIAsset id="cards_bg" source="job_big_frame_1_png" scaleY="0.3" scaleX="0.3" x="37" y="26" visible="false"/>
+	<e:UIAsset id="cards_type" source="knight_1_png" scaleY="0.3" scaleX="0.3" x="37" y="19" visible="false"/>
+	<e:UIAsset id="money_select_frame" source="select_frame_png" scale9Grid="23,21,28,31" width="178" height="259" x="0" y="6" visible="false"/>
+	<e:Label id="label_money" verticalAlign="middle" textColor="0x050404" fontFamily="Arial" textAlign="center" bold="true" width="140" size="20" y="166" x="17"/>
+	<e:Label verticalAlign="middle" textColor="0x060505" text="花费：" fontFamily="Arial" textAlign="center" bold="true" size="20" y="204" x="24"/>
+	<e:UIAsset id="diamond_png" source="diamond_1_png" scaleY="0.3" scaleX="0.3" y="198" x="70"/>
+	<e:Label id="label_money_fee" textColor="0x050404" fontFamily="Arial" bold="true" size="18" verticalAlign="middle" textAlign="left" width="62" height="24" y="202" x="100"/>
+	<e:UIAsset source="pin_png" x="76" y="0"/>
+	<e:UIAsset id="money" source="black_round_square_png" scale9Grid="14,13,21,21" width="170" height="249" alpha="0" x="0" y="13"/>
+	<e:UIAsset id="money_png" source="gold_icon_png" scaleX="0.8" scaleY="0.8" y="200" x="73"/>
+</e:Skin>

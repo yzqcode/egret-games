@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin width="165" height="120" xmlns:e="http://ns.egret-labs.org/egret" xmlns:w="http://ns.egret-labs.org/wing">
+	<w:HostComponent name="egret.gui.SkinnableComponent"/>
+	<w:Declarations/>
+	<e:states>
+		<e:State name="normal"/>
+		<e:State name="disabled"/>
+	</e:states>
+	<e:UIAsset id="head_bg_icon" x="0" width="165" height="69" source="on_position_bg_png" y="51"/>
+	<e:UIAsset id="knight_head_icon" source="head_nor_1_png" width="115" height="96" x="29" y="-7"/>
+	<e:Label id="label_level" height="27" textColor="0x000000" fontFamily="Arial" width="150" touchEnabled="false" textAlign="center" bold="true" italic="true" text="Lv.9" x="8" size="20" y="93"/>
+	<e:UIAsset id="left_color_icon" source="color_1_png" width="14" height="14" x="18" y="96"/>
+	<e:UIAsset id="right_color_icon" source="color_1_png" width="14" height="14" x="134" y="96"/>
+</e:Skin>

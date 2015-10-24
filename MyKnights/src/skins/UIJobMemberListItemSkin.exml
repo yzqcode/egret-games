@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin xmlns:e="http://ns.egret-labs.org/egret" xmlns:w="http://ns.egret-labs.org/wing" width="630" height="65">
+	<w:HostComponent name="egret.gui.SkinnableComponent"/>
+	<w:Declarations/>
+	<e:states>
+		<e:State name="normal"/>
+		<e:State name="disabled"/>
+	</e:states>
+	<e:UIAsset id="select_frame" source="select_frame_png" scale9Grid="23,21,28,31" width="630" height="68" x="0" y="-1" visible="false"/>
+	<e:UIAsset source="chat_dialog_panel_png" scale9Grid="24,24,28,28" y="5" width="255" height="55" x="5"/>
+	<e:UIAsset source="chat_dialog_panel_png" scale9Grid="24,24,28,28" width="106" height="55" y="5" x="273"/>
+	<e:UIAsset source="chat_dialog_panel_png" scale9Grid="24,24,28,28" height="55" width="99" y="5" x="393"/>
+	<e:UIAsset source="chat_dialog_panel_png" scale9Grid="24,24,28,28" y="5" width="118" height="55" x="506"/>
+	<e:Label id="member_name" y="18" width="228" fontFamily="Arial" textAlign="center" size="28" height="33" verticalAlign="middle" x="15"/>
+	<e:Label id="member_job_type" y="18" width="83" verticalAlign="middle" size="28" height="33" textAlign="center" fontFamily="Arial" x="285"/>
+	<e:Label id="member_post" height="33" verticalAlign="middle" textAlign="center" width="78" size="28" fontFamily="Arial" y="18" x="404"/>
+	<e:Label id="member_level" size="28" verticalAlign="middle" textAlign="center" width="97" height="33" fontFamily="Arial" y="18" x="517"/>
+	<e:UIAsset id="select_btn" source="black_round_square_png" scale9Grid="14,13,21,21" x="0" y="0" width="630" height="65" alpha="0"/>
+</e:Skin>

@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin xmlns:e="http://ns.egret-labs.org/egret" xmlns:w="http://ns.egret-labs.org/wing" width="396" height="67">
+	<w:HostComponent name="egret.gui.SkinnableComponent"/>
+	<w:Declarations/>
+	<e:states>
+		<e:State name="normal"/>
+		<e:State name="disabled"/>
+	</e:states>
+	<e:UIAsset source="yellow_panel_png" scale9Grid="11,10,15,16" width="281" height="56" x="1" y="6"/>
+	<e:Button id="choose_btn" height="67" width="112" skinName="skins.BtnYellowSmallSkin" label="选择" x="283" y="-1"/>
+	<e:Label id="server_name" text="服务器名称" x="4" y="14" width="274" height="46" textAlign="center" verticalAlign="middle" size="24" textColor="0x040303" fontFamily="Arial"/>
+</e:Skin>

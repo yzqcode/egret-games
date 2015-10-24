@@ -1,0 +1,242 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin width="1136" height="874" xmlns:e="http://ns.egret-labs.org/egret" xmlns:w="http://ns.egret-labs.org/wing">
+	<w:HostComponent name="egret.gui.SkinnableComponent"/>
+	<w:Declarations/>
+	<e:states>
+		<e:State name="normal"/>
+		<e:State name="disabled"/>
+	</e:states>
+	<e:UIAsset horizontalCenter="0" width="1136" verticalCenter="0" height="874" x="10" y="10" source="home_bg_jpg"/>
+	<e:UIAsset height="874" source="black_round_square_png" width="1136" alpha="0.2" scale9Grid="14,13,21,21" x="10" y="10" horizontalCenter="-3" verticalCenter="0"/>
+	<e:UIAsset height="345" source="chat_dialog_panel_2_jpg" horizontalCenter="0" verticalCenter="0" width="1098" x="20" y="20"/>
+	<e:UIAsset height="380" source="chat_dialog_frame_png" horizontalCenter="0" verticalCenter="0" width="1136" scale9Grid="50,53,49,45" x="20" y="20"/>
+	<e:Group id="job_team_group" height="339" width="1091" horizontalCenter="0.5" verticalCenter="-2.5" visible="false">
+		<e:Label id="hint_label" text="您不在骑士团中，不能参与转职副本！" width="550" height="51" textAlign="center" verticalAlign="middle" horizontalCenter="0" verticalCenter="0" textColor="0xFFF4CC"/>
+		<e:Group id="team_list_group" width="1091" height="339" x="0" y="0" visible="false">
+			<e:Scroller id="team_list" height="205" width="900" x="90" y="61">
+				<e:Group/>
+			</e:Scroller>
+			<e:Label height="41" verticalAlign="middle" textColor="0xFFF4CC" fontFamily="Arial" textAlign="center" size="30" width="149" y="20" text="队长名称" x="145"/>
+			<e:Label height="41" size="30" textColor="0xFFF4CC" text="职业" fontFamily="Arial" textAlign="center" verticalAlign="middle" width="84" y="20" x="388"/>
+			<e:Label height="41" size="30" textColor="0xFFF4CC" text="等级" fontFamily="Arial" textAlign="center" verticalAlign="middle" width="84" y="20" x="525"/>
+			<e:Label height="41" verticalAlign="middle" textColor="0xFFF4CC" text="状态" fontFamily="Arial" textAlign="center" size="30" width="84" y="20" x="717"/>
+			<e:Button id="create_team_btn" enabled="true" height="71" skinName="skins.BtnGreenLargeSkin" x="442" label="创建队伍" y="267"/>
+		</e:Group>
+		<e:Group id="member_list_group" width="1091" height="339" x="0" y="0">
+			<e:Scroller height="280" id="members_list" width="630" x="229" y="57">
+				<e:Group/>
+			</e:Scroller>
+			<e:Label height="41" verticalAlign="middle" textColor="0xFFF4CC" fontFamily="Arial" textAlign="center" size="30" width="149" y="20" text="名称" x="275"/>
+			<e:Label height="41" size="30" textColor="0xFFF4CC" text="职业" fontFamily="Arial" textAlign="center" verticalAlign="middle" width="84" y="20" x="500"/>
+			<e:Label height="41" size="30" textColor="0xFFF4CC" fontFamily="Arial" textAlign="center" verticalAlign="middle" width="84" text="职位" y="20" x="618"/>
+			<e:Label height="41" verticalAlign="middle" textColor="0xFFF4CC" fontFamily="Arial" textAlign="center" size="30" width="84" y="20" text="等级" x="727"/>
+			<e:Button id="start_battle_btn" enabled="true" skinName="skins.BtnGreenLargeSkin" height="71" x="865" y="257" label="进入副本"/>
+			<e:Button id="dismiss_btn" enabled="true" height="71" x="18" y="257" skinName="skins.BtnRedLargeSkin" label="解散队伍"/>
+			<e:Button id="kick_out_btn" label="踢出" x="64" y="182" skinName="skins.BtnRedSmallSkin"/>
+			<e:Button id="look_btn" label="查看" x="915" y="182" skinName="skins.BtnBlueSmallSkin"/>
+			<e:Button id="exit_btn" label="退出" x="64" y="182" skinName="skins.BtnRedSmallSkin"/>
+		</e:Group>
+	</e:Group>
+	<e:Group id="job_dojob_group" width="1088" height="339" x="10" y="10" horizontalCenter="0" verticalCenter="-0.5" visible="false">
+		<e:UIAsset source="chat_dialog_panel_png" scale9Grid="24,24,28,28" x="10" y="6" width="410" height="290"/>
+		<e:UIAsset source="chat_dialog_panel_png" scale9Grid="24,24,28,28" x="434" y="6" width="640" height="290"/>
+		<e:Button id="select_soldier_btn" skinName="skins.BtnGreenLargeSkin" scaleX="0.7" scaleY="0.7" x="44" y="293"/>
+		<e:Button id="doJob_btn" skinName="skins.BtnRedLargeSkin" scaleY="0.7" scaleX="0.7" x="481" y="293"/>
+		<e:Button id="select_jobCard_btn" skinName="skins.BtnGreenLargeSkin" scaleY="0.7" scaleX="0.7" x="906" y="294"/>
+		<e:UIAsset id="doJob_before_body_frame" source="color_big_frame_1_png" scaleY="0.5" scaleX="0.5" x="21" y="38"/>
+		<e:UIAsset id="doJob_before_name_frame" source="color_frame_1_png" scaleX="0.9" scaleY="0.9" x="40" y="22"/>
+		<e:UIAsset source="lv_top_png" x="152" y="229"/>
+		<e:UIAsset id="doJob_later_body_frame" source="job_big_frame_1_png" scaleY="0.5" scaleX="0.5" x="895" y="38"/>
+		<e:UIAsset id="doJob_later_name_frame" source="chat_title_png" scaleY="0.5" scaleX="0.4" y="26" x="909"/>
+		<e:Scroller id="doJob_skill_scroller" width="218" height="248" y="26" x="672">
+			<e:Group/>
+		</e:Scroller>
+		<e:UIAsset id="doJob_before_body" source="knight_2_png" scaleY="0.5" scaleX="0.5" x="22" y="28" visible="false"/>
+		<e:UIAsset id="doJob_before_body_mask" scaleY="0.5" scaleX="0.5" source="red_mask_2_png" x="22" y="28" visible="false"/>
+		<e:UIAsset id="doJob_later_body" source="knight_7_png" scaleY="0.5" scaleX="0.5" x="898" y="32" visible="false"/>
+		<e:Label id="doJob_before_name" x="53" y="36" width="103" height="28" textColor="0x050404" size="20" textAlign="center" verticalAlign="middle"/>
+		<e:Label id="doJob_later_name" textColor="0x050404" height="28" textAlign="center" width="103" size="20" verticalAlign="middle" x="928" y="33"/>
+		<e:Label id="doJob_before_level" x="159" y="253" width="32" height="28" textAlign="center" verticalAlign="middle" size="20"/>
+		<e:Label text="转职前" x="284" y="18" width="104" textAlign="center" verticalAlign="middle" textColor="0xEBF308"/>
+		<e:Label id="doJob_to_label" x="459" y="18" width="187" textAlign="center" verticalAlign="middle" textColor="0xF5F508" height="34"/>
+		<e:UIAsset source="attack_png" y="69" x="203"/>
+		<e:UIAsset source="def_png" y="137" x="199"/>
+		<e:UIAsset source="heart_png" y="198" x="199"/>
+		<e:UIAsset id="doJob_before_atk_num_panel" source="color_value_panel_1_png" scale9Grid="10,11,16,16" x="243" y="75" width="164" height="36"/>
+		<e:UIAsset id="doJob_before_def_num_panel" source="color_value_panel_1_png" scale9Grid="10,11,16,16" x="243" y="138" width="164" height="36"/>
+		<e:UIAsset id="doJob_before_hp_num_panel" source="color_value_panel_1_png" scale9Grid="10,11,16,16" x="243" y="196" width="164" height="36"/>
+		<e:Label id="doJob_before_atk_num" x="250" textColor="0x060505" size="24" width="149" height="28" fontFamily="Arial" textAlign="center" y="81"/>
+		<e:Label id="doJob_before_def_num" x="250" y="144" textColor="0x050404" size="24" width="149" height="28" fontFamily="Arial" verticalAlign="middle" textAlign="center"/>
+		<e:Label id="doJob_before_hp_num" x="250" y="202" textColor="0x050404" size="24" width="149" height="28" fontFamily="Arial" verticalAlign="middle" textAlign="center"/>
+		<e:UIAsset source="attack_png" x="453" y="68"/>
+		<e:UIAsset source="def_png" x="449" y="136"/>
+		<e:UIAsset source="heart_png" x="449" y="197"/>
+		<e:UIAsset id="doJob_later_atk_num_panel" source="color_value_panel_1_png" scale9Grid="10,11,16,16" width="164" height="36" x="493" y="74"/>
+		<e:UIAsset id="doJob_later_def_num_panel" source="color_value_panel_1_png" scale9Grid="10,11,16,16" width="164" height="36" x="493" y="137"/>
+		<e:UIAsset id="doJob_later_hp_num_panel" source="color_value_panel_1_png" scale9Grid="10,11,16,16" width="164" height="36" x="493" y="195"/>
+		<e:Label id="doJob_later_atk_num" textColor="0x060505" size="24" fontFamily="Arial" textAlign="center" width="149" height="28" x="500" y="80"/>
+		<e:Label id="doJob_later_def_num" textColor="0x050404" size="24" fontFamily="Arial" textAlign="center" width="149" height="28" verticalAlign="middle" x="500" y="143"/>
+		<e:Label id="doJob_later_hp_num" textColor="0x050404" size="24" fontFamily="Arial" textAlign="center" width="149" height="28" verticalAlign="middle" x="500" y="201"/>
+		<e:Label text="选择士兵" x="58" y="306" height="28" size="22" textColor="0x040303" width="117" textAlign="center" verticalAlign="middle" touchEnabled="false"/>
+		<e:Label textColor="0x040303" height="28" textAlign="center" width="117" verticalAlign="middle" size="22" x="496" y="306" text="转职" touchEnabled="false"/>
+		<e:Label textColor="0x040303" size="22" textAlign="center" width="117" verticalAlign="middle" height="28" x="920" y="306" text="选择转职卡" touchEnabled="false"/>
+	</e:Group>
+	<e:Group id="job_hero_group" height="330" width="1091" x="20" y="20" horizontalCenter="0.5" verticalCenter="-3" visible="false">
+		<e:Scroller id="hero_list" width="541" height="333" y="1" x="9">
+			<e:Group>
+				<e:UIAsset source="job_bg_nor_png" width="100" y="2" height="100" x="18"/>
+				<e:UIAsset source="job_bg_nor_png" width="100" y="111" x="18"/>
+				<e:UIAsset source="job_bg_nor_png" width="100" y="224" x="18"/>
+				<e:UIAsset source="job_bg_nor_png" width="100" y="2" x="166"/>
+				<e:UIAsset source="job_bg_nor_png" width="100" y="2" x="290"/>
+				<e:UIAsset source="job_bg_nor_png" width="100" y="2" x="410"/>
+				<e:UIAsset source="job_bg_nor_png" width="100" y="111" x="200"/>
+				<e:UIAsset source="job_bg_nor_png" width="100" y="111" x="380"/>
+				<e:UIAsset source="job_bg_nor_png" width="100" y="224" x="166"/>
+				<e:UIAsset source="job_bg_nor_png" width="100" y="224" x="290"/>
+				<e:UIAsset source="job_bg_nor_png" width="100" y="224" x="410"/>
+				<e:UIAsset id="hero_select_1" source="job_bg_sel_png" y="2" width="100" height="100" x="18" visible="false"/>
+				<e:UIAsset id="hero_select_2" source="job_bg_sel_png" y="111" x="18" width="100" visible="false"/>
+				<e:UIAsset id="hero_select_3" source="job_bg_sel_png" y="224" x="18" width="100" visible="false"/>
+				<e:UIAsset id="hero_select_4" source="job_bg_sel_png" y="2" x="166" width="100" visible="false"/>
+				<e:UIAsset id="hero_select_5" source="job_bg_sel_png" y="2" x="290" width="100" visible="false"/>
+				<e:UIAsset id="hero_select_6" source="job_bg_sel_png" y="2" x="410" width="100" visible="false"/>
+				<e:UIAsset id="hero_select_7" source="job_bg_sel_png" y="111" x="200" width="100" visible="false"/>
+				<e:UIAsset id="hero_select_8" source="job_bg_sel_png" y="111" x="380" width="100" visible="false"/>
+				<e:UIAsset id="hero_select_9" source="job_bg_sel_png" y="224" x="166" width="100" visible="false"/>
+				<e:UIAsset id="hero_select_10" source="job_bg_sel_png" y="224" x="290" width="100" visible="false"/>
+				<e:UIAsset id="hero_select_11" source="job_bg_sel_png" y="224" x="410" width="100" visible="false"/>
+				<e:UIAsset id="hero_1" y="-7" x="28" scaleX="0.23" scaleY="0.23" source="zj_knight_1_png"/>
+				<e:UIAsset id="hero_2" y="102" scaleX="0.23" scaleY="0.23" x="28" source="zj_knight_2_png"/>
+				<e:UIAsset id="hero_3" y="216" scaleX="0.23" scaleY="0.23" x="30" source="zj_knight_3_png"/>
+				<e:UIAsset id="hero_4" y="-6" scaleX="0.23" scaleY="0.23" x="177" source="zj_knight_4_png"/>
+				<e:UIAsset id="hero_5" y="-6" scaleX="0.23" scaleY="0.23" x="300" source="zj_knight_5_png"/>
+				<e:UIAsset id="hero_6" y="-7" scaleX="0.23" scaleY="0.23" x="421" source="zj_knight_6_png"/>
+				<e:UIAsset id="hero_7" y="102" scaleX="0.23" scaleY="0.23" x="210" source="zj_knight_7_png"/>
+				<e:UIAsset id="hero_8" y="104" scaleX="0.23" scaleY="0.23" x="391" source="zj_knight_8_png"/>
+				<e:UIAsset id="hero_9" y="216" x="175" scaleX="0.23" scaleY="0.23" source="zj_knight_9_png"/>
+				<e:UIAsset id="hero_10" y="215" scaleX="0.23" scaleY="0.23" x="302" source="zj_knight_10_png"/>
+				<e:UIAsset id="hero_11" scaleX="0.23" scaleY="0.23" x="421" source="zj_knight_11_png" y="216"/>
+				<e:UIAsset source="pin_png" scaleY="0.5" y="-2" scaleX="0.5" x="64"/>
+				<e:UIAsset source="pin_png" scaleY="0.5" y="106" scaleX="-0.5" x="69"/>
+				<e:UIAsset source="pin_png" scaleY="0.5" y="218" scaleX="0.5" x="63"/>
+				<e:UIAsset source="pin_png" scaleY="0.5" y="-2" scaleX="-0.5" x="219"/>
+				<e:UIAsset source="pin_png" scaleY="0.5" y="-2" scaleX="0.5" x="337"/>
+				<e:UIAsset source="pin_png" scaleY="0.5" y="-2" scaleX="-0.5" x="462"/>
+				<e:UIAsset source="pin_png" scaleY="0.5" y="106" scaleX="0.5" x="247"/>
+				<e:UIAsset source="pin_png" scaleY="0.5" y="105" scaleX="0.5" x="427"/>
+				<e:UIAsset source="pin_png" scaleY="0.5" y="217" scaleX="-0.5" x="219"/>
+				<e:UIAsset source="pin_png" scaleY="0.5" y="219" scaleX="0.5" x="339"/>
+				<e:UIAsset source="pin_png" scaleY="0.5" y="218" scaleX="-0.5" x="463"/>
+				<e:UIAsset source="little_arrow_png" x="124" y="35"/>
+				<e:UIAsset source="little_arrow_png" x="124" y="141"/>
+				<e:UIAsset source="little_arrow_png" x="124" y="257"/>
+			</e:Group>
+		</e:Scroller>
+		<e:UIAsset source="special_detail_bg_png" width="508" height="333" y="1" x="555"/>
+		<e:UIAsset source="chat_title_png" scaleY="0.6" scaleX="0.6" y="-1" x="704"/>
+		<e:Label id="hero_name" textColor="0x000000" text="转职介绍" fontFamily="Arial" bold="true" size="28" textAlign="center" width="145" height="34" verticalAlign="middle" y="6" x="737"/>
+		<e:UIAsset source="black_round_square_png" scale9Grid="14,13,21,21" width="376" height="41" y="61" x="621"/>
+		<e:Label id="hero_introduce" verticalAlign="middle" textColor="0xF2E606" size="24" fontFamily="Arial" textAlign="center" width="350" height="35" text="英雄描述" y="65" x="635"/>
+		<e:UIAsset source="yellow_panel_png" scale9Grid="11,10,15,16" width="371" height="169" y="117" x="623"/>
+		<e:UIAsset id="hero_body" source="knight_5_png" scaleX="0.65" scaleY="0.65" x="574" y="23"/>
+		<e:UIAsset source="black_round_square_png" scale9Grid="14,13,21,21" width="166" height="37" y="123" x="779"/>
+		<e:Label verticalAlign="middle" textColor="0xF1D106" size="24" text="特殊技能" fontFamily="Arial" textAlign="center" width="149" height="34" y="125" x="785"/>
+		<e:UIAsset source="chat_dialog_panel_png" scale9Grid="24,24,28,28" width="208" height="118" y="161" x="778"/>
+		<e:Scroller id="hero_skill_scroller" width="193" height="108" y="165" x="785">
+			<e:Group/>
+		</e:Scroller>
+		<e:UIAsset source="pin_png" scaleX="-1" y="-1" x="585"/>
+		<e:UIAsset source="pin_png" y="-2" x="1030"/>
+		<e:Group id="init_panel_hero" width="421" height="254" y="57" x="597">
+			<e:UIAsset source="yellow_panel_png" scale9Grid="11,10,15,16" width="419" height="241" x="0" y="0"/>
+			<e:Label textColor="0x040303" height="24" textAlign="left" width="349" size="20" verticalAlign="middle" x="40" y="8" text="战、弓、法达到5级时可进行转职。"/>
+			<e:Label verticalAlign="middle" textColor="0x050404" size="20" text="转职需要转职卡。" textAlign="left" width="321" height="24" x="40" y="38"/>
+			<e:Label verticalAlign="middle" textColor="0x050404" text="转职卡可与骑士团队友组队进入转职副本概率获得，也可以通过商人进行购买。" textAlign="left" width="321" size="20" x="40" y="67"/>
+			<e:Label verticalAlign="middle" textColor="0x060505" text="转职卡有职业及品质要求，需要满足条件。" textAlign="left" width="321" size="20" x="40" y="138"/>
+			<e:Label verticalAlign="middle" textColor="0x050404" text="转职副本与组队副本一致，只能由主角进入。" textAlign="left" width="321" size="20" x="40" y="189"/>
+		</e:Group>
+	</e:Group>
+	<e:Group id="job_soldier_group" width="1097" height="339" x="30" y="30" horizontalCenter="0.5" verticalCenter="0.5" visible="false">
+		<e:Scroller id="soldier_list" height="333" width="541" y="2" x="12">
+			<e:Group>
+				<e:UIAsset source="job_bg_nor_png" x="18" y="2" width="100" height="100"/>
+				<e:UIAsset source="job_bg_nor_png" x="18" y="111" width="100"/>
+				<e:UIAsset source="job_bg_nor_png" x="18" y="224" width="100"/>
+				<e:UIAsset source="job_bg_nor_png" x="166" y="2" width="100"/>
+				<e:UIAsset source="job_bg_nor_png" x="290" y="2" width="100"/>
+				<e:UIAsset source="job_bg_nor_png" x="410" y="2" width="100"/>
+				<e:UIAsset source="job_bg_nor_png" x="200" y="111" width="100"/>
+				<e:UIAsset source="job_bg_nor_png" x="380" y="111" width="100"/>
+				<e:UIAsset source="job_bg_nor_png" x="166" y="224" width="100"/>
+				<e:UIAsset source="job_bg_nor_png" x="290" y="224" width="100"/>
+				<e:UIAsset source="job_bg_nor_png" x="410" y="224" width="100"/>
+				<e:UIAsset id="soldier_select_1" source="job_bg_sel_png" x="18" y="2" width="100" height="100" visible="false"/>
+				<e:UIAsset id="soldier_select_2" source="job_bg_sel_png" x="18" y="111" width="100" visible="false"/>
+				<e:UIAsset id="soldier_select_3" source="job_bg_sel_png" x="18" y="224" width="100" visible="false"/>
+				<e:UIAsset id="soldier_select_4" source="job_bg_sel_png" x="166" y="2" width="100" visible="false"/>
+				<e:UIAsset id="soldier_select_5" source="job_bg_sel_png" x="290" y="2" width="100" visible="false"/>
+				<e:UIAsset id="soldier_select_6" source="job_bg_sel_png" x="410" y="2" width="100" visible="false"/>
+				<e:UIAsset id="soldier_select_7" source="job_bg_sel_png" x="200" y="111" width="100" visible="false"/>
+				<e:UIAsset id="soldier_select_8" source="job_bg_sel_png" x="380" y="111" width="100" visible="false"/>
+				<e:UIAsset id="soldier_select_9" source="job_bg_sel_png" x="166" y="224" width="100" visible="false"/>
+				<e:UIAsset id="soldier_select_10" source="job_bg_sel_png" x="290" y="224" width="100" visible="false"/>
+				<e:UIAsset id="soldier_select_11" source="job_bg_sel_png" x="410" y="224" width="100" visible="false"/>
+				<e:UIAsset id="soldier_1" source="knight_1_png" scaleX="0.23" scaleY="0.23" x="28" y="-7"/>
+				<e:UIAsset id="soldier_2" source="knight_2_png" scaleY="0.23" scaleX="0.23" x="28" y="102"/>
+				<e:UIAsset id="soldier_3" source="knight_3_png" scaleY="0.23" scaleX="0.23" y="216" x="30"/>
+				<e:UIAsset id="soldier_4" source="knight_4_png" scaleY="0.23" scaleX="0.23" x="177" y="-6"/>
+				<e:UIAsset id="soldier_5" source="knight_5_png" scaleY="0.23" scaleX="0.23" x="300" y="-6"/>
+				<e:UIAsset id="soldier_6" source="knight_6_png" scaleY="0.23" scaleX="0.23" x="421" y="-7"/>
+				<e:UIAsset id="soldier_7" source="knight_7_png" scaleY="0.23" scaleX="0.23" y="102" x="210"/>
+				<e:UIAsset id="soldier_8" source="knight_8_png" scaleY="0.23" scaleX="0.23" y="104" x="391"/>
+				<e:UIAsset id="soldier_9" source="knight_9_png" scaleX="0.23" scaleY="0.23" x="175" y="216"/>
+				<e:UIAsset id="soldier_10" source="knight_10_png" scaleY="0.23" scaleX="0.23" x="302" y="215"/>
+				<e:UIAsset id="soldier_11" source="knight_11_png" scaleY="0.23" scaleX="0.23" x="421" y="214"/>
+				<e:UIAsset source="pin_png" scaleY="0.5" scaleX="0.5" x="64" y="-2"/>
+				<e:UIAsset source="pin_png" scaleY="0.5" scaleX="-0.5" y="106" x="69"/>
+				<e:UIAsset source="pin_png" scaleX="0.5" scaleY="0.5" y="218" x="63"/>
+				<e:UIAsset source="pin_png" scaleY="0.5" scaleX="-0.5" y="-2" x="219"/>
+				<e:UIAsset source="pin_png" scaleY="0.5" scaleX="0.5" y="-2" x="337"/>
+				<e:UIAsset source="pin_png" scaleY="0.5" scaleX="-0.5" x="462" y="-2"/>
+				<e:UIAsset source="pin_png" scaleY="0.5" scaleX="0.5" y="106" x="247"/>
+				<e:UIAsset source="pin_png" scaleY="0.5" scaleX="0.5" y="105" x="427"/>
+				<e:UIAsset source="pin_png" scaleY="0.5" scaleX="-0.5" x="219" y="217"/>
+				<e:UIAsset source="pin_png" scaleY="0.5" scaleX="0.5" x="339" y="219"/>
+				<e:UIAsset source="pin_png" scaleY="0.5" scaleX="-0.5" y="218" x="463"/>
+				<e:UIAsset source="little_arrow_png" x="124" y="35"/>
+				<e:UIAsset source="little_arrow_png" x="124" y="141"/>
+				<e:UIAsset source="little_arrow_png" x="124" y="257"/>
+			</e:Group>
+		</e:Scroller>
+		<e:UIAsset source="special_detail_bg_png" x="558" y="2" width="508" height="333"/>
+		<e:UIAsset scaleY="0.6" source="chat_title_png" scaleX="0.6" y="0" x="707"/>
+		<e:Label id="soldier_name" height="34" textColor="0x000000" fontFamily="Arial" textAlign="center" width="145" verticalAlign="middle" bold="true" y="7" x="740" text="转职介绍" size="28"/>
+		<e:UIAsset source="black_round_square_png" scale9Grid="14,13,21,21" x="624" y="62" width="376" height="41"/>
+		<e:UIAsset source="yellow_panel_png" scale9Grid="11,10,15,16" x="626" y="118" width="371" height="169"/>
+		<e:UIAsset id="soldier_body" source="knight_5_png" scaleY="0.65" scaleX="0.65" x="577" y="24"/>
+		<e:UIAsset source="black_round_square_png" scale9Grid="14,13,21,21" x="782" y="124" width="166" height="37"/>
+		<e:Label text="特殊技能" x="788" y="126" width="149" size="24" verticalAlign="middle" height="34" textColor="0xF1D106" fontFamily="Arial" textAlign="center"/>
+		<e:Label id="soldier_introduce" text="士兵描述" x="638" y="66" width="350" textAlign="center" verticalAlign="middle" size="24" fontFamily="Arial" height="35" textColor="0xF2E606"/>
+		<e:UIAsset source="chat_dialog_panel_png" scale9Grid="24,24,28,28" x="781" y="162" width="208" height="118"/>
+		<e:Scroller id="skill_scroller" width="193" height="108" y="166" x="788">
+			<e:Group/>
+		</e:Scroller>
+		<e:UIAsset source="pin_png" scaleX="-1" x="588" y="0"/>
+		<e:UIAsset source="pin_png" x="1033" y="-1"/>
+		<e:Group id="init_panel" height="254" width="421" x="600" y="57">
+			<e:UIAsset source="yellow_panel_png" scale9Grid="11,10,15,16" width="419" height="241" x="0" y="1"/>
+			<e:Label width="349" height="24" size="20" x="40" y="9" textAlign="left" verticalAlign="middle" textColor="0x040303" text="战、弓、法达到5级时可进行转职。"/>
+			<e:Label size="20" width="321" x="40" textAlign="left" verticalAlign="middle" height="24" text="转职需要转职卡。" y="39" textColor="0x050404"/>
+			<e:Label size="20" x="40" y="68" width="321" textAlign="left" verticalAlign="middle" text="转职卡可与骑士团队友组队进入转职副本概率获得，也可以通过商人进行购买。" textColor="0x050404"/>
+			<e:Label size="20" x="40" y="139" width="321" textAlign="left" verticalAlign="middle" text="转职卡有职业及品质要求，需要满足条件。" textColor="0x060505"/>
+			<e:Label size="20" x="40" y="190" width="321" textAlign="left" verticalAlign="middle" text="转职副本与组队副本一致，只能由主角进入。" textColor="0x050404"/>
+		</e:Group>
+	</e:Group>
+	<e:Group id="job_tab_btn_bg" width="1100" height="64" x="10" y="10" horizontalCenter="0" verticalCenter="-199">
+		<e:Button id="job_team_btn" enabled="true" height="62" skinName="skins.BtnGuildTabSkin" x="35" y="5" label="转职副本"/>
+		<e:Button id="job_dojob_btn" enabled="true" height="62" skinName="skins.BtnGuildTabSkin" x="255" y="5" label="转职"/>
+		<e:Button id="job_hero_btn" enabled="true" height="62" skinName="skins.BtnGuildTabSkin" x="475" y="5" label="英雄介绍"/>
+		<e:Button id="job_soldier" enabled="true" height="62" skinName="skins.BtnGuildTabSkin" x="695" y="5" label="士兵介绍"/>
+	</e:Group>
+</e:Skin>

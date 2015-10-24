@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin width="1136" height="874" xmlns:e="http://ns.egret-labs.org/egret" xmlns:w="http://ns.egret-labs.org/wing">
+	<w:HostComponent name="egret.gui.SkinnableComponent"/>
+	<w:Declarations/>
+	<e:states>
+		<e:State name="normal"/>
+		<e:State name="disabled"/>
+	</e:states>
+	<e:UIAsset source="black_round_square_png" scale9Grid="14,13,21,21" alpha="0.3" width="1136" height="874" verticalCenter="0" horizontalCenter="0"/>
+	<e:UIAsset source="chat_dialog_panel_2_jpg" width="782" height="415" horizontalCenter="0" verticalCenter="0"/>
+	<e:UIAsset source="chat_dialog_frame_png" scale9Grid="50,53,49,45" width="820" height="450" horizontalCenter="0" verticalCenter="0"/>
+	<e:UIAsset source="chat_dialog_panel_png" scale9Grid="24,24,28,28" width="711" height="353" horizontalCenter="0" verticalCenter="0" fontFamily="Arial" size="25"/>
+	<e:UIAsset source="chat_title_png" verticalCenter="-210.5" horizontalCenter="0"/>
+	<e:UIAsset source="send_msg_frame_png" scale9Grid="18,18,19,19" width="680" height="60" verticalCenter="137" horizontalCenter="0"/>
+	<e:UIAsset source="black_round_square_png" scale9Grid="14,13,21,21" width="663" height="45" horizontalCenter="0" verticalCenter="137.5"/>
+	<e:EditableText id="input_edit" width="497" height="40" verticalAlign="middle" textAlign="left" horizontalCenter="-74.5" verticalCenter="140"/>
+	<e:Button id="speak_btn" label="发言" skinName="skins.BtnSpeakSkin" horizontalCenter="256" verticalCenter="137.5" fontFamily="Arial" size="25"/>
+	<e:Label text="骑士团聊天" width="191" height="40" horizontalCenter="0" verticalCenter="-220" textAlign="center" verticalAlign="middle" fontFamily="Arial" textColor="0x070606" bold="true"/>
+	<e:Scroller id="chatDialog_scroller" width="641" height="241" horizontalCenter="0" verticalCenter="-25.5">
+		<e:Group width="641"/>
+	</e:Scroller>
+	<e:UIAsset id="close_icon" source="close_png" horizontalCenter="351.5" verticalCenter="-170.5"/>
+</e:Skin>

@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin width="210" height="82" xmlns:e="http://ns.egret-labs.org/egret" xmlns:w="http://ns.egret-labs.org/wing">
+	<w:HostComponent name="egret.gui.SkinnableComponent"/>
+	<w:Declarations/>
+	<e:states>
+		<e:State name="normal"/>
+		<e:State name="disabled"/>
+	</e:states>
+	<e:UIAsset height="80" source="chat_dialog_panel_png" scale9Grid="24,24,28,28" width="210" x="0" y="2"/>
+	<e:UIAsset source="lv_top_png" x="7" y="11"/>
+	<e:Label height="36" verticalAlign="middle" text="9" touchEnabled="false" size="20" textColor="0xF7EDBC" width="32" fontFamily="Arial" id="label_level" textAlign="center" x="14" y="28"/>
+	<e:UIAsset id="icon_name_frame_bg" source="color_frame_6_png" scale9Grid="35,18,77,23" x="50" y="12"/>
+	<e:Label height="34" textColor="0x000000" text="我是一个大帅哥" fontFamily="Arial" size="15" verticalAlign="middle" width="129" touchEnabled="false" id="label_name" textAlign="center" x="60" y="26"/>
+	<e:UIAsset id="select_frame" height="84" source="select_frame_png" width="214" scale9Grid="23,21,28,31" x="-2" y="-1"/>
+	<e:UIAsset id="select_mask" scale9Grid="14,13,21,21" source="black_round_square_png" width="207" alpha="0" height="81" x="2" y="2"/>
+</e:Skin>

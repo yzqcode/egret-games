@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin width="1136" height="874" xmlns:e="http://ns.egret-labs.org/egret" xmlns:w="http://ns.egret-labs.org/wing">
+	<w:HostComponent name="egret.gui.SkinnableComponent"/>
+	<w:Declarations/>
+	<e:states>
+		<e:State name="normal"/>
+		<e:State name="disabled"/>
+	</e:states>
+	<e:UIAsset width="1136" height="874" source="home_bg_jpg" horizontalCenter="0" verticalCenter="0"/>
+	<e:UIAsset source="black_round_square_png" scale9Grid="14,13,21,21" width="1136" height="874" alpha="0.3" verticalCenter="0" horizontalCenter="0"/>
+	<e:UIAsset source="chat_dialog_panel_2_jpg" width="945" height="485" verticalCenter="0" horizontalCenter="0"/>
+	<e:UIAsset source="chat_dialog_frame_png" scale9Grid="50,53,49,45" width="975" height="515" horizontalCenter="0" verticalCenter="0"/>
+	<e:UIAsset source="special_detail_bg_png" width="379" rotation="-90" height="258" horizontalCenter="-239.5" verticalCenter="299"/>
+	<e:UIAsset source="special_detail_bg_png" width="379" rotation="-90" height="258" horizontalCenter="58.5" verticalCenter="299"/>
+	<e:UIAsset source="special_detail_bg_png" width="379" rotation="-90" height="258" horizontalCenter="353.5" verticalCenter="299"/>
+	<e:UIAsset source="chat_title_png" horizontalCenter="0" verticalCenter="-257.5"/>
+	<e:Label textColor="0x050404" verticalAlign="middle" textAlign="center" bold="true" width="211" height="48" verticalCenter="-267" text="选择要招募的职业" size="24" horizontalCenter="0"/>
+	<e:Label textColor="0x050404" width="188" textAlign="center" verticalAlign="middle" verticalCenter="-161.5" horizontalCenter="-303" bold="true" fontFamily="Arial" text="战士"/>
+	<e:Label textColor="0x050404" width="188" textAlign="center" verticalAlign="middle" verticalCenter="-161.5" horizontalCenter="-5" bold="true" fontFamily="Arial" text="弓箭手"/>
+	<e:Label textColor="0x050404" textAlign="center" verticalAlign="middle" width="188" verticalCenter="-161.5" horizontalCenter="293" bold="true" fontFamily="Arial" text="法师"/>
+	<e:UIAsset id="btn_select_0" source="knight_1_png" scaleY="0.6" scaleX="0.6" horizontalCenter="-299.7" verticalCenter="-26.5"/>
+	<e:UIAsset id="btn_select_1" source="knight_2_png" scaleX="0.6" scaleY="0.6" horizontalCenter="-1.7000000000000455" verticalCenter="-26.5"/>
+	<e:UIAsset id="btn_select_2" source="knight_3_png" scaleX="0.6" scaleY="0.6" horizontalCenter="294.29999999999995" verticalCenter="-26.5"/>
+	<e:UIAsset id="close_btn" source="close_png" horizontalCenter="429.5" verticalCenter="-204.5"/>
+</e:Skin>

@@ -1,0 +1,24 @@
+{
+	"document_class": "Main",
+	"modules": [
+		{
+			"name": "core"
+		},
+		{
+			"name": "res"
+		},
+		{
+			"name": "gui"
+		},
+		{
+			"name": "socket"
+		},
+		{
+			"name": "dragonbones"
+		}
+	],
+	"native": {
+		"path_ignore": []
+	},
+	"egret_version": "1.7.0"
+}

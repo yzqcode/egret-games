@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin width="1136" height="874" xmlns:e="http://ns.egret-labs.org/egret" xmlns:w="http://ns.egret-labs.org/wing">
+	<w:HostComponent name="egret.gui.SkinnableComponent"/>
+	<w:Declarations/>
+	<e:states>
+		<e:State name="normal"/>
+		<e:State name="disabled"/>
+	</e:states>
+	<e:UIAsset source="black_round_square_png" scale9Grid="14,13,21,21" width="1136" height="874" alpha="0.5" horizontalCenter="0" verticalCenter="0"/>
+	<e:Group id="ui_layer" width="310" height="210" x="413" y="332">
+		<e:UIAsset source="chat_dialog_panel_2_jpg" width="303" height="201" x="3" y="0"/>
+		<e:UIAsset source="send_msg_frame_png" width="314" height="210" x="0" y="0"/>
+		<e:UIAsset height="183" source="chat_dialog_panel_png" scale9Grid="24,24,28,28" width="284" x="14" y="13"/>
+		<e:Button id="btn_ok" x="53" y="79" skinName="skins.BtnGreenLargeSkin" label="确定"/>
+	</e:Group>
+	<e:Group id="anim_layer" width="0" height="0" x="10" y="10" horizontalCenter="0" verticalCenter="-109">
+	</e:Group>
+</e:Skin>

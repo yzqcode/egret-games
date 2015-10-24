@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin xmlns:e="http://ns.egret-labs.org/egret" xmlns:w="http://ns.egret-labs.org/wing">
+	<w:HostComponent name="egret.gui.Panel"/>
+	<w:Declarations/>
+	<e:states>
+		<e:State name="normal"/>
+		<e:State name="disabled"/>
+	</e:states>
+	<e:UIAsset source="black_round_square_png" scale9Grid="14,13,21,21" width="1136" height="874" alpha="0.5" horizontalCenter="0" verticalCenter="0"/>
+	<e:UIAsset source="dialog_title_bg_png" horizontalCenter="4.5" verticalCenter="-116"/>
+	<e:UIAsset source="chat_dialog_panel_2_jpg" width="363" height="249" horizontalCenter="1.5" verticalCenter="38.5"/>
+	<e:UIAsset width="374" height="258" source="send_msg_frame_png" horizontalCenter="0" verticalCenter="39"/>
+	<e:UIAsset source="chat_dialog_panel_png" scale9Grid="24,24,28,28" width="348" height="231" horizontalCenter="1" verticalCenter="41.5"/>
+	<e:Label id="title_lable" width="194" textAlign="center" verticalAlign="middle" fontFamily="Arial" size="30" textColor="0xF7EDBC" text="标题" horizontalCenter="0" verticalCenter="-120.5"/>
+	<e:Label id="content_lable" width="313" height="116" verticalAlign="middle" textAlign="center" textColor="0xF7EDBC" horizontalCenter="0.5" verticalCenter="-3" fontFamily="Arial" size="25" text="内容"/>
+	<e:Button id="oneOK_btn" label="确定" enabled="true" skinName="skins.BtnBlueSmallSkin" horizontalCenter="0" verticalCenter="106"/>
+	<e:Button id="ok_btn" label="确定" skinName="skins.BtnRedSmallSkin" horizontalCenter="76" verticalCenter="107"/>
+	<e:Button id="cancel_btn" label="取消" skinName="skins.BtnYellowSmallSkin" horizontalCenter="-62" verticalCenter="107"/>
+</e:Skin>

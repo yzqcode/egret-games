@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin width="1136" height="874" xmlns:e="http://ns.egret-labs.org/egret" xmlns:w="http://ns.egret-labs.org/wing">
+	<w:HostComponent name="egret.gui.SkinnableComponent"/>
+	<w:Declarations/>
+	<e:states>
+		<e:State name="normal"/>
+		<e:State name="disabled"/>
+	</e:states>
+	<e:UIAsset source="black_round_square_png" scale9Grid="14,13,21,21" alpha="0.3" width="1136" height="874" verticalCenter="0" horizontalCenter="0"/>
+	<e:UIAsset source="chat_dialog_panel_2_jpg" width="1022" height="415" horizontalCenter="0" verticalCenter="0"/>
+	<e:UIAsset source="chat_dialog_frame_png" scale9Grid="50,53,49,45" width="1060" height="450" horizontalCenter="0" verticalCenter="0"/>
+	<e:UIAsset source="chat_title_png" verticalCenter="-210.5" horizontalCenter="0"/>
+	<e:Label width="191" height="40" horizontalCenter="0" verticalCenter="-220" textAlign="center" verticalAlign="middle" fontFamily="Arial" textColor="0x070606" bold="true" text="军情报告"/>
+	<e:Scroller id="war_list" width="780" height="340" horizontalCenter="0" verticalCenter="0" touchEnabled="true">
+		<e:Group touchEnabled="true"/>
+	</e:Scroller>
+	<e:UIAsset id="close_icon" source="close_png" horizontalCenter="463.5" verticalCenter="-165.5"/>
+	<e:UIAsset id="left_arrow" source="arrow_png" horizontalCenter="-451.5" verticalCenter="-18.5"/>
+	<e:UIAsset id="right_arrow" source="arrow_png" x="10" y="10" scaleX="-1" horizontalCenter="444.5" verticalCenter="-26.5"/>
+</e:Skin>

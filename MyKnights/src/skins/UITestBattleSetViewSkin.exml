@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin width="800" height="500" xmlns:e="http://ns.egret-labs.org/egret" xmlns:w="http://ns.egret-labs.org/wing">
+	<w:HostComponent name="egret.gui.SkinnableComponent"/>
+	<w:Declarations/>
+	<e:states>
+		<e:State name="normal"/>
+		<e:State name="disabled"/>
+	</e:states>
+	<e:UIAsset source="black_round_square_png" scale9Grid="14,13,21,21" width="799" height="500" alpha="0.7" y="0" x="0"/>
+	<e:Rect width="767" height="291" x="11" y="11" textColor="0xFFFFFF" fillColor="0x386744" strokeColor="0x444444" strokeAlpha="0"/>
+	<e:Rect textColor="0xFFFFFF" height="104" strokeAlpha="0" strokeColor="0x444444" width="767" x="11" y="321" fillColor="0x384567"/>
+	<e:UIAsset source="talk_frame_png" width="151" height="35" scale9Grid="19,20,58,57" x="550" y="108"/>
+	<e:EditableText id="hp_edit" height="22" textColor="0xFFFFFF" textAlign="center" size="20" width="113" x="566" y="114"/>
+	<e:UIAsset source="talk_frame_png" height="35" width="151" scale9Grid="19,20,58,57" x="469" y="178"/>
+	<e:EditableText id="offset_edit" textColor="0xFFFFFF" textAlign="center" size="20" width="113" height="22" x="485" y="184"/>
+	<e:UIAsset source="talk_frame_png" width="151" height="35" scale9Grid="19,20,58,57" x="85" y="173"/>
+	<e:EditableText id="direction_edit" height="22" textColor="0xFFFFFF" textAlign="center" size="20" width="113" x="101" y="179"/>
+	<e:UIAsset height="60" source="talk_frame_png" scale9Grid="19,20,58,57" width="270" x="461" y="342"/>
+	<e:EditableText id="quick_battle_edit" height="45" textColor="0xFFFFFF" textAlign="center" width="234" x="477" y="350" size="30"/>
+	<e:UIAsset source="talk_frame_png" width="151" height="35" scale9Grid="19,20,58,57" x="596" y="16"/>
+	<e:EditableText id="job_edit" height="22" textAlign="center" width="113" textColor="0xFFFFFF" size="20" x="612" y="22"/>
+	<e:UIAsset source="talk_frame_png" width="151" height="35" scale9Grid="19,20,58,57" x="86" y="64"/>
+	<e:EditableText id="name_edit" height="22" textColor="0xFFFFFF" textAlign="center" size="20" width="115" x="102" y="70"/>
+	<e:UIAsset source="talk_frame_png" height="35" width="151" scale9Grid="19,20,58,57" x="310" y="62"/>
+	<e:EditableText id="lv_edit" textColor="0xFFFFFF" textAlign="center" size="20" width="113" height="22" x="326" y="68"/>
+	<e:UIAsset source="talk_frame_png" width="151" height="35" scale9Grid="19,20,58,57" x="86" y="112"/>
+	<e:EditableText id="atk_edit" height="22" textColor="0xFFFFFF" textAlign="center" size="20" width="113" x="102" y="118"/>
+	<e:UIAsset source="talk_frame_png" height="35" width="151" scale9Grid="19,20,58,57" x="312" y="112"/>
+	<e:EditableText id="def_edit" textColor="0xFFFFFF" textAlign="center" size="20" width="113" height="22" x="328" y="118"/>
+	<e:Label x="19" width="564" height="32" size="15" y="19" text="职业(战士1 弓箭2 法师3 骑士4 斗士5 刺客6 长弓7 弩手8 火法9 冰法10 牧师11)"/>
+	<e:Label size="15" width="46" height="39" text="名字" textAlign="right" verticalAlign="middle" x="31" y="64"/>
+	<e:Label height="39" verticalAlign="middle" textAlign="right" size="15" width="41" text="level" x="264" y="58"/>
+	<e:Label verticalAlign="middle" textAlign="right" size="15" width="76" height="39" text="攻击系数" x="6" y="113"/>
+	<e:Label height="39" verticalAlign="middle" textAlign="right" size="15" width="68" text="防御系数" x="243" y="110"/>
+	<e:Label verticalAlign="middle" textAlign="right" size="15" width="71" height="39" text="hp系数" x="473" y="107"/>
+	<e:Label height="66" verticalAlign="middle" width="202" text="位置偏移（注意，如果填写2，右边的从右边界开始往里面挪2，就是变成18）" textAlign="left" size="15" x="255" y="166"/>
+	<e:Label verticalAlign="middle" textAlign="right" size="15" width="53" height="39" text="左1右2" x="26" y="172"/>
+	<e:Label height="39" verticalAlign="middle" textAlign="right" size="15" width="425" x="20" y="350" text="快速战斗填写这个，然后点击确定，格式为xxxxx-xxxxx"/>
+	<e:Button id="add_btn" label="添加" width="125" height="121" textColor="0x000000" size="20" fontFamily="Arial" textAlign="center" verticalAlign="middle" skinName="skins.UIBoxButtonSkin" x="641" y="161"/>
+	<e:Button id="fight_btn" fontFamily="Arial" textAlign="center" size="20" verticalAlign="middle" width="124" height="55" label="开战" textColor="0xFF0000" skinName="skins.BtnBlueSmallSkin" x="355" y="433"/>
+</e:Skin>

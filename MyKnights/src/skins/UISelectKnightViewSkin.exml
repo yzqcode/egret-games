@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin width="1136" height="874" xmlns:e="http://ns.egret-labs.org/egret" xmlns:w="http://ns.egret-labs.org/wing">
+	<w:HostComponent name="egret.gui.SkinnableComponent"/>
+	<w:Declarations/>
+	<e:states>
+		<e:State name="normal"/>
+		<e:State name="disabled"/>
+	</e:states>
+	<e:UIAsset width="1136" height="874" source="home_bg_jpg" horizontalCenter="0" verticalCenter="0"/>
+	<e:UIAsset source="black_round_square_png" scale9Grid="14,13,21,21" width="1136" height="874" alpha="0.3" verticalCenter="0" horizontalCenter="0"/>
+	<e:UIAsset source="chat_dialog_panel_2_jpg" width="945" height="485" verticalCenter="0" horizontalCenter="0"/>
+	<e:UIAsset source="chat_dialog_frame_png" scale9Grid="50,53,49,45" width="975" height="515" horizontalCenter="0" verticalCenter="0"/>
+	<e:UIAsset source="special_detail_bg_png" width="379" rotation="-90" height="258" horizontalCenter="-239.5" verticalCenter="299"/>
+	<e:UIAsset source="special_detail_bg_png" width="379" rotation="-90" height="258" horizontalCenter="58.5" verticalCenter="299"/>
+	<e:UIAsset source="special_detail_bg_png" width="379" rotation="-90" height="258" horizontalCenter="353.5" verticalCenter="299"/>
+	<e:UIAsset source="chat_title_png" horizontalCenter="0" verticalCenter="-257.5"/>
+	<e:Label textColor="0x050404" text="选择职业" verticalAlign="middle" textAlign="center" bold="true" width="211" height="48" horizontalCenter="0.5" verticalCenter="-267"/>
+	<e:Button id="btn_select_0" skinName="skins.BtnBlueSmallSkin" horizontalCenter="-308" verticalCenter="198" label="选择"/>
+	<e:Label id="label_desc_0" fontFamily="Arial" size="20" width="222" height="33" verticalAlign="middle" textAlign="center" touchEnabled="false" textColor="0x050404" horizontalCenter="-303" verticalCenter="121.5" text="等级"/>
+	<e:Button id="btn_select_1" skinName="skins.BtnBlueSmallSkin" horizontalCenter="-11" verticalCenter="198" label="选择"/>
+	<e:Label height="31" fontFamily="Arial" verticalAlign="middle" textAlign="center" size="20" id="label_desc_1" width="222" touchEnabled="false" textColor="0x040303" verticalCenter="120.5" horizontalCenter="-6" text="等级"/>
+	<e:Button id="btn_select_2" skinName="skins.BtnBlueSmallSkin" horizontalCenter="285" verticalCenter="198" label="选择"/>
+	<e:Label id="label_desc_2" fontFamily="Arial" verticalAlign="middle" textAlign="center" size="20" width="222" height="30" touchEnabled="false" textColor="0x060505" verticalCenter="120" horizontalCenter="292" text="等级"/>
+	<e:UIAsset id="player_data_0" height="263" width="168" horizontalCenter="-303" verticalCenter="-27.5"/>
+	<e:UIAsset id="player_data_1" height="263" width="168" horizontalCenter="-3" verticalCenter="-27.5"/>
+	<e:UIAsset id="player_data_2" height="263" width="168" horizontalCenter="294" verticalCenter="-27.5"/>
+	<e:Button id="btn_add_0" label="新建角色" skinName="skins.UICircleButtonSkin" horizontalCenter="-301" verticalCenter="-30"/>
+	<e:Button id="btn_add_1" label="新建角色" skinName="skins.UICircleButtonSkin" horizontalCenter="-1" verticalCenter="-30"/>
+	<e:Button id="btn_add_2" label="新建角色" skinName="skins.UICircleButtonSkin" horizontalCenter="294" verticalCenter="-29"/>
+	<e:Label id="new_label_0" text="新建角色" textColor="0x050404" textAlign="center" verticalAlign="middle" verticalCenter="53" horizontalCenter="-300"/>
+	<e:Label id="new_label_1" text="新建角色" textColor="0x050404" textAlign="center" verticalAlign="middle" verticalCenter="53" horizontalCenter="-3"/>
+	<e:Label id="new_label_2" text="新建角色" textColor="0x050404" verticalCenter="53" horizontalCenter="293"/>
+	<e:Label id="name_0" text="名字" textColor="0x050404" width="188" textAlign="center" verticalAlign="middle" verticalCenter="-161.5" horizontalCenter="-303" bold="true" fontFamily="Arial"/>
+	<e:Label id="name_1" text="名字" textColor="0x050404" width="188" textAlign="center" verticalAlign="middle" verticalCenter="-161.5" horizontalCenter="-5" bold="true" fontFamily="Arial"/>
+	<e:Label id="name_2" text="名字" textColor="0x050404" textAlign="center" verticalAlign="middle" width="188" verticalCenter="-161.5" horizontalCenter="293" bold="true" fontFamily="Arial"/>
+</e:Skin>
