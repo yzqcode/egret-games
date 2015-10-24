@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin width="900" height="620" xmlns:e="http://ns.egret-labs.org/egret" xmlns:w="http://ns.egret-labs.org/wing">
+	<w:HostComponent name="egret.gui.SkinnableComponent"/>
+	<w:Declarations/>
+	<e:states>
+		<e:State name="normal"/>
+		<e:State name="disabled"/>
+	</e:states>
+	<e:Label height="28" id="label_player_name_0" textColor="0x000000" text="???" textAlign="center" size="20" width="94" x="13" y="126"/>
+	<e:Label id="label_player_money_0" textColor="0x000000" text="???" textAlign="center" size="20" width="94" height="28" x="13" y="148"/>
+	<e:Label id="label_player_name_1" textColor="0x000000" text="???" textAlign="center" size="20" width="94" height="28" x="14" y="264"/>
+	<e:Label height="28" id="label_player_money_1" textColor="0x000000" text="???" textAlign="center" size="20" width="94" x="14" y="286"/>
+	<e:Label height="28" id="label_player_name_2" textColor="0x000000" text="???" textAlign="center" size="20" width="94" x="14" y="412"/>
+	<e:Label height="28" id="label_player_money_2" textColor="0x000000" text="???" textAlign="center" size="20" width="94" x="14" y="434"/>
+	<e:Label height="28" id="label_player_name_3" textColor="0x000000" text="???" textAlign="center" size="20" width="94" x="14" y="560"/>
+	<e:Label height="28" id="label_player_money_3" textColor="0x000000" text="???" textAlign="center" size="20" width="94" x="14" y="582"/>
+	<e:UIAsset id="btn_chi_0" source="chi_png" x="778" y="154"/>
+	<e:UIAsset id="btn_peng_0" source="peng_png" y="115" x="817"/>
+	<e:UIAsset id="btn_gang_0" source="gang_png" x="818" y="154"/>
+	<e:UIAsset id="btn_hu_0" source="hu_png" y="115" x="857"/>
+	<e:UIAsset id="btn_guo_0" source="gup_png" x="858" y="154"/>
+	<e:UIAsset id="btn_chi_1" source="chi_png" x="778" y="282"/>
+	<e:UIAsset id="btn_peng_1" source="peng_png" x="817" y="243"/>
+	<e:UIAsset id="btn_gang_1" source="gang_png" x="818" y="282"/>
+	<e:UIAsset id="btn_hu_1" source="hu_png" x="857" y="243"/>
+	<e:UIAsset id="btn_guo_1" source="gup_png" x="858" y="282"/>
+	<e:UIAsset id="btn_chi_2" source="chi_png" x="778" y="440"/>
+	<e:UIAsset id="btn_peng_2" source="peng_png" x="817" y="401"/>
+	<e:UIAsset id="btn_gang_2" source="gang_png" x="818" y="440"/>
+	<e:UIAsset id="btn_hu_2" source="hu_png" x="857" y="401"/>
+	<e:UIAsset id="btn_guo_2" source="gup_png" x="858" y="440"/>
+	<e:UIAsset id="btn_chi_3" source="chi_png" x="780" y="582"/>
+	<e:UIAsset id="btn_peng_3" source="peng_png" x="819" y="543"/>
+	<e:UIAsset id="btn_gang_3" source="gang_png" x="820" y="582"/>
+	<e:UIAsset id="btn_hu_3" source="hu_png" x="859" y="543"/>
+	<e:UIAsset id="btn_guo_3" source="gup_png" x="860" y="582"/>
+	<e:UIAsset id="btn_restart" source="sq_btn_nor_png" x="357" y="7"/>
+	<e:Label id="label_restart" text="重新开始" x="371" y="20" width="88" height="87" verticalAlign="middle" textAlign="center" textColor="0x000000" touchEnabled="false"/>
+</e:Skin>
